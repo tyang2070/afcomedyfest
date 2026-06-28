@@ -1,30 +1,16 @@
 [
   {
-    "slug": "jane-smith",
-    "teacher": "Jane Smith",
-    "title": "Comedy Writing 101",
-    "bio": "Jane Smith is a comedy writing veteran with over 15 years of experience in the entertainment industry. She has written for major comedy shows and worked with some of the biggest names in comedy. In this workshop, she'll share her techniques for crafting hilarious jokes and developing unique comedic voices.",
-    "image": "data/workshops/jane-smith.jpg",
-    "date": "2026-09-04",
-    "startTime": "10:00 AM",
-    "endTime": "12:00 PM",
-    "cost": "25",
-    "location": "Room A",
-    "link": "https://example.com/tickets",
-    "capacity": 20
-  },
-  {
-    "slug": "john-doe",
-    "teacher": "John Doe",
-    "title": "Stage Presence Mastery",
-    "bio": "John Doe is a seasoned performer known for his commanding stage presence and energetic delivery. With decades of live performance experience, John teaches comedians how to command the stage, connect with audiences, and deliver performances that leave lasting impressions. Learn the secrets to captivating an audience every single time.",
-    "image": "data/workshops/john-doe.jpg",
-    "date": "2026-09-05",
-    "startTime": "2:00 PM",
-    "endTime": "4:00 PM",
-    "cost": "30",
-    "location": "Room B",
-    "link": "https://example.com/tickets",
-    "capacity": 25
+    "slug": "keiko-agena",
+    "teacher": "Keiko Agena",
+    "title": "Workshop Name",
+    "bio": "Keiko is teaching a workshop",
+    "image": "data/workshops/keiko.jpg",
+    "date": "Friday, September 04",
+    "startTime": "1:00 PM",
+    "endTime": "2:00 PM",
+    "cost": "50",
+    "location": "Outside In Upstairs",
+    "link": "www.keiko.com",
+    "capacity": 16
   }
 ]
