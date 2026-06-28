@@ -13,7 +13,7 @@ const records = parse(csvData, {
 // Process workshops
 const workshops = records.map((record) => {
   // Read workshop description markdown
-  const bioPath = path.resolve(process.cwd(), `data/workshop_bios/${record.workshop_description}`);
+  const bioPath = path.resolve(process.cwd(), `data/workshops/${record.workshop_description}`);
   const bioContent = fs.readFileSync(bioPath, 'utf-8').trim();
 
   return {
@@ -21,7 +21,7 @@ const workshops = records.map((record) => {
     teacher: record.workshop_teacher,
     title: record.workshop_title,
     bio: bioContent,
-    image: `/data/workshop_images/${record.teacher_image}`,
+    image: `data/workshops/${record.teacher_image}`,
     date: record.date,
     startTime: record.start_time,
     endTime: record.end_time,

@@ -17,7 +17,7 @@ const workshops = WORKSHOPS;
             <div class="workshop-header">
               <div class="teacher-image">
                 {workshop.image ? (
-                  <img src={workshop.image.src} alt={workshop.teacher} />
+                  <img src={workshop.image} alt={workshop.teacher} />
                 ) : (
                   <div class="image-placeholder">{workshop.teacher[0]}</div>
                 )}
