@@ -3,12 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "npm run update-schedule && npm run update-performers && astro dev",
-    "build": "npm run update-schedule && npm run update-performers && astro build",
+    "dev": "npm run update-schedule && npm run update-performers && npm run update-workshops && astro dev",
+    "build": "npm run update-schedule && npm run update-performers && npm run update-workshops && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "update-schedule": "node scripts/csv-to-schedule.js",
     "update-performers": "node scripts/csv-to-performers.js",
+    "update-workshops": "node scripts/csv-to-workshops.js",
     "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {

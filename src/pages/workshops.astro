@@ -1,192 +1,232 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { WORKSHOPS } from '../data/workshops';
 
-const workshops = [
-  {
-    id: 1,
-    title: 'Stand-up Comedy Fundamentals',
-    instructor: 'Performer Name 1',
-    date: '2024-08-14',
-    time: '2:00 PM - 4:00 PM',
-    venue: 'Workshop Room A',
-    capacity: 30,
-    level: 'Beginner',
-    description: 'Learn the basics of stand-up comedy including joke structure, timing, and stage presence.'
-  },
-  {
-    id: 2,
-    title: 'Improvisation Techniques',
-    instructor: 'Performer Name 2',
-    date: '2024-08-15',
-    time: '1:00 PM - 3:00 PM',
-    venue: 'Workshop Room B',
-    capacity: 25,
-    level: 'Intermediate',
-    description: 'Master improv skills with exercises designed to build spontaneity and listening skills.'
-  },
-  {
-    id: 3,
-    title: 'Stage Presence & Performance',
-    instructor: 'Performer Name 3',
-    date: '2024-08-16',
-    time: '3:00 PM - 5:00 PM',
-    venue: 'Workshop Room A',
-    capacity: 35,
-    level: 'Intermediate',
-    description: 'Develop confidence on stage and learn how to command an audience\'s attention.'
-  },
-  {
-    id: 4,
-    title: 'Comedy Writing Workshop',
-    instructor: 'Performer Name 4',
-    date: '2024-08-17',
-    time: '10:00 AM - 12:00 PM',
-    venue: 'Workshop Room C',
-    capacity: 20,
-    level: 'Advanced',
-    description: 'Explore different comedy writing styles and develop your unique comedic voice.'
-  },
-  {
-    id: 5,
-    title: 'Character Development',
-    instructor: 'Performer Name 5',
-    date: '2024-08-17',
-    time: '1:00 PM - 3:00 PM',
-    venue: 'Workshop Room B',
-    capacity: 28,
-    level: 'Intermediate',
-    description: 'Create memorable characters and personas to enhance your comedy performance.'
-  }
-];
+const workshops = WORKSHOPS;
 ---
 
 <Layout title="Workshops - AF Comedy Fest">
   <div class="workshops-wrapper">
-    <h1>Workshops</h1>
-    <p>Learn from industry experts at our comedy workshops. Registration required for all workshops.</p>
+    <div class="max-width">
+      <h1>Workshops</h1>
+      <p>Learn from industry experts at AF Comedy Fest. Sign up for workshops to master new skills and connect with the comedy community.</p>
 
-    <div class="workshops-container">
-    {workshops.map((workshop) => (
-      <div class="workshop-card">
-        <div class="workshop-header">
-          <h3>{workshop.title}</h3>
-          <span class="level-badge" data-level={workshop.level.toLowerCase()}>
-            {workshop.level}
-          </span>
-        </div>
+      <div class="workshops-grid">
+        {workshops.map((workshop) => (
+          <div class="workshop-card">
+            <div class="workshop-header">
+              <div class="teacher-image">
+                {workshop.image ? (
+                  <img src={workshop.image.src} alt={workshop.teacher} />
+                ) : (
+                  <div class="image-placeholder">{workshop.teacher[0]}</div>
+                )}
+              </div>
+              <div class="workshop-info">
+                <h3>{workshop.title}</h3>
+                <p class="teacher-name">by {workshop.teacher}</p>
+              </div>
+            </div>
 
-        <div class="workshop-details">
-          <p><strong>Instructor:</strong> {workshop.instructor}</p>
-          <p><strong>Date:</strong> {new Date(workshop.date).toLocaleDateString()}</p>
-          <p><strong>Time:</strong> {workshop.time}</p>
-          <p><strong>Venue:</strong> {workshop.venue}</p>
-          <p><strong>Capacity:</strong> {workshop.capacity} people</p>
-        </div>
+            <div class="workshop-details">
+              <div class="detail">
+                <span class="label">Date:</span>
+                <span>{workshop.date}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Time:</span>
+                <span>{workshop.startTime} - {workshop.endTime}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Location:</span>
+                <span>{workshop.location}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Cost:</span>
+                <span>${workshop.cost}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Capacity:</span>
+                <span>{workshop.capacity} spots</span>
+              </div>
+            </div>
 
-        <p class="description">{workshop.description}</p>
+            <div class="workshop-bio">
+              {workshop.bio}
+            </div>
 
-        <button class="register-btn">Register for Workshop</button>
+            <a href={workshop.link} class="register-button">Register Now</a>
+          </div>
+        ))}
       </div>
-    ))}
     </div>
   </div>
 
   <style>
     .workshops-wrapper {
+      background: #1a1a1a;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .max-width {
       max-width: 1400px;
       margin: 0 auto;
-      padding: 2rem;
     }
 
     h1 {
-      color: #333;
+      color: #D4A574;
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
+      margin-top: 0;
     }
 
-    .workshops-container {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      margin-top: 2rem;
+    .workshops-wrapper > .max-width > p {
+      color: #E8DCC8;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .workshops-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 2rem;
     }
 
     .workshop-card {
-      background: white;
-      padding: 1.5rem;
+      background: #2a2a2a;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border-left: 4px solid #0066cc;
+      overflow: hidden;
+      border: 2px solid #333;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .workshop-card:hover {
+      border-color: #D4A574;
+      box-shadow: 0 4px 16px rgba(212, 165, 116, 0.2);
     }
 
     .workshop-header {
       display: flex;
-      justify-content: space-between;
-      align-items: start;
-      margin-bottom: 1rem;
+      gap: 1rem;
+      padding: 1.5rem;
+      background: #1a1a1a;
+      border-bottom: 2px solid #333;
     }
 
-    .workshop-header h3 {
-      color: #333;
-      margin: 0;
+    .teacher-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .teacher-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #D4A574;
+    }
+
+    .workshop-info {
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
-    .level-badge {
-      display: inline-block;
-      padding: 0.4rem 0.8rem;
-      border-radius: 4px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      white-space: nowrap;
-      margin-left: 1rem;
+    .workshop-info h3 {
+      color: #D4A574;
+      margin: 0;
+      font-size: 1.2rem;
     }
 
-    .level-badge[data-level='beginner'] {
-      background: #e8f5e9;
-      color: #2e7d32;
-    }
-
-    .level-badge[data-level='intermediate'] {
-      background: #fff3e0;
-      color: #f57c00;
-    }
-
-    .level-badge[data-level='advanced'] {
-      background: #f3e5f5;
-      color: #7b1fa2;
+    .teacher-name {
+      color: #E8DCC8;
+      margin: 0.5rem 0 0;
+      font-size: 0.9rem;
     }
 
     .workshop-details {
-      margin: 1rem 0;
-      padding: 1rem 0;
-      border-top: 1px solid #eee;
-      border-bottom: 1px solid #eee;
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
     }
 
-    .workshop-details p {
-      margin: 0.5rem 0;
-      color: #555;
+    .detail {
+      display: flex;
+      justify-content: space-between;
+      color: #E8DCC8;
+      font-size: 0.9rem;
     }
 
-    .description {
-      color: #666;
-      font-style: italic;
-      margin: 1rem 0;
+    .label {
+      color: #D4A574;
+      font-weight: 600;
     }
 
-    .register-btn {
-      background: #0066cc;
-      color: white;
+    .workshop-bio {
+      padding: 1rem 1.5rem;
+      color: #E8DCC8;
+      line-height: 1.6;
+      flex-grow: 1;
+      font-size: 0.95rem;
+    }
+
+    .register-button {
+      margin: 1rem;
       padding: 0.75rem 1.5rem;
-      border: none;
+      background: #D4A574;
+      color: #000;
+      text-decoration: none;
       border-radius: 4px;
-      cursor: pointer;
-      font-weight: 500;
-      transition: background 0.3s;
+      text-align: center;
+      font-weight: 600;
+      transition: opacity 0.3s;
+      display: block;
     }
 
-    .register-btn:hover {
-      background: #0052a3;
+    .register-button:hover {
+      opacity: 0.9;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .workshops-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .workshop-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .detail {
+        flex-direction: column;
+        gap: 0.25rem;
+      }
     }
   </style>
 </Layout>

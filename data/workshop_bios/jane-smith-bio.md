@@ -1,0 +1,1 @@
+Jane Smith is a comedy writing veteran with over 15 years of experience in the entertainment industry. She has written for major comedy shows and worked with some of the biggest names in comedy. In this workshop, she'll share her techniques for crafting hilarious jokes and developing unique comedic voices.

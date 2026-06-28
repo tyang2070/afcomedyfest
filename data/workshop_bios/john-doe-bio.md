@@ -1,0 +1,1 @@
+John Doe is a seasoned performer known for his commanding stage presence and energetic delivery. With decades of live performance experience, John teaches comedians how to command the stage, connect with audiences, and deliver performances that leave lasting impressions. Learn the secrets to captivating an audience every single time.
