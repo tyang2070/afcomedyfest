@@ -1,4 +1,4 @@
-# About AF Comedy Fest
+# About The AF Comedy Fest
 
 AF Comedy Fest is a premier comedy festival celebrating the art of laughter, creativity, and live performance. Founded with a mission to bring world-class comedians and performers to audiences of all backgrounds, we've become a beloved destination for comedy enthusiasts.
 
