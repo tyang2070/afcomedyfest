@@ -8,11 +8,14 @@
     "preview": "astro preview",
     "astro": "astro",
     "update-schedule": "node scripts/csv-to-schedule.js",
-    "update-performers": "node scripts/csv-to-performers.js"
+    "update-performers": "node scripts/csv-to-performers.js",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
     "astro": "^4.8.0",
     "csv-parse": "^5.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
