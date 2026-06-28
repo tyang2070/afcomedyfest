@@ -1,0 +1,87 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <style is:global>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: system-ui, sans-serif;
+        background: #1a1a1a;
+        color: #ffffff;
+      }
+
+      body {
+        line-height: 1.6;
+      }
+
+      header {
+        background: #000000;
+        color: white;
+        padding: 1rem 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        border-bottom: 2px solid #D4A574;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #D4A574;
+      }
+
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      footer {
+        background: #000000;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 4rem;
+        border-top: 2px solid #D4A574;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/schedule">Schedule</a>
+        <a href="/performers">Performers</a>
+        <a href="/workshops">Workshops</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>&copy; 2024 AF Comedy Fest. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

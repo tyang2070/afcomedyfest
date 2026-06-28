@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import { PERFORMERS } from '../../data/performers';
+
+export function getStaticPaths() {
+  return PERFORMERS.map(p => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const performer = PERFORMERS.find(p => p.slug === slug);
+
+if (!performer) {
+  return new Response('Not found', { status: 404 });
+}
+
+function markdownToHtml(text: string | null): string {
+  if (!text) return '';
+  return text
+    .split('\n\n')
+    .map(para => `<p>${para.trim()}</p>`)
+    .join('\n');
+}
+---
+
+<Layout title={`${performer.name} - AF Comedy Fest`}>
+  <div class="performer-detail">
+    <div class="performer-header">
+      <div class="performer-image">
+        {performer.image
+          ? <Image src={performer.image} alt={performer.name} width={500} height={500} />
+          : <div class="performer-image-placeholder">{performer.name[0]}</div>
+        }
+      </div>
+      <div class="performer-info">
+        <h1>{performer.name}</h1>
+        {performer.bio && <div class="bio" set:html={markdownToHtml(performer.bio)} />}
+      </div>
+    </div>
+
+    <div class="back-link">
+      <a href="/performers">← Back to All Performers</a>
+    </div>
+  </div>
+
+  <style>
+    .performer-detail {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    .performer-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      align-items: center;
+    }
+
+    .performer-image {
+      width: 100%;
+      aspect-ratio: 1;
+      background: #2a2a2a;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 2px solid #D4A574;
+    }
+
+    .performer-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .performer-image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      font-weight: 700;
+      color: #D4A574;
+    }
+
+    .performer-info h1 {
+      color: #D4A574;
+      margin: 0 0 1rem 0;
+      font-size: 2.5rem;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .specialty {
+      color: #E8DCC8;
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .location {
+      color: #E8DCC8;
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    .bio {
+      color: #ffffff;
+      line-height: 1.8;
+      margin-top: 1.5rem;
+    }
+
+    .bio p {
+      margin: 1rem 0;
+      color: #E8DCC8;
+      line-height: 1.8;
+    }
+
+    .bio p:first-child {
+      margin-top: 0;
+    }
+
+    .bio p:last-child {
+      margin-bottom: 0;
+    }
+
+    .back-link {
+      margin-top: 2rem;
+      border-top: 1px solid #333;
+      padding-top: 1.5rem;
+    }
+
+    .back-link a {
+      color: #D4A574;
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.3s;
+    }
+
+    .back-link a:hover {
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      .performer-header {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .performer-info h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</Layout>

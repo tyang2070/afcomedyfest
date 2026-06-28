@@ -1,0 +1,17 @@
+date,start_time,end_time,stage,show_name,subacts,ticket_link
+2026-09-03,19:30,21:00,ArtSpace - Mainstage,South Asian AF,"Kumail Nanjiani, M. Night",https://tickets.example.com/south-asian-af
+2026-09-03,21:00,22:30,ArtSpace - Mainstage,Filipino AF,"Jo Koi, Manny Pacquiao",https://tickets.example.com/filipino-af
+2026-09-03,18:00,19:00,ArtBox,Stand-up Comedian F,,https://tickets.example.com/comedian-f
+2026-09-03,17:30,18:30,ArtBox,Improv Showcase,"Asian Improv Near Me, Capulet",https://tickets.example.com/improv-showcase-1
+2026-09-03,18:30,19:30,ArtBox,Improv Showcase,"Mothership, Voltron",https://tickets.example.com/improv-showcase-2
+2026-09-03,19:30,20:00,ArtBox,Break / Cleaning,,
+2026-09-03,20:00,21:00,ArtBox,Improv Showcase,"Miss Golightly, Asian Improv Near Me, Piesces",https://tickets.example.com/improv-showcase-3
+2026-09-04,17:00,18:00,ArtSpace - Mainstage,Comedian I,,https://tickets.example.com/comedian-i
+2026-09-04,17:00,18:00,ArtBox,Improv Act J,,https://tickets.example.com/improv-act-j
+2026-09-04,18:00,19:30,ArtSpace - Mainstage,Comedy Night K,"Comic 1, Comic 2",https://tickets.example.com/comedy-night-k
+2026-09-04,18:00,19:30,ArtBox,Performance L,,https://tickets.example.com/performance-l
+2026-09-05,18:00,19:00,ArtSpace - Mainstage,Headliner M,,https://tickets.example.com/headliner-m
+2026-09-05,18:00,19:00,ArtBox,Special Guest N,"Guest 1, Guest 2, Guest 3",https://tickets.example.com/special-guest-n
+2026-09-05,19:00,21:00,ArtSpace - Mainstage,Grand Finale O,All performers,https://tickets.example.com/grand-finale
+2026-09-06,16:00,17:00,ArtSpace - Mainstage,Matinee Show P,,https://tickets.example.com/matinee-show
+2026-09-06,16:00,17:00,ArtBox,Closing Act Q,Final performers,https://tickets.example.com/closing-act

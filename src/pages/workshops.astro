@@ -1,0 +1,192 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const workshops = [
+  {
+    id: 1,
+    title: 'Stand-up Comedy Fundamentals',
+    instructor: 'Performer Name 1',
+    date: '2024-08-14',
+    time: '2:00 PM - 4:00 PM',
+    venue: 'Workshop Room A',
+    capacity: 30,
+    level: 'Beginner',
+    description: 'Learn the basics of stand-up comedy including joke structure, timing, and stage presence.'
+  },
+  {
+    id: 2,
+    title: 'Improvisation Techniques',
+    instructor: 'Performer Name 2',
+    date: '2024-08-15',
+    time: '1:00 PM - 3:00 PM',
+    venue: 'Workshop Room B',
+    capacity: 25,
+    level: 'Intermediate',
+    description: 'Master improv skills with exercises designed to build spontaneity and listening skills.'
+  },
+  {
+    id: 3,
+    title: 'Stage Presence & Performance',
+    instructor: 'Performer Name 3',
+    date: '2024-08-16',
+    time: '3:00 PM - 5:00 PM',
+    venue: 'Workshop Room A',
+    capacity: 35,
+    level: 'Intermediate',
+    description: 'Develop confidence on stage and learn how to command an audience\'s attention.'
+  },
+  {
+    id: 4,
+    title: 'Comedy Writing Workshop',
+    instructor: 'Performer Name 4',
+    date: '2024-08-17',
+    time: '10:00 AM - 12:00 PM',
+    venue: 'Workshop Room C',
+    capacity: 20,
+    level: 'Advanced',
+    description: 'Explore different comedy writing styles and develop your unique comedic voice.'
+  },
+  {
+    id: 5,
+    title: 'Character Development',
+    instructor: 'Performer Name 5',
+    date: '2024-08-17',
+    time: '1:00 PM - 3:00 PM',
+    venue: 'Workshop Room B',
+    capacity: 28,
+    level: 'Intermediate',
+    description: 'Create memorable characters and personas to enhance your comedy performance.'
+  }
+];
+---
+
+<Layout title="Workshops - AF Comedy Fest">
+  <div class="workshops-wrapper">
+    <h1>Workshops</h1>
+    <p>Learn from industry experts at our comedy workshops. Registration required for all workshops.</p>
+
+    <div class="workshops-container">
+    {workshops.map((workshop) => (
+      <div class="workshop-card">
+        <div class="workshop-header">
+          <h3>{workshop.title}</h3>
+          <span class="level-badge" data-level={workshop.level.toLowerCase()}>
+            {workshop.level}
+          </span>
+        </div>
+
+        <div class="workshop-details">
+          <p><strong>Instructor:</strong> {workshop.instructor}</p>
+          <p><strong>Date:</strong> {new Date(workshop.date).toLocaleDateString()}</p>
+          <p><strong>Time:</strong> {workshop.time}</p>
+          <p><strong>Venue:</strong> {workshop.venue}</p>
+          <p><strong>Capacity:</strong> {workshop.capacity} people</p>
+        </div>
+
+        <p class="description">{workshop.description}</p>
+
+        <button class="register-btn">Register for Workshop</button>
+      </div>
+    ))}
+    </div>
+  </div>
+
+  <style>
+    .workshops-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .workshops-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .workshop-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-left: 4px solid #0066cc;
+    }
+
+    .workshop-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 1rem;
+    }
+
+    .workshop-header h3 {
+      color: #333;
+      margin: 0;
+      flex: 1;
+    }
+
+    .level-badge {
+      display: inline-block;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 1rem;
+    }
+
+    .level-badge[data-level='beginner'] {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .level-badge[data-level='intermediate'] {
+      background: #fff3e0;
+      color: #f57c00;
+    }
+
+    .level-badge[data-level='advanced'] {
+      background: #f3e5f5;
+      color: #7b1fa2;
+    }
+
+    .workshop-details {
+      margin: 1rem 0;
+      padding: 1rem 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+
+    .workshop-details p {
+      margin: 0.5rem 0;
+      color: #555;
+    }
+
+    .description {
+      color: #666;
+      font-style: italic;
+      margin: 1rem 0;
+    }
+
+    .register-btn {
+      background: #0066cc;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .register-btn:hover {
+      background: #0052a3;
+    }
+  </style>
+</Layout>

@@ -1,0 +1,177 @@
+{
+  "dates": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06"
+  ],
+  "stages": [
+    "ArtSpace - Mainstage",
+    "ArtBox"
+  ],
+  "schedule": {
+    "2026-09-03": {
+      "ArtSpace - Mainstage": [
+        {
+          "showName": "South Asian AF",
+          "startTime": "19:30",
+          "endTime": "21:00",
+          "subacts": [
+            "Kumail Nanjiani",
+            "M. Night"
+          ],
+          "ticketLink": "https://tickets.example.com/south-asian-af"
+        },
+        {
+          "showName": "Filipino AF",
+          "startTime": "21:00",
+          "endTime": "22:30",
+          "subacts": [
+            "Jo Koi",
+            "Manny Pacquiao"
+          ],
+          "ticketLink": "https://tickets.example.com/filipino-af"
+        }
+      ],
+      "ArtBox": [
+        {
+          "showName": "Improv Showcase",
+          "startTime": "17:30",
+          "endTime": "18:30",
+          "subacts": [
+            "Asian Improv Near Me",
+            "Capulet"
+          ],
+          "ticketLink": "https://tickets.example.com/improv-showcase-1"
+        },
+        {
+          "showName": "Stand-up Comedian F",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/comedian-f"
+        },
+        {
+          "showName": "Improv Showcase",
+          "startTime": "18:30",
+          "endTime": "19:30",
+          "subacts": [
+            "Mothership",
+            "Voltron"
+          ],
+          "ticketLink": "https://tickets.example.com/improv-showcase-2"
+        },
+        {
+          "showName": "Break / Cleaning",
+          "startTime": "19:30",
+          "endTime": "20:00",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Improv Showcase",
+          "startTime": "20:00",
+          "endTime": "21:00",
+          "subacts": [
+            "Miss Golightly",
+            "Asian Improv Near Me",
+            "Piesces"
+          ],
+          "ticketLink": "https://tickets.example.com/improv-showcase-3"
+        }
+      ]
+    },
+    "2026-09-04": {
+      "ArtSpace - Mainstage": [
+        {
+          "showName": "Comedian I",
+          "startTime": "17:00",
+          "endTime": "18:00",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/comedian-i"
+        },
+        {
+          "showName": "Comedy Night K",
+          "startTime": "18:00",
+          "endTime": "19:30",
+          "subacts": [
+            "Comic 1",
+            "Comic 2"
+          ],
+          "ticketLink": "https://tickets.example.com/comedy-night-k"
+        }
+      ],
+      "ArtBox": [
+        {
+          "showName": "Improv Act J",
+          "startTime": "17:00",
+          "endTime": "18:00",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/improv-act-j"
+        },
+        {
+          "showName": "Performance L",
+          "startTime": "18:00",
+          "endTime": "19:30",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/performance-l"
+        }
+      ]
+    },
+    "2026-09-05": {
+      "ArtSpace - Mainstage": [
+        {
+          "showName": "Headliner M",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/headliner-m"
+        },
+        {
+          "showName": "Grand Finale O",
+          "startTime": "19:00",
+          "endTime": "21:00",
+          "subacts": [
+            "All performers"
+          ],
+          "ticketLink": "https://tickets.example.com/grand-finale"
+        }
+      ],
+      "ArtBox": [
+        {
+          "showName": "Special Guest N",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "subacts": [
+            "Guest 1",
+            "Guest 2",
+            "Guest 3"
+          ],
+          "ticketLink": "https://tickets.example.com/special-guest-n"
+        }
+      ]
+    },
+    "2026-09-06": {
+      "ArtSpace - Mainstage": [
+        {
+          "showName": "Matinee Show P",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "subacts": [],
+          "ticketLink": "https://tickets.example.com/matinee-show"
+        }
+      ],
+      "ArtBox": [
+        {
+          "showName": "Closing Act Q",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "subacts": [
+            "Final performers"
+          ],
+          "ticketLink": "https://tickets.example.com/closing-act"
+        }
+      ]
+    }
+  }
+}

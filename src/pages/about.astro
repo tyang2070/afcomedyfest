@@ -1,0 +1,123 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const aboutPath = resolve(process.cwd(), 'data/about.md');
+const aboutContent = readFileSync(aboutPath, 'utf-8');
+
+// Convert markdown to HTML
+function markdownToHtml(markdown: string): string {
+  return markdown
+    // Headers
+    .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+    // Bold
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // Paragraphs
+    .split('\n\n')
+    .map(para => {
+      if (para.match(/^<h[1-3]>/)) return para;
+      if (para.match(/^<strong>/)) return para;
+      return `<p>${para}</p>`;
+    })
+    .join('\n');
+}
+
+const htmlContent = markdownToHtml(aboutContent);
+---
+
+<Layout title="About - AF Comedy Fest">
+  <div class="about-wrapper">
+    <div class="about-content" set:html={htmlContent} />
+
+  <style>
+    .about-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: #1a1a1a;
+    }
+
+    .about-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #D4A574;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #D4A574;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #D4A574;
+      padding-bottom: 0.5rem;
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      color: #D4A574;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #E8DCC8;
+      line-height: 1.8;
+      margin: 1rem 0;
+      font-size: 1rem;
+    }
+
+    strong {
+      color: #D4A574;
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    li {
+      margin: 1rem 0;
+      padding: 1rem;
+      background: #2a2a2a;
+      border-left: 4px solid #D4A574;
+      border-radius: 4px;
+      color: #E8DCC8;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #D4A574;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+
+    a:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</Layout>

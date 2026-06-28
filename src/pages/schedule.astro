@@ -1,0 +1,457 @@
+---
+import Layout from '../layouts/Layout.astro';
+import scheduleData from '../../data/schedule.json';
+import { PERFORMERS } from '../data/performers';
+
+const { dates, stages, schedule } = scheduleData;
+
+// Find performer by name (case-insensitive partial match)
+const findPerformerByName = (name: string) => {
+  const trimmedName = name.trim().toLowerCase();
+  return PERFORMERS.find(p => p.name.toLowerCase() === trimmedName);
+};
+
+// Format time from HH:MM to readable format
+const formatTime = (time: string) => {
+  const [hours, minutes] = time.split(':');
+  const hour = parseInt(hours);
+  const ampm = hour >= 12 ? 'PM' : 'AM';
+  const displayHour = hour % 12 || 12;
+  return `${displayHour}:${minutes} ${ampm}`;
+};
+
+// Format date for display
+const formatDate = (dateStr: string) => {
+  const date = new Date(dateStr + 'T00:00:00');
+  return date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+};
+---
+
+<Layout title="Schedule - AF Comedy Fest">
+  <div class="schedule-wrapper">
+    <div class="schedule-title">Schedule</div>
+
+    <div class="dates-tabs">
+      {dates.map((date) => (
+        <a href={`#${date}`} class="date-tab">
+          {formatDate(date)}
+        </a>
+      ))}
+    </div>
+
+    {dates.map((date) => (
+      <div class="day-section" id={date}>
+        <div class="day-header">
+          <h2>{formatDate(date)}</h2>
+        </div>
+
+        <div class="stages-grid">
+          {stages.map((stage) => {
+            const showsForStage = schedule[date][stage];
+
+            return (
+              <div class="stage-column">
+                <div class="stage-header">
+                  <h3>{stage}</h3>
+                </div>
+
+                {showsForStage.length === 0 ? (
+                  <div class="no-shows">
+                    <p>No shows scheduled</p>
+                  </div>
+                ) : (
+                  <div class="shows-list">
+                    {showsForStage.map((show) => (
+                      <div class="show-card">
+                        <div class="show-time">
+                          {formatTime(show.startTime)} - {formatTime(show.endTime)}
+                        </div>
+                        <div class="show-header">
+                          <h4 class="show-name">
+                            {show.ticketLink ? (
+                              <a href={show.ticketLink} target="_blank" rel="noopener noreferrer">
+                                {show.showName}
+                              </a>
+                            ) : (
+                              show.showName
+                            )}
+                          </h4>
+                          {show.ticketLink && (
+                            <a href={show.ticketLink} target="_blank" rel="noopener noreferrer" class="ticket-btn">
+                              Get Tickets
+                            </a>
+                          )}
+                        </div>
+                        {show.subacts.length > 0 && (
+                          <div class="subacts">
+                            {show.subacts.map((act, idx) => {
+                              const performer = findPerformerByName(act);
+                              const content = (
+                                <>
+                                  {performer?.image ? (
+                                    <div class="subact-image">
+                                      <img src={performer.image.src} alt={act} />
+                                    </div>
+                                  ) : (
+                                    <div class="subact-image-placeholder">{act[0]}</div>
+                                  )}
+                                  <p class="subact-name">{act}</p>
+                                </>
+                              );
+
+                              return performer ? (
+                                <a key={idx} href={`/performers/${performer.slug}`} class="subact-card-link">
+                                  <div class="subact-card">{content}</div>
+                                </a>
+                              ) : (
+                                <div key={idx} class="subact-card">{content}</div>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <style>
+    .schedule-wrapper {
+      background: #1a1a1a;
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .schedule-title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #D4A574;
+      margin-bottom: 2rem;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .dates-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .date-tab {
+      padding: 0.5rem 1rem;
+      background: transparent;
+      border: 2px solid #D4A574;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #D4A574;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.3s;
+      cursor: pointer;
+      text-transform: capitalize;
+      letter-spacing: 0.05em;
+    }
+
+    .date-tab:hover {
+      background: #D4A574;
+      color: #1a1a1a;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(212, 165, 116, 0.3);
+    }
+
+    .day-section {
+      margin-bottom: 4rem;
+      scroll-margin-top: 2rem;
+    }
+
+    .day-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 3px solid #D4A574;
+    }
+
+    .day-header h2 {
+      font-size: 2rem;
+      color: #D4A574;
+      margin: 0;
+      font-weight: 700;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .stages-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .stage-column {
+      background: #1a1a1a;
+      border: 2px solid #D4A574;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .stage-header {
+      background: #1a1a1a;
+      color: white;
+      padding: 1rem;
+      margin: 0;
+    }
+
+    .stage-header h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      font-family: 'Arial', sans-serif;
+      letter-spacing: 0.05em;
+    }
+
+    .shows-list {
+      padding: 0;
+    }
+
+    .show-card {
+      padding: 1.25rem;
+      border-bottom: 1px solid #333333;
+      border-left: 4px solid #D4A574;
+      background: #2a2a2a;
+    }
+
+    .show-card:last-child {
+      border-bottom: none;
+    }
+
+    .show-time {
+      font-size: 1.1rem;
+      color: #D4A574;
+      font-weight: 700;
+      margin: 0 0 0.75rem 0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 0;
+      border-bottom: 2px solid #D4A574;
+      display: inline-block;
+    }
+
+    .show-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .show-name {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      flex: 1;
+    }
+
+    .show-name a {
+      color: #D4A574;
+      text-decoration: none;
+      transition: all 0.3s;
+      border-bottom: 2px solid transparent;
+    }
+
+    .show-name a:hover {
+      color: #9d7e52;
+      border-bottom-color: #D4A574;
+    }
+
+    .ticket-btn {
+      background: #D4A574;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: all 0.3s;
+      display: inline-block;
+      border: 2px solid #D4A574;
+    }
+
+    .ticket-btn:hover {
+      background: #9d7e52;
+      border-color: #9d7e52;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 8px rgba(39, 174, 96, 0.3);
+    }
+
+    .subacts {
+      margin: 0.75rem 0 0 0;
+      padding-top: 0.75rem;
+      border-top: 1px solid #333333;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .subact-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .subact-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.6rem;
+      transition: transform 0.2s;
+    }
+
+    .subact-card-link:hover .subact-card {
+      transform: translateY(-4px);
+    }
+
+    .subact-card-link:hover .subact-image {
+      border-color: #E8DCC8;
+      box-shadow: 0 2px 8px rgba(212, 165, 116, 0.3);
+    }
+
+    .subact-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #2a2a2a;
+      border: 2px solid #D4A574;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .subact-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .subact-image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: 700;
+      color: #D4A574;
+    }
+
+    .subact-name {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #E8DCC8;
+      text-align: center;
+      font-weight: 500;
+      transition: color 0.2s;
+      max-width: 130px;
+      line-height: 1.3;
+    }
+
+    .subact-card-link:hover .subact-name {
+      color: #D4A574;
+    }
+
+    .subact {
+      margin: 0.35rem 0;
+      font-size: 0.85rem;
+      color: #777;
+      font-style: italic;
+    }
+
+    .subact:before {
+      content: '→ ';
+      color: #D4A574;
+      font-weight: 600;
+      margin-right: 0.25rem;
+    }
+
+    .no-shows {
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #ccc;
+    }
+
+    .no-shows p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 1024px) {
+      .stages-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .schedule-wrapper {
+        padding: 1rem;
+      }
+
+      .schedule-title {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .dates-tabs {
+        margin-bottom: 2rem;
+      }
+
+      .date-tab {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+      }
+
+      .day-header h2 {
+        font-size: 1.5rem;
+      }
+
+      .stage-header h3 {
+        font-size: 1rem;
+      }
+
+      .show-card {
+        padding: 1rem;
+      }
+
+      .show-name {
+        font-size: 1rem;
+      }
+
+      .show-time {
+        font-size: 0.8rem;
+      }
+
+      .subact {
+        font-size: 0.8rem;
+      }
+
+      .show-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .ticket-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</Layout>
