@@ -19,10 +19,11 @@ if (!performer) {
   <div class="performer-detail">
     <div class="performer-header">
       <div class="performer-image">
-        {performer.image
-          ? <Image src={performer.image} alt={performer.name} width={500} height={500} />
-          : <div class="performer-image-placeholder">{performer.name[0]}</div>
-        }
+        {performer.image ? (
+          <Image src={performer.image} alt={performer.name} width={500} height={500} />
+        ) : (
+          <img src="/placeholder-performer.svg" alt="No photo available" style="width: 100%; height: 100%; object-fit: cover;" />
+        )}
       </div>
       <div class="performer-info">
         <h1>{performer.name}</h1>
@@ -63,17 +64,6 @@ if (!performer) {
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-
-    .performer-image-placeholder {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 5rem;
-      font-weight: 700;
-      color: #D4A574;
     }
 
     .performer-info h1 {
