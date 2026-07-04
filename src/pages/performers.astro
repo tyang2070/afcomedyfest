@@ -3,6 +3,12 @@ import Layout from '../layouts/Layout.astro';
 import { PERFORMERS } from '../data/performers';
 
 const performers = PERFORMERS;
+
+function getFirstParagraph(html: string): string {
+  if (!html) return '';
+  const match = html.match(/<p>.*?<\/p>/s);
+  return match ? match[0] : '';
+}
 ---
 
 <Layout title="Performers - AF Comedy Fest">
@@ -22,9 +28,7 @@ const performers = PERFORMERS;
             )}
           </div>
           <h3>{performer.name}</h3>
-          {performer.bio && (
-            <div class="performer-bio" set:html={performer.bio.split('</p>')[0] + '</p>'} />
-          )}
+          <div class="performer-bio" set:html={performer.bio ? getFirstParagraph(performer.bio) : ''} />
           <div class="more-link">
             View Full Bio →
           </div>
