@@ -36,7 +36,7 @@ const records = parse(csv, { columns: true, skip_empty_lines: true, trim: true }
 
 const performers = records.map(row => {
   const bioPath = resolve(projectRoot, `data/performer_bios/${row.bio}`);
-  const imagePath = `assets/performer_images/${row.performer_image}`;
+  const imagePath = row.performer_image ? `assets/performer_images/${row.performer_image}` : null;
 
   let bio = null;
   if (bioPath && existsSync(bioPath)) {

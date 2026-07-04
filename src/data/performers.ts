@@ -29,9 +29,12 @@ const imageModules = import.meta.glob<{ default: ImageMetadata }>(
   { eager: true }
 );
 
-function getImageFromPath(filePath: string): ImageMetadata | null {
+function getImageFromPath(filePath: string | null): ImageMetadata | null {
+  if (!filePath) return null;
+
   // Extract filename from path (e.g., "assets/performer_images/capulet.jpg" -> "capulet.jpg")
   const filename = filePath.split('/').pop();
+  if (!filename) return null;
 
   for (const [modulePath, mod] of Object.entries(imageModules)) {
     if (modulePath.endsWith(filename)) {

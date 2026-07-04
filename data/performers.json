@@ -39,7 +39,7 @@
     "slug": "bobalicious",
     "name": "Bobalicious",
     "bio": "<p><strong>Bobalicious is</strong> a team made up of the Pack Theater's AAPI performers.</p>\n<p>Cast: <strong>Peter Duong, Kyle Gaan, Eric Chad Ho, Richard Lee, Kim Wong</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/"
+    "performer_image": null
   },
   {
     "slug": "nihongo_dake",
@@ -56,7 +56,7 @@
   {
     "slug": "super_live",
     "name": "Super Live",
-    "bio": "<p><strong>Super Live</strong>: We did a Voltron And Friends Show and now we want more\\!</p>\n<p>Cast: <strong>Sam Di, Cassi Jerkins, Teruko Nakajima, Jeremy Olson, Candice Yang, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p><strong>Super Live</strong>: We did a Voltron And Friends Show and now we want more!</p>\n<p>Cast: <strong>Sam Di, Cassi Jerkins, Teruko Nakajima, Jeremy Olson, Candice Yang, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/super_live.jpg"
   }
 ]
