@@ -2,13 +2,61 @@
   {
     "slug": "capulet",
     "name": "Capulet",
-    "bio": "CAPULET is Cathy Shim, Jed Alcantara, Keiko Agena, Rosie Narasaki and Will Choi. The genre is Monoscene, the style is grounded, the people are Asian, and the friendships are freaking adorable. It’s an LA team by way of South Korea, Riverside, San Francisco, Hawaii, and LA. Chat GPT was not used to create this bio except when it was.",
-    "performer_image": "assets/performer_images/capulet.png"
+    "bio": "**Capulet** is Cathy Shim, Jed Alcantara, Keiko Agena, Rosie Narasaki and Will Choi.  \nThe genre is Monoscene, the style is grounded, the people are Asian, and the  \nfriendships are freaking adorable. It’s an LA team by way of South Korea,  \nRiverside, San Francisco, Hawaii, and LA. Chat GPT was not used to create this bio  \nexcept when it was.\n\nCast: **Keiko Agena**, **Jed Alcantara**, **Will Choi**, **Rosie Narasaki**, **Cathy Shim**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/capulet.jpg"
   },
   {
     "slug": "asian_improv_near_me",
     "name": "Asian Improv Near Me",
-    "bio": "Asian Improv Near Me is a dynamic improv comedy group bringing laughter and spontaneity to audiences. Their high-energy performances showcase creativity, quick wit, and strong ensemble chemistry.\n",
+    "bio": "**Asian Improv Near Me** is a dynamic improv comedy group bringing laughter and spontaneity to audiences. Their high-energy performances showcase creativity, quick wit, and strong ensemble chemistry.\n\nCast: **Alfred Aquino II**, **Sam Di**, **Chuck Maa**, **Tao Yang**\n\n*Line-up subject to change*",
     "performer_image": "assets/performer_images/asian_improv_near_me.jpeg"
+  },
+  {
+    "slug": "mothership",
+    "name": "Mothership",
+    "bio": "**Mothership** is a team originally put together for Asian AF's Voltron And Friends show. Since then, they have performed at UCB's BYOT and Fancy Improv and have been in love ever since.\n\nCast: **Hanna Barlow**, **Stephanie Burchinow**, **Sam Di**, **Cassie Grilley**, **Anisha Jagannathan**, **Mickey Woo**, **Tao Yang**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/mothership.jpg"
+  },
+  {
+    "slug": "the_s_team",
+    "name": "The S Team",
+    "bio": "**The S Team:** We have two things in common. We love improv & all our names have S's in them.\n\nCast: **Sahil Desai**, **Sam Di**, **Cassie Grilley**, **Jeremy Olson**, **Stella Park**, **Sila Puhl**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/the_s_team.png"
+  },
+  {
+    "slug": "cabbage",
+    "name": "Cabbage",
+    "bio": "**Cabbage** has performed at venues such as WGIS, Clubhouse, and with Asian AF’s Voltron & Friends. Based in LA, with DNA from LA and Chicago, their members are alumni of the Chicago comedy group, Stir Friday Night. Cast members have performed at UCB, Second City Chicago, Annoyance, and iO Chicago.\n\nCast: **Elyse Ahmad, Amrita Dhaliwal, Erica Ikeda, Avery Lee, Christine Lin, Harrison Pak, Aaron Rice, Xu**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/cabbage.png"
+  },
+  {
+    "slug": "miss_golightly",
+    "name": "Miss Golightly",
+    "bio": "**Miss Golightly** is an all-Asian American team that has been performing together for 10+ years. The group has been featured in numerous comedy festivals, recently performing at UCB's Del Close Marathon, 2026 in NYC. These LA indie darlings are bound by Friendship, Food, and f-...Improv.\n\nCast: **Jed Alcantara,** **Tony Garbanzos, Terry Huang, Geo Lee**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/miss_golightly.jpeg"
+  },
+  {
+    "slug": "bobalicious",
+    "name": "Bobalicious",
+    "bio": "**Bobalicious is** a team made up of the Pack Theater's AAPI performers. \n\nCast: **Peter Duong, Kyle Gaan, Eric Chad Ho, Richard Lee, Kim Wong** \n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/"
+  },
+  {
+    "slug": "nihongo_dake",
+    "name": "Nihongo Dake",
+    "bio": "**Nihongo Dake:** We are an array of Japanese speakers who improvise together\\! We all met at UCB performing in various teams and shows. One of is actually a tanuki in disguise. Bet you can’t figure out who. \n\nCast: **Ann Maddox, Oscar Montoya, Teruko Nakajima, Zach Olsen, Kathy Yamamoto, Ai Yoshihara, Titi the dog**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/nihongo_dake.jpeg"
+  },
+  {
+    "slug": "voltron",
+    "name": "Voltron",
+    "bio": "Formed in 2016, **Voltron** is Asian AF's resident improv team, bringing together legendary Asian American improvisers from the UCB Theatre. The team hosts Voltron and Friends, a monthly improv comedy show, featuring a rotating lineup of emerging and established Asian American improvisers. \n\nCast: **Lilan Bowden, Sarah Claspell, Kim Cooper, Eugene Cordero, Zac Oyama, Allyn Pintal, Dhruv Uday Singh, Kathy Yamamoto**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/voltron.jpg"
+  },
+  {
+    "slug": "super_live",
+    "name": "Super Live",
+    "bio": "**Super Live**: We did a Voltron And Friends Show and now we want more\\!\n\nCast: **Sam Di, Cassi Jerkins, Teruko Nakajima, Jeremy Olson, Candice Yang, Tao Yang**\n\n*Line-up subject to change*",
+    "performer_image": "assets/performer_images/super_live.jpg"
   }
 ]
