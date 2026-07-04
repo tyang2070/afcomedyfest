@@ -22,7 +22,9 @@ const performers = PERFORMERS;
             )}
           </div>
           <h3>{performer.name}</h3>
-          {performer.bio && <p class="performer-bio">{performer.bio.split('\n')[0]}</p>}
+          {performer.bio && (
+            <div class="performer-bio" set:html={performer.bio.split('</p>')[0] + '</p>'} />
+          )}
           <div class="more-link">
             View Full Bio →
           </div>
@@ -121,6 +123,19 @@ const performers = PERFORMERS;
       font-size: 0.9rem;
       line-height: 1.5;
       flex-grow: 1;
+    }
+
+    .performer-bio p {
+      margin: 0;
+    }
+
+    .performer-bio strong {
+      color: #D4A574;
+      font-weight: 600;
+    }
+
+    .performer-bio em {
+      font-style: italic;
     }
 
     .more-link {
