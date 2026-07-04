@@ -13,14 +13,6 @@ const performer = PERFORMERS.find(p => p.slug === slug);
 if (!performer) {
   return new Response('Not found', { status: 404 });
 }
-
-function markdownToHtml(text: string | null): string {
-  if (!text) return '';
-  return text
-    .split('\n\n')
-    .map(para => `<p>${para.trim()}</p>`)
-    .join('\n');
-}
 ---
 
 <Layout title={`${performer.name} - AF Comedy Fest`}>
@@ -34,7 +26,7 @@ function markdownToHtml(text: string | null): string {
       </div>
       <div class="performer-info">
         <h1>{performer.name}</h1>
-        {performer.bio && <div class="bio" set:html={markdownToHtml(performer.bio)} />}
+        {performer.bio && <div class="bio" set:html={performer.bio} />}
       </div>
     </div>
 
@@ -123,6 +115,36 @@ function markdownToHtml(text: string | null): string {
 
     .bio p:last-child {
       margin-bottom: 0;
+    }
+
+    .bio h1 {
+      color: #D4A574;
+      font-size: 2rem;
+      margin: 1.5rem 0 1rem 0;
+    }
+
+    .bio h2 {
+      color: #D4A574;
+      font-size: 1.5rem;
+      margin: 1.25rem 0 0.75rem 0;
+      border-bottom: 2px solid #D4A574;
+      padding-bottom: 0.5rem;
+    }
+
+    .bio h3 {
+      color: #D4A574;
+      font-size: 1.2rem;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    .bio strong {
+      color: #D4A574;
+      font-weight: 600;
+    }
+
+    .bio em {
+      font-style: italic;
+      color: #E8DCC8;
     }
 
     .back-link {
