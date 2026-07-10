@@ -18,7 +18,7 @@ const records = parse(csvContent, {
 
 // Define valid dates
 const validDates = ['2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06'];
-const validStages = ['ArtSpace', 'ArtSpace - Mainstage', 'ArtBox'];
+const validStages = ['ArtSpace', 'ArtBox'];
 
 // Validate records
 for (const record of records) {
