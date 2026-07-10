@@ -4,9 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "npm run update-schedule && npm run update-performers && npm run update-workshops && astro dev",
-    "build": "npm run update-schedule && npm run update-performers && npm run update-workshops && astro build",
+    "build": "npm run sync-drive && npm run update-schedule && npm run update-performers && npm run update-workshops && astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "sync-drive": "node scripts/sync-drive.js",
     "update-schedule": "node scripts/csv-to-schedule.js",
     "update-performers": "node scripts/csv-to-performers.js",
     "update-workshops": "node scripts/csv-to-workshops.js",
@@ -14,7 +15,9 @@
   },
   "dependencies": {
     "astro": "^4.8.0",
-    "csv-parse": "^5.5.0"
+    "csv-parse": "^5.5.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
