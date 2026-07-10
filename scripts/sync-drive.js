@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
 import { google } from 'googleapis';
 import fs from 'fs';
 import path from 'path';
@@ -6,6 +6,10 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
+
+// Load .env.local (or .env as fallback)
+dotenv.config({ path: path.resolve(projectRoot, '.env.local') });
+dotenv.config({ path: path.resolve(projectRoot, '.env') });
 
 // Parse service account from env variables
 const auth = new google.auth.GoogleAuth({
