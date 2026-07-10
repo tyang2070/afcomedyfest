@@ -49,7 +49,7 @@ async function downloadSheet(sheetId, fileName) {
 async function downloadFolder(folderId, localDir) {
   try {
     console.log(`⬇️  Syncing folder ${folderId} to ${localDir}...`);
-    
+
     // Ensure directory exists
     if (!fs.existsSync(localDir)) {
       fs.mkdirSync(localDir, { recursive: true });
@@ -57,15 +57,38 @@ async function downloadFolder(folderId, localDir) {
 
     const response = await drive.files.list({
       q: `'${folderId}' in parents and trashed=false`,
-      fields: 'files(id, name, webContentLink)',
+      fields: 'files(id, name, webContentLink, modifiedTime)',
       pageSize: 1000,
     });
 
     const files = response.data.files || [];
     console.log(`Found ${files.length} files`);
 
+    // Get max modified time in local directory
+    let maxLocalModified = 0;
+    if (fs.existsSync(localDir)) {
+      const localFiles = fs.readdirSync(localDir);
+      for (const file of localFiles) {
+        const filePath = path.resolve(localDir, file);
+        const stats = fs.statSync(filePath);
+        if (stats.mtime.getTime() > maxLocalModified) {
+          maxLocalModified = stats.mtime.getTime();
+        }
+      }
+    }
+
+    let downloaded = 0;
     for (const file of files) {
-      await downloadFile(file.id, file.name, localDir);
+      const remoteModified = new Date(file.modifiedTime).getTime();
+      // Only download if remote is newer than all local files
+      if (remoteModified > maxLocalModified) {
+        await downloadFile(file.id, file.name, localDir);
+        downloaded++;
+      }
+    }
+
+    if (downloaded === 0) {
+      console.log('  (no updates needed)');
     }
   } catch (error) {
     console.error(`✗ Error syncing folder:`, error.message);
