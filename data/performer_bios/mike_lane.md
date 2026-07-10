@@ -1,0 +1,1 @@
+**Mike Lane** is a Los Angeles based comic from the Bay Area. He's been a featured act at SF Sketchfest, UCB Theater, Asian AF, Don't Tell Comedy and hosts a monthly show at Kiez bar in Highland Park. He has recently appeared on "Ghosts" (CBS) and the breakout indie film "Situations" (Utopia).

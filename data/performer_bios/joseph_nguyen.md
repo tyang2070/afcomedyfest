@@ -1,0 +1,1 @@
+**Joseph Nguyen** is a Bay Area stand-up comic with solid writing and an easygoing delivery. He has opened for Jimmy O. Yang and appeared in various comedy festivals while being a regular at the San Francisco Punch Line, Comedy Oakland, and other clubs and independent shows.

@@ -1,0 +1,1 @@
+**Chelsea Cruz** is a Filipino American writer/comedian from Los Angeles, CA. She's been writing for over 10 years while also working in Post Production. You can find some of her work on Crunchyroll.com and Disney+. In her spare and short free time you can find her at the gym, playing video games or doing stand up comedy at her dog.
