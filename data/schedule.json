@@ -7,7 +7,6 @@
   ],
   "stages": [
     "ArtSpace",
-    "ArtSpace - Mainstage",
     "ArtBox"
   ],
   "schedule": {
@@ -28,7 +27,6 @@
           "ticketLink": null
         }
       ],
-      "ArtSpace - Mainstage": [],
       "ArtBox": [
         {
           "showName": "Improv Showcase",
@@ -117,7 +115,6 @@
           "ticketLink": null
         }
       ],
-      "ArtSpace - Mainstage": [],
       "ArtBox": [
         {
           "showName": "Improv Act J",
@@ -154,7 +151,6 @@
           "ticketLink": null
         }
       ],
-      "ArtSpace - Mainstage": [],
       "ArtBox": [
         {
           "showName": "Special Guest N",
@@ -179,7 +175,6 @@
           "ticketLink": null
         }
       ],
-      "ArtSpace - Mainstage": [],
       "ArtBox": [
         {
           "showName": "Closing Act Q",
