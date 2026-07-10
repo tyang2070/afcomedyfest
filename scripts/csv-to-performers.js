@@ -20,12 +20,14 @@ function markdownToHtml(markdown) {
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     // Italics
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    // Paragraphs
+    // Paragraphs (split on double line breaks)
     .split('\n\n')
     .map(para => {
       if (para.match(/^<h[1-3]>/)) return para;
       if (para.trim().length === 0) return '';
-      return `<p>${para.trim()}</p>`;
+      // Convert single line breaks to <br> tags within paragraphs
+      const withLineBreaks = para.trim().replace(/\n/g, '<br>');
+      return `<p>${withLineBreaks}</p>`;
     })
     .filter(p => p)
     .join('\n');
