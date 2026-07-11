@@ -1,6 +1,4 @@
 # FESTIVAL DETAILS
-
-
 ## What is the AF Comedy Festival?
 The AF Comedy Festival is hosted by Asian AF, in partnership with the Outside In Theatre, celebrating 10-years of Asian American Pacific Islander (AAPI) comedy across the nation. 
 
@@ -11,7 +9,6 @@ Established in 2016, Asian AF quickly cemented its status as a must see comedy s
 
 ## When is the festival?
 Thursday, September 3rd - Sunday, September 6th, 2026.
-
 
 
 

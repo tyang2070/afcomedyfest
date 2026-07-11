@@ -64,6 +64,14 @@ const htmlContent = markdownToHtml(aboutMarkdown);
   <div class="about-wrapper">
     <div class="about-content" set:html={htmlContent} />
 
+  <style is:global>
+    .spacing {
+      display: block;
+      height: 3rem;
+      width: 100%;
+    }
+  </style>
+
   <style>
     .about-wrapper {
       max-width: 1400px;
@@ -101,12 +109,6 @@ const htmlContent = markdownToHtml(aboutMarkdown);
       line-height: 1.8;
       margin: 0;
       font-size: 1rem;
-    }
-
-    .spacing {
-      display: block;
-      height: 3rem;
-      width: 100%;
     }
 
     strong {
