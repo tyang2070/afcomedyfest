@@ -17,7 +17,6 @@ Thursday, September 3rd - Sunday, September 6th, 2026.
 The AF Comedy Festival takes place at the Outside In Theatre, located in the historic Highland Park neighborhood of Los Angeles. The venue has two stages, the ArtSpace (Mainstage) and the ArtBox (Blackbox stage), and, most importantly, a full bar in The Lobby. The Outside In Theatre is located at 5319 York Blvd. Los Angeles, CA 90042. 
 
 
-
 # TICKETS & LINE-UP
 
 ## When do tickets go on sale?

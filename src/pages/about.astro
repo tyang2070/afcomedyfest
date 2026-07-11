@@ -10,6 +10,7 @@ function markdownToHtml(markdown: string): string {
     .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .split('\n\n')
+    .filter(para => para.trim().length > 0)
     .map(para => {
       if (para.match(/^<h[1-3]>/)) return para;
       if (para.match(/^<strong>/)) return para;
@@ -43,7 +44,7 @@ const htmlContent = markdownToHtml(aboutMarkdown);
     h1 {
       color: #D4A574;
       font-size: 2.5rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       margin-top: 3rem;
     }
 
