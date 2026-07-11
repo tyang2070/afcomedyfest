@@ -51,6 +51,7 @@ const performers = records.map(row => {
     name: row.name,
     bio,
     performer_image: imagePath,
+    performer_type: row.performer_type || null,
   };
 });
 

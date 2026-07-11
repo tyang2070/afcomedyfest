@@ -21,6 +21,7 @@ export interface Performer {
   name: string;
   bio: string | null;
   image: ImageMetadata | null;
+  performer_type: string | null;
 }
 
 // Dynamic import all performer images from assets/performer_images/
@@ -49,6 +50,7 @@ export const PERFORMERS: Performer[] = performerData.map(p => ({
   name: p.name,
   bio: p.bio,
   image: getImageFromPath(p.performer_image),
+  performer_type: p.performer_type,
 }));
 
 export function getPerformer(slug: string): Performer | undefined {

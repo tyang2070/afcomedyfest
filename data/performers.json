@@ -3,156 +3,210 @@
     "slug": "capulet",
     "name": "Capulet",
     "bio": "<p><strong>Capulet</strong> is Cathy Shim, Jed Alcantara, Keiko Agena, Rosie Narasaki and Will Choi.  <br>The genre is Monoscene, the style is grounded, the people are Asian, and the  <br>friendships are freaking adorable. It’s an LA team by way of South Korea,  <br>Riverside, San Francisco, Hawaii, and LA. Chat GPT was not used to create this bio  <br>except when it was.</p>\n<p>Cast: <strong>Keiko Agena</strong>, <strong>Jed Alcantara</strong>, <strong>Will Choi</strong>, <strong>Rosie Narasaki</strong>, <strong>Cathy Shim</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/capulet.jpg"
+    "performer_image": "assets/performer_images/capulet.jpg",
+    "performer_type": "improv"
   },
   {
     "slug": "asian_improv_near_me",
     "name": "Asian Improv Near Me",
     "bio": "<p><strong>Asian Improv Near Me</strong> is a dynamic improv comedy group bringing laughter and spontaneity to audiences. Their high-energy performances showcase creativity, quick wit, and strong ensemble chemistry.</p>\n<p>Cast: <strong>Alfred Aquino II</strong>, <strong>Sam Di</strong>, <strong>Chuck Maa</strong>, <strong>Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/asian_improv_near_me.jpeg"
+    "performer_image": "assets/performer_images/asian_improv_near_me.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "mothership",
     "name": "Mothership",
     "bio": "<p><strong>Mothership</strong> is a team originally put together for Asian AF's Voltron And Friends show. Since then, they have performed at UCB's BYOT and Fancy Improv and have been in love ever since.</p>\n<p>Cast: <strong>Hanna Barlow</strong>, <strong>Stephanie Burchinow</strong>, <strong>Sam Di</strong>, <strong>Cassie Grilley</strong>, <strong>Anisha Jagannathan</strong>, <strong>Mickey Woo</strong>, <strong>Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/mothership.jpeg"
+    "performer_image": "assets/performer_images/mothership.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "the_s_team",
     "name": "The S Team",
     "bio": "<p><strong>The S Team:</strong> We have two things in common. We love improv & all our names have S's in them.</p>\n<p>Cast: <strong>Sahil Desai</strong>, <strong>Sam Di</strong>, <strong>Cassie Grilley</strong>, <strong>Jeremy Olson</strong>, <strong>Stella Park</strong>, <strong>Sila Puhl</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/the_s_team.png"
+    "performer_image": "assets/performer_images/the_s_team.png",
+    "performer_type": "improv"
   },
   {
     "slug": "cabbage",
     "name": "Cabbage",
     "bio": "<p><strong>Cabbage</strong> has performed at venues such as WGIS, Clubhouse, and with Asian AF’s Voltron & Friends. Based in LA, with DNA from LA and Chicago, their members are alumni of the Chicago comedy group, Stir Friday Night. Cast members have performed at UCB, Second City Chicago, Annoyance, and iO Chicago.</p>\n<p>Cast: <strong>Elyse Ahmad, Amrita Dhaliwal, Erica Ikeda, Avery Lee, Christine Lin, Harrison Pak, Aaron Rice, Xu</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/cabbage.png"
+    "performer_image": "assets/performer_images/cabbage.png",
+    "performer_type": "improv"
   },
   {
     "slug": "miss_golightly",
     "name": "Miss Golightly",
     "bio": "<p><strong>Miss Golightly</strong> is an all-Asian American team that has been performing together for 10+ years. The group has been featured in numerous comedy festivals, recently performing at UCB's Del Close Marathon, 2026 in NYC. These LA indie darlings are bound by Friendship, Food, and f-...Improv.</p>\n<p>Cast: <strong>Jed Alcantara,</strong> <strong>Tony Garbanzos, Terry Huang, Geo Lee</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/miss_golightly.jpeg"
+    "performer_image": "assets/performer_images/miss_golightly.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "bobalicious",
     "name": "Bobalicious",
     "bio": "<p><strong>Bobalicious is</strong> a team made up of the Pack Theater's AAPI performers.</p>\n<p>Cast: <strong>Peter Duong, Kyle Gaan, Eric Chad Ho, Richard Lee, Kim Wong</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/bobalicious.jpeg"
+    "performer_image": "assets/performer_images/bobalicious.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "nihongo_dake",
     "name": "Nihongo Dake",
     "bio": "<p><strong>Nihongo Dake:</strong> We are an array of Japanese speakers who improvise together! We all met at UCB performing in various teams and shows. One of is actually a tanuki in disguise. Bet you can’t figure out who.</p>\n<p>Cast: <strong>Ann Maddox, Oscar Montoya, Teruko Nakajima, Zach Olsen, Kathy Yamamoto, Ai Yoshihara, Titi the dog</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/nihongo_dake.jpeg"
+    "performer_image": "assets/performer_images/nihongo_dake.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "voltron",
     "name": "Voltron",
     "bio": "<p>Formed in 2016, <strong>Voltron</strong> is Asian AF's resident improv team, bringing together legendary Asian American improvisers from the UCB Theatre. The team hosts Voltron and Friends, a monthly improv comedy show, featuring a rotating lineup of emerging and established Asian American improvisers.</p>\n<p>Cast: <strong>Lilan Bowden, Sarah Claspell, Kim Cooper, Eugene Cordero, Zac Oyama, Allyn Pintal, Dhruv Uday Singh, Kathy Yamamoto</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/voltron.jpg"
+    "performer_image": "assets/performer_images/voltron.jpg",
+    "performer_type": "improv"
   },
   {
     "slug": "super_live",
     "name": "Super Live",
-    "bio": "<p><strong>Super Live</strong>: We did a Voltron And Friends Show and now we want more\\!</p>\n<p>Cast: <strong>Sam Di, Cassi Jerkins, Teruko Nakajima, Jeremy Olson, Candice Yang, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/super_live.jpeg"
+    "bio": "<p><strong>Super Live</strong>: We did a Voltron And Friends Show and now we want more!</p>\n<p>Cast: <strong>Sam Di, Cassi Jerkins, Teruko Nakajima, Jeremy Olson, Candice Yang, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/super_live.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "fusion_ha",
     "name": "Fusion Ha",
-    "bio": "<p>Come watch <strong>Fusion Ha</strong>, the All Asian American, 11-time 2026 reigning champ of UCB-LA Cagematch. See you at House of Pies after\\!</p>\n<p>Cast: <strong>Jed Alcantara, Alfred Aquino II, Sam Di, Tony Garbanzos, Terry Huang, Geo Lee, Chuck Maa, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/fusion_ha.jpeg"
+    "bio": "<p>Come watch <strong>Fusion Ha</strong>, the All Asian American, 11-time 2026 reigning champ of UCB-LA Cagematch. See you at House of Pies after!</p>\n<p>Cast: <strong>Jed Alcantara, Alfred Aquino II, Sam Di, Tony Garbanzos, Terry Huang, Geo Lee, Chuck Maa, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/fusion_ha.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "stir_friday_night",
     "name": "Stir Friday Night",
-    "bio": "<p><strong>Stir Friday Night</strong> is Chicago’s longest-running AAPI comedy team, 31 years and counting. With alumni like Steven Yeun (Walking Dead), Danny Pudi (Community), and Mary Sohn (AP Bio), Stir Friday Night is a pillar of the Chicago comedy scene. MSG included. Follow us @stirfridaynight on all social media and [www.stirfridaynight.com](http://www.stirfridaynight.com/)</p>\n<p>Cast: <strong>TBD</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/stir_friday_night.jpg"
+    "bio": "<p><strong>Stir Friday Night</strong> is Chicago’s longest-running AAPI comedy team, 31 years and counting. With alumni like Steven Yeun (Walking Dead), Danny Pudi (Community), and Mary Sohn (AP Bio), Stir Friday Night is a pillar of the Chicago comedy scene. MSG included. Follow us @stirfridaynight on all social media and stirfridaynight.com</p>\n<p>Cast: <strong>TBD</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/stir_friday_night.jpg",
+    "performer_type": "improv"
   },
   {
     "slug": "yall_we_asian",
     "name": "Y'all We Asian",
     "bio": "<p><strong>Y’all We Asian</strong> is Austin’s (and Texas’) first all Asian-American improv comedy troupe. Formed in 2017, Y'all We Asian sports a diverse cast of performers with family backgrounds hailing from all across Asia, the Pacific Islands, and the US. Y’all We Asian has been awarded The Austin Chronicle’s “Best of Austin’s Critics Pick for Best Rising Stars of Improv” as well as two B. Iden Payne awards for “Outstanding Resident Improvisational Troupe.” Y’all We Asian can be seen performing monthly at Fallout Theater in Austin, Texas and consists of Attiya Ali, Nick Fung, Sunny Huang, G-Su Paek, Ananya Roy, Virgil Shelby, Norman Tran, and Maudlin Vo.</p>\n<p>Cast: <strong>Attiya Ali, Ananya Roy, Virgil Shelby, Norman Tran, Maudlin Vo</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/yall_we_asian.jpeg"
+    "performer_image": "assets/performer_images/yall_we_asian.jpeg",
+    "performer_type": "improv"
   },
   {
     "slug": "room_to_improv",
     "name": "Room To Improv",
     "bio": "<p><strong>Room To Improv</strong> is an Asian American improvisational comedy troupe serving the Southern California area... and beyond.</p>\n<p>Since 2002, ROOM TO IMPROV has been entertaining diverse audiences with unscripted, unrehearsed scenes and games. The cast’s high-energy hijinks and wacky spontaneity are inspired by audience suggestions and interaction. Founded by CSUN alum Elvin Lubrin, RTI seeks to create a space for Asian Americans to tell stories and examine issues that are humorous to a diverse audience.</p>\n<p>Room To Improv has performed across the country at colleges and festivals as well as local hospitals and community events.</p>\n<p>Cast: <strong>Earl Baylon, Chris Bunyi, Kris Clemente, Shalimar Malimban, Krizia Stanley, Justin Vasquez, Kaelynn Wang, Kevin Young</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/room_to_improv.jpeg"
+    "performer_image": "assets/performer_images/room_to_improv.jpg",
+    "performer_type": "improv"
   },
   {
     "slug": "asians_of_mach",
     "name": "Asians of Mach",
     "bio": "<p><strong>Asians of Mach</strong>: Mach is an LA-based improv collective with 30+ cast members who perform weekly at the Clubhouse. We are the Asian ones of that cast.</p>\n<p>Cast: <strong>Alex Guo, Eric Chad Ho, Ru Kazi, Ann Maddox,  Nicole Villela, Kimberly Wong</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/asians_of_mach.png"
+    "performer_image": "assets/performer_images/asians_of_mach.png",
+    "performer_type": "improv"
   },
   {
     "slug": "shoes_off",
-    "name": "Shoes Off!",
-    "bio": "<p>We are <strong>Shoes Off</strong>, an all-Asian improv team and community based out of NYC\\! We produce our own bimonthly show at the Magnet Theater for Asian improvisors, and we regularly perform at festivals, including Fun And Dumb (New York), Third Coast Improv Fest (Nashville), and Hartford Improv Fest. Our form is the Lotus, a half-Onion opening into a montage. Our sets are generally fast-paced with quick transitions, and scenes are focused on characters and relationships a la Magnet Theater where we are based. Several of our members are on Megawatt, Magnet's house teams.</p>\n<p>Cast: <strong>J Bala, Anson Chan, Ryan Chittaphong, Michelle Chu, Brennard Gamboa, Alex Loh, Sonia Nam</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/shoes_off.jpg"
+    "name": "Shoes Off",
+    "bio": "<p>We are <strong>Shoes Off</strong>, an all-Asian improv team and community based out of NYC! We produce our own bimonthly show at the Magnet Theater for Asian improvisors, and we regularly perform at festivals, including Fun And Dumb (New York), Third Coast Improv Fest (Nashville), and Hartford Improv Fest. Our form is the Lotus, a half-Onion opening into a montage. Our sets are generally fast-paced with quick transitions, and scenes are focused on characters and relationships a la Magnet Theater where we are based. Several of our members are on Megawatt, Magnet's house teams.</p>\n<p>Cast: <strong>J Bala, Anson Chan, Ryan Chittaphong, Michelle Chu, Brennard Gamboa, Alex Loh, Sonia Nam</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/shoes_off.jpg",
+    "performer_type": "improv"
   },
   {
     "slug": "jerry_tran",
     "name": "Jerry Tran",
     "bio": "<p><strong>Jerry Tran</strong> is a Chicago-based comedian known for meticulously crafted material and a commanding, composed stage presence. A veteran of the national circuit, Jerry has performed at SF Sketchfest, the Milwaukee Comedy Festival, and the NBC Second City Break Out Comedy Festival. In addition to his festival appearances, Jerry produces and hosts a recurring showcase at First Sip Cafe, a staple of Chicago’s historic Argyle neighborhood. His sharp, observational style earned him a spot on Cold Tea Collective’s list of “Eight North American Asian Comedians to Watch,” and he recently taped a featured episode for OnlyFans’ LMAOF comedy special.</p>",
-    "performer_image": "assets/performer_images/jerry_tran.jpeg"
+    "performer_image": "assets/performer_images/jerry_tran.jpeg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "dylan_adler",
     "name": "Dylan Adler",
-    "bio": "<p><strong>Dylan Adler</strong> is a comedian, actor, writer, and musician based in NYC and LA. He was a writer on <em>The Late Late Show with James Corden</em> where he also performed [Stand Up](https://youtu.be/q9VbNnxff3Q) and was a [Sports Correspondent](https://youtu.be/OGquXbVPc1I). He recently performed stand up on [Comedy Central](https://youtu.be/c3XvApJvFvM?si=RKy_KfiML-Orisdm) and was named a [Comic You Should and Will Know](https://www.vulture.com/article/dylan-adler-comedians-you-should-know-2022.html) by Vulture Magazine. He has also performed in the New York Comedy Festival as a [Comic To Watch](https://youtu.be/T8rSjUk7UpY).</p>",
-    "performer_image": "assets/performer_images/dylan_adler.jpeg"
+    "bio": "<p><strong>Dylan Adler</strong> is a comedian, actor, writer, and musician based in NYC and LA. He was a writer on <em>The Late Late Show with James Corden</em> where he also performed Stand Up and was a Sports Correspondent. He recently performed stand up on Comedy Central and was named a “Comic You Should and Will Know” by Vulture Magazine. He has also performed in the New York Comedy Festival as a “Comic To Watch”.</p>",
+    "performer_image": "assets/performer_images/dylan_adler.jpeg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "joseph_nguyen",
     "name": "Joseph Nguyen",
     "bio": "<p><strong>Joseph Nguyen</strong> is a Bay Area stand-up comic with solid writing and an easygoing delivery. He has opened for Jimmy O. Yang and appeared in various comedy festivals while being a regular at the San Francisco Punch Line, Comedy Oakland, and other clubs and independent shows.</p>",
-    "performer_image": "assets/performer_images/joseph_nguyen.jpeg"
+    "performer_image": "assets/performer_images/joseph_nguyen.jpeg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "helen_hong",
     "name": "Helen Hong",
     "bio": "<p>A fan favorite on NPR's hit <em>Wait Wait Don't Tell Me</em>, <strong>Helen Hong</strong> also hosts NPR's celebrity trivia gameshow <em>Go Fact Yourself</em>. Helen's acting credits include roles in A24's <em>If I Had Legs I'd Kick You</em>, <em>Never Have I Ever</em>, <em>Silicon Valley,</em> and 5 seasons of <em>The Thundermans</em> on Nickelodeon. A breast cancer survivor, Asian-American activist, and frequent dog foster parent, Helen uses her standup comedy skills to raise funds and awareness for her favorite causes.</p>",
-    "performer_image": "assets/performer_images/helen_hong.jpg"
+    "performer_image": "assets/performer_images/helen_hong.jpg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "leslie_liao",
     "name": "Leslie Liao",
-    "bio": "<p><strong>Leslie Liao</strong> is a stand-up comedian, actress, and writer. Audiences around the world have been drawn to her relatable, introspective, and matter-of-fact style of humor, which is often anchored in her experiences as a single Asian-American woman living in Los Angeles.</p>\n<p>Leslie was recently selected as one of Variety's Top 10 Comics to Watch at Montreal's prestigious Just for Laughs Comedy Festival, having first been named a New Face by the festival in 2023\\.</p>\n<p>She can be seen in the multi-comic stand-up series <em>Verified Stand-Up</em> on Netflix, and has performed twice on <em>The Tonight Show Starring Jimmy Fallon</em>. In addition to touring globally and headlining to sold-out crowds, Leslie has opened for some of the biggest names in comedy, including Fortune Feimster and Ronny Chieng.</p>\n<p>She is a regular presence in the Los Angeles comedy scene, gracing the stages of iconic venues like The Comedy Store, Hollywood Improv, Laugh Factory, Dynasty Typewriter, and many more.</p>",
-    "performer_image": "assets/performer_images/leslie_liao.jpg"
+    "bio": "<p><strong>Leslie Liao</strong> is a stand-up comedian, actress, and writer. Audiences around the world have been drawn to her relatable, introspective, and matter-of-fact style of humor, which is often anchored in her experiences as a single Asian-American woman living in Los Angeles.</p>\n<p>Leslie was recently selected as one of Variety's Top 10 Comics to Watch at Montreal's prestigious Just for Laughs Comedy Festival, having first been named a New Face by the festival in 2023.</p>\n<p>She can be seen in the multi-comic stand-up series <em>Verified Stand-Up</em> on Netflix, and has performed twice on <em>The Tonight Show Starring Jimmy Fallon</em>. In addition to touring globally and headlining to sold-out crowds, Leslie has opened for some of the biggest names in comedy, including Fortune Feimster and Ronny Chieng.</p>\n<p>She is a regular presence in the Los Angeles comedy scene, gracing the stages of iconic venues like The Comedy Store, Hollywood Improv, Laugh Factory, Dynasty Typewriter, and many more.</p>",
+    "performer_image": "assets/performer_images/leslie_liao.jpg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "fumi_abe",
     "name": "Fumi Abe",
     "bio": "<p><strong>Fumi Abe</strong> is a Japanese-American stand-up comedian/writer based in Los Angeles who was named Vulture’s Comedians You Should and Will Know in 2023 and was part of the 2023 Just For Laughs New Faces. He has appeared on <em>The Tonight Show with Jimmy Fallon</em>, <em>The Late Show with Stephen Colbert</em>, Dropout’s <em>Smarty Pants</em>, was a Staff Writer for <em>The Late Late Show with James Corden</em>, and most recently was a Story Editor on Seth MacFarlane’s animated TV series “Ted”. Fumi has opened for national headliners such as Ronny Chieng, Ilana Glazer, Iliza Shlesinger, Tom Papa, and Hannah Berner.</p>",
-    "performer_image": "assets/performer_images/fumi_abe.jpeg"
+    "performer_image": "assets/performer_images/fumi_abe.jpeg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "irene_tu",
     "name": "Irene Tu",
-    "bio": "<p><strong>Irene Tu</strong> is a Los Angeles-based stand-up comedian, actor and writer who honed her chops in San Francisco. Her first comedy album WE’RE DONE NOW debuted at \\#1 on the iTunes comedy charts. Paste Magazine praised Irene’s “quick wit, relaxed stage presence, and hilariously off-the-wall observations” in this album that “ticks all the boxes of a winning introduction, and then some.” One of Netflix’s “Introducing” comics of 2022, her show in 2024 was named one of the funniest by the LA Times. She’s a regular at festivals and clubs around the country and has opened for comics like Taylor Tomlinson, Ronny Chieng, and Patton Oswalt. You may recognize Irene from After Midnight, Hulu, Comedy Central, Netflix is a Joke, Don’t Tell Comedy or her viral stand up clips which have amassed over 30 million views on social media.</p>",
-    "performer_image": "assets/performer_images/irene_tu.jpg"
+    "bio": "<p><strong>Irene Tu</strong> is a Los Angeles-based stand-up comedian, actor and writer who honed her chops in San Francisco. Her first comedy album WE’RE DONE NOW debuted at #1 on the iTunes comedy charts. Paste Magazine praised Irene’s “quick wit, relaxed stage presence, and hilariously off-the-wall observations” in this album that “ticks all the boxes of a winning introduction, and then some.” One of Netflix’s “Introducing” comics of 2022, her show in 2024 was named one of the funniest by the LA Times. She’s a regular at festivals and clubs around the country and has opened for comics like Taylor Tomlinson, Ronny Chieng, and Patton Oswalt. You may recognize Irene from After Midnight, Hulu, Comedy Central, Netflix is a Joke, Don’t Tell Comedy or her viral stand up clips which have amassed over 30 million views on social media.</p>",
+    "performer_image": "assets/performer_images/irene_tu.jpg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "andrew_orolfo",
     "name": "Andrew Orolfo",
     "bio": "<p>Filipino American, <strong>Andrew Orolfo</strong> has been named one of the country’s \"top knot\" comedians by... don't even ask, just go with it. A JFL New Face 2022 and established staple in San Francisco comedy, he has been featured in the High Plains Comedy Festival, Comedy Central Clusterfest and Netflix is a Joke Fest. He can be heard on Sirius XM Radio and seen on Comedy Central, <em>The Late Late Show with James Corden</em> as well as <em>Jo Koy: In His Elements</em> on Netflix.</p>",
-    "performer_image": "assets/performer_images/andrew_orolfo.jpeg"
+    "performer_image": "assets/performer_images/andrew_orolfo.jpeg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "mike_lane",
     "name": "Mike Lane",
     "bio": "<p><strong>Mike Lane</strong> is a Los Angeles based comic from the Bay Area. He's been a featured act at SF Sketchfest, UCB Theater, Asian AF, Don't Tell Comedy and hosts a monthly show at Kiez bar in Highland Park. He has recently appeared on \"Ghosts\" (CBS) and the breakout indie film \"Situations\" (Utopia).</p>",
-    "performer_image": "assets/performer_images/mike_lane.jpg"
+    "performer_image": "assets/performer_images/mike_lane.jpg",
+    "performer_type": "stand-up"
   },
   {
     "slug": "chelsea_cruz",
     "name": "Chelsea Cruz",
     "bio": "<p><strong>Chelsea Cruz</strong> is a Filipino American writer/comedian from Los Angeles, CA. She's been writing for over 10 years while also working in Post Production. You can find some of her work on Crunchyroll.com and Disney+. In her spare and short free time you can find her at the gym, playing video games or doing stand up comedy at her dog.</p>",
-    "performer_image": "assets/performer_images/chelsea_cruz.jpeg"
+    "performer_image": "assets/performer_images/chelsea_cruz.jpeg",
+    "performer_type": "stand-up"
+  },
+  {
+    "slug": "ali_lu",
+    "name": "Ali Lu",
+    "bio": "<p><strong>Ali Lu</strong> is a Filipina American stand‑up comedian, writer, and musician who ponders life’s big  <br>questions such as: Am I allowed to be naked in front of someone else’s dog? Is anyone else  <br>suffering from Adult Onset Poverty? And why is everyone’s anxiety cuter than mine?\\!  <br>She was selected for the inaugural class of NBCU’s Thousand Miles Project (2022) and has  <br>written scripted rom‑com podcasts for FOX’s MeetCute since 2024\\. As a stand‑up comic, she’s  <br>been featured on Netflix Is A Joke, Women Crush Wednesdays at The Hollywood Improv, the  <br>Sacramento Punchline, The Burbank Comedy Festival, and the Alaska B4UDie Festival (2019,  <br>2024).  <br>Ali marries music with comedy on the song‑parody game show Those Aren’t The Words,  <br>co‑hosts the comedy podcast Look It Up and performs tandem stand‑up with her partner Baldev  <br>Sandhu in their act Marital Sets (FKA Premarital Sets).  <br>As a classically trained vocalist, she sings all over Los Angeles independently and as a featured  <br>soloist with the Angeles Chorale under the direction of Lesley Leighton. Ali recently made her  <br>Carnegie Hall debut in March 2025 and performed alongside the LA Philharmonic in Home  <br>Alone Live at The Walt Disney Concert Hall in December 2025\\.</p>",
+    "performer_image": "assets/performer_images/ali_lu.jpeg",
+    "performer_type": "stand-up"
+  },
+  {
+    "slug": "diana_hong",
+    "name": "Diana Hong",
+    "bio": "<p><strong>Diana Hong</strong> is a Korean American lesbian comic whose grounded presence and calm delivery catch audiences off guard in the best way. Her storytelling is smart, sincere, and often surprisingly emotional. She tackles grief, identity, and cultural absurdities with heart and a deadpan edge that makes you laugh first and think later. Diana's comedy has been featured on Netflix is a Joke Radio, Fuse TV, and SF Sketchfest. Whether she’s unpacking family dynamics or challenging the emotional weight of a carabiner, Diana’s comedy is rooted in radical empathy and observational brilliance.</p>",
+    "performer_image": "assets/performer_images/diana_hong.jpg",
+    "performer_type": "stand-up"
+  },
+  {
+    "slug": "teruko_nakajima",
+    "name": "Teruko Nakajima",
+    "bio": "<p><strong>Teruko Nakajima</strong> is an actor, dancer, singer, writer, sculptor, and your biggest cheerleader on earth—she’ll cheer the heck you up until you say ENOUGH:) She’s also a proud single mother to her adopted baby doggie, Titi (“Tiny Teruko”), who is a psychiatric service animal (supporting everyone, whether you asked or not). Teruko, Titi, and Mr. John Flynn created Teruko’s raw autobiographical solo show, <em>MADE IN AMERICA</em>. It’s won 7 awards, became an Off-Broadway show, and completely went to Titi’s head. Teruko and Titi are super honored Upright Citizens Brigade performers. We host CAGEMATCH\\!Teruko is an actor, dancer, singer, writer, sculptor, and your biggest cheerleader on earth—she’ll cheer the heck you up until you say ENOUGH:) She’s also a proud single mother to her adopted baby doggie, Titi (“Tiny Teruko”), who is a psychiatric service animal (supporting everyone, whether you asked or not). Teruko, Titi, and Mr. John Flynn created Teruko’s raw autobiographical solo show, <em>MADE IN AMERICA</em>. It’s won 7 awards, became an Off-Broadway show, and completely went to Titi’s head. Teruko and Titi are super honored Upright Citizens Brigade performers. We host CAGEMATCH!</p>",
+    "performer_image": "assets/performer_images/teruko_nakajima.jpg",
+    "performer_type": "character"
+  },
+  {
+    "slug": "woody_fu",
+    "name": "Woody Fu",
+    "bio": "<p>As an actor, <strong>Woody Fu</strong> (he/him) has appeared on <em>Pluribus</em>, <em>The Other Two</em>, <em>No Good Deed</em>, and the upcoming CBS series <em>Einstein</em>.</p>\n<p>As a creator, you may have seen him as a New Face of Comedy at the Just For Laughs festival, or in Edinburgh Fringe touring his show Woody Fu: One Man John Wick.</p>\n<p>He has written for the Onion, and his digital shorts have been featured on Vulture and at the Slamdance Film Festival.</p>",
+    "performer_image": "assets/performer_images/woody_fu.jpg",
+    "performer_type": "character"
   }
 ]
