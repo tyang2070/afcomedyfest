@@ -4,35 +4,57 @@ import aboutMarkdown from '../../data/about.md?raw';
 
 // Convert markdown to HTML
 function markdownToHtml(markdown: string): string {
-  return markdown
+  // First apply heading and bold replacements
+  let content = markdown
     .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
     .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
     .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .split('\n\n')
-    .map(para => {
-      const trimmed = para.trim();
-      if (trimmed.length === 0) return '<div class="spacing"></div>';
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-      // If paragraph starts with a heading tag and has content after newline
-      if (trimmed.match(/^<h[1-3]>/)) {
-        const lines = trimmed.split('\n');
-        const heading = lines[0];
-        const content = lines.slice(1).join('\n').trim();
+  // Split by lines to process content properly
+  const lines = content.split('\n');
+  const result: string[] = [];
+  let i = 0;
 
-        if (content) {
-          const text = content.replace(/\n/g, '<br>');
-          return `${heading}\n<p>${text}</p>`;
-        }
-        return heading;
+  while (i < lines.length) {
+    const line = lines[i].trim();
+
+    // Handle blank lines - count consecutive ones
+    if (line.length === 0) {
+      result.push('<div class="spacing"></div>');
+      i++;
+      continue;
+    }
+
+    // Handle headings with optional following text
+    if (line.match(/^<h[1-3]>/)) {
+      const heading = line;
+      let textLines: string[] = [];
+
+      // Collect following non-empty, non-heading lines
+      i++;
+      while (i < lines.length) {
+        const nextLine = lines[i].trim();
+        if (nextLine.length === 0 || nextLine.match(/^<h[1-3]>/)) break;
+        textLines.push(nextLine);
+        i++;
       }
 
-      if (trimmed.match(/^<strong>/)) return trimmed;
-      // Convert single line breaks to <br> tags
-      const withLineBreaks = trimmed.replace(/\n/g, '<br>');
-      return `<p>${withLineBreaks}</p>`;
-    })
-    .join('\n');
+      result.push(heading);
+      if (textLines.length > 0) {
+        const text = textLines.join('<br>');
+        result.push(`<p>${text}</p>`);
+      }
+      continue;
+    }
+
+    // Handle regular paragraphs
+    const text = line.replace(/\n/g, '<br>');
+    result.push(`<p>${text}</p>`);
+    i++;
+  }
+
+  return result.join('\n');
 }
 
 const htmlContent = markdownToHtml(aboutMarkdown);
@@ -82,7 +104,9 @@ const htmlContent = markdownToHtml(aboutMarkdown);
     }
 
     .spacing {
+      display: block;
       height: 1.5rem;
+      width: 100%;
     }
 
     strong {
