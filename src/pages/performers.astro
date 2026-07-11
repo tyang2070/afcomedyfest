@@ -23,7 +23,9 @@ const performers = PERFORMERS;
           </div>
           <div class="performer-info">
             <h3>{performer.name}</h3>
-            {performer.performer_type && <span class="type-tag">{performer.performer_type}</span>}
+            {performer.performer_type && (
+              <span class="type-tag">{performer.performer_type}</span>
+            )}
           </div>
         </div>
       </a>
@@ -111,14 +113,17 @@ const performers = PERFORMERS;
     .performer-info {
       padding: 1rem;
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
     }
 
     .performer-card h3 {
       color: #D4A574;
       margin: 0;
       font-size: 1.2rem;
+      flex: 1;
     }
 
     .type-tag {
@@ -130,7 +135,8 @@ const performers = PERFORMERS;
       font-size: 0.75rem;
       font-weight: 600;
       text-transform: capitalize;
-      width: fit-content;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .performer-card-link:hover .more-link {
