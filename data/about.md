@@ -1,38 +1,55 @@
-# About The AF Comedy Fest
+# FESTIVAL DETAILS
 
-AF Comedy Fest is a premier comedy festival celebrating the art of laughter, creativity, and live performance. Founded with a mission to bring world-class comedians and performers to audiences of all backgrounds, we've become a beloved destination for comedy enthusiasts.
 
-## Our Mission
+## What is the AF Comedy Festival?
+The AF Comedy Festival is hosted by Asian AF, in partnership with the Outside In Theatre, celebrating 10-years of Asian American Pacific Islander (AAPI) comedy across the nation. 
 
-We believe that comedy brings people together. Our mission is to curate and present the highest quality comedy performances while supporting emerging talent in the entertainment industry. Through workshops, performances, and community engagement, we foster a vibrant comedy culture that celebrates Asian American voices and perspectives.
+We have performers from LA, New York City, Chicago, Austin, San Francisco, Baltimore, and Hawai’i
 
-## Our Values
+Established in 2016, Asian AF quickly cemented its status as a must see comedy show featuring rising and established AAPI comedic talent. Along with Asian AF Los Angeles and New York, the festival will also feature shows from the AF family, including Dragons AF (A Live D&D Show), Filipino AF, Gaysian AF, Hawai’i AF, Polynesian AF, South Asian AF, and Voltron And Friends. 
 
-**Diversity & Inclusion:** We celebrate comedy in all its forms and from all communities, with a focus on highlighting Asian American talent and perspectives.
+## When is the festival?
+Thursday, September 3rd - Sunday, September 6th, 2026.
 
-**Excellence:** We commit to bringing top-tier performers and production quality to every event.
 
-**Community:** We believe in supporting local talent and building connections through laughter and shared experiences.
+## Where is the festival happening?
+The AF Comedy Festival takes place at the Outside In Theatre, located in the historic Highland Park neighborhood of Los Angeles. The venue has two stages, the ArtSpace (Mainstage) and the ArtBox (Blackbox stage), and, most importantly, a full bar in The Lobby. The Outside In Theatre is located at 5319 York Blvd. Los Angeles, CA 90042. 
 
-**Innovation:** We continually explore new formats and ways to engage audiences while honoring the art form of comedy.
 
-## Our History
+# TICKETS & LINE-UP
 
-What started as a small local comedy showcase has grown into a major festival attracting thousands of attendees each year. Over the years, we've hosted hundreds of talented performers and created countless memorable moments that continue to resonate with our audience.
+## When do tickets go on sale?
+Individual show tickets for both stages and Festival Passes to ArtBox shows go on sale at the end of July.
 
-## Location
+## Is there a discount for seeing multiple shows?
+Yes! You can grab an ArtBox Single-Access Pass, which gets you into every single show on the blackbox stage for one flat rate. More info coming soon!
 
-**Outside In Theatre**
-Los Angeles, CA
+## When will the lineup be announced?
+The full schedule drops at the end of July. Trust us, it’s worth the wait.
 
-Our partnership with Outside In Theatre provides an intimate yet energetic venue perfect for comedy performances of all styles.
+## Where do I pick up my pass or check in?
+Swing by The Lobby starting at 10:00 AM any day of the festival (September 3rd - 6th) to grab your ArtBox Single-Access Pass. Check in with the box office inside The Lobby for pre-purchased tickets. While there may be some tickets available at the door, we strongly recommend reserving tickets online ahead of time to guarantee a seat.
 
-## Get in Touch
 
-Have questions or want to get involved? We'd love to hear from you!
+# VENUE & LOGISTICS
 
-**Email:** info@afcomedyfest.com
-**Phone:** (555) 123-4567
-**Address:** 123 Comedy Lane, Entertainment City, EC 12345
+## Will there be food and drinks?
+The Outside In Theatre serves both alcoholic & non-alcoholic beverages and food at the bar in The Lobby.
 
-Follow us on social media for the latest updates on performers, tickets, and festival information.
+## Where do I park?
+Street and neighborhood parking can be found all around the venue. We suggest carpooling & ride-sharing to the venue, as parking can be tough. It is LA, after all.
+
+## Where should I stay?
+Highland Park and nearby areas like Glendale, Eagle Rock, Atwater Village, and Pasadena have plenty of great hotels and Airbnbs. 
+
+## Are shows all ages?
+Every line-up is different, but shows are generally intended for an 18+ crowd. Use discretion if you plan on bringing younger guests.
+
+
+# PERFORMANCE & CONTACT
+
+## Can I perform in the festival?
+We are not accepting festival submissions at this time. There will be improv jams on Thursday, Friday, and Saturday nights that are open to AAPI improvisers. Everyone is welcome to attend as audience members to the jams.
+
+## Still have questions?
+Send us a message at afcomedyfest@gmail.com and we will get back to you as soon as we can!
