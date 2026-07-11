@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { PERFORMERS } from '../data/performers';
 
 const performers = PERFORMERS;
+const performerTypes = Array.from(new Set(performers.map(p => p.performer_type).filter(Boolean))).sort();
 ---
 
 <Layout title="Performers - AF Comedy Fest">
@@ -10,9 +11,16 @@ const performers = PERFORMERS;
     <h1>Our Performers</h1>
     <p>Meet the talented comedians and entertainers performing at AF Comedy Fest.</p>
 
-    <div class="performers-grid">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      {performerTypes.map((type) => (
+        <button class="filter-btn" data-filter={type}>{type}</button>
+      ))}
+    </div>
+
+    <div class="performers-grid" id="performers-grid">
     {performers.map((performer) => (
-      <a href={`/performers/${performer.slug}`} class="performer-card-link">
+      <a href={`/performers/${performer.slug}`} class="performer-card-link" data-type={performer.performer_type}>
         <div class="performer-card">
           <div class="performer-image">
             {performer.image ? (
@@ -49,6 +57,37 @@ const performers = PERFORMERS;
 
     .performers-wrapper > p {
       color: #E8DCC8;
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .filter-btn {
+      background: transparent;
+      color: #D4A574;
+      border: 2px solid #D4A574;
+      padding: 0.5rem 1.25rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .filter-btn:hover {
+      background: #D4A574;
+      color: #000;
+    }
+
+    .filter-btn.active {
+      background: #D4A574;
+      color: #000;
     }
 
     .performers-grid {
@@ -56,6 +95,10 @@ const performers = PERFORMERS;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 2rem;
       margin-top: 2rem;
+    }
+
+    .performer-card-link.hidden {
+      display: none;
     }
 
     .performer-card-link {
@@ -143,4 +186,28 @@ const performers = PERFORMERS;
       background: rgba(212, 165, 116, 0.1);
     }
   </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const performerLinks = document.querySelectorAll('.performer-card-link');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.dataset.filter;
+
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          performerLinks.forEach(link => {
+            if (filter === 'all' || link.dataset.type === filter) {
+              link.classList.remove('hidden');
+            } else {
+              link.classList.add('hidden');
+            }
+          });
+        });
+      });
+    });
+  </script>
 </Layout>
