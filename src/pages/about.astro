@@ -13,10 +13,23 @@ function markdownToHtml(markdown: string): string {
     .map(para => {
       const trimmed = para.trim();
       if (trimmed.length === 0) return '<div class="spacing"></div>';
-      if (para.match(/^<h[1-3]>/)) return para;
-      if (para.match(/^<strong>/)) return para;
+
+      // If paragraph starts with a heading tag and has content after newline
+      if (trimmed.match(/^<h[1-3]>/)) {
+        const lines = trimmed.split('\n');
+        const heading = lines[0];
+        const content = lines.slice(1).join('\n').trim();
+
+        if (content) {
+          const text = content.replace(/\n/g, '<br>');
+          return `${heading}\n<p>${text}</p>`;
+        }
+        return heading;
+      }
+
+      if (trimmed.match(/^<strong>/)) return trimmed;
       // Convert single line breaks to <br> tags
-      const withLineBreaks = para.trim().replace(/\n/g, '<br>');
+      const withLineBreaks = trimmed.replace(/\n/g, '<br>');
       return `<p>${withLineBreaks}</p>`;
     })
     .join('\n');
