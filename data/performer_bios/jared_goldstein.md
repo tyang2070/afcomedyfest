@@ -1,0 +1,1 @@
+**Jared Goldstein** has been seen on *Black Mirror* (Netflix), *St. Denis Medical* (NBC) and was one of JFL New Faces of Comedy 2022.

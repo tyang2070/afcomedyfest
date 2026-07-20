@@ -1,0 +1,1 @@
+Embarrassed by Night launched in Los Angeles in 2022 by Vietnamese-American comedians Fred Le and **Andy Van**, who both draw heavy inspiration from their second-generation immigrant upbringings in the Bay Area. The show currently tours the US, featuring a rotating lineup of the finest Vietnamese comedians and performers around, celebrating the culture through laughs and tunes.

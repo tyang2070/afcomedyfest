@@ -1,31 +1,56 @@
 slug,name,bio,performer_image,performer_type
-capulet,Capulet,capulet.md,capulet.jpg,improv
-asian_improv_near_me,Asian Improv Near Me,asian_improv_near_me.md,asian_improv_near_me.jpeg,improv
-mothership,Mothership,mothership.md,mothership.jpeg,improv
-the_s_team,The S Team,the_s_team.md,the_s_team.png,improv
-cabbage,Cabbage,cabbage.md,cabbage.png,improv
-miss_golightly,Miss Golightly,miss_golightly.md,miss_golightly.jpeg,improv
-bobalicious,Bobalicious,bobalicious.md,bobalicious.jpeg,improv
-nihongo_dake,Nihongo Dake,nihongo_dake.md,nihongo_dake.jpeg,improv
-voltron,Voltron,voltron.md,voltron.jpg,improv
-super_live,Super Live,super_live.md,super_live.jpeg,improv
-fusion_ha,Fusion Ha,fusion_ha.md,fusion_ha.jpeg,improv
-stir_friday_night,Stir Friday Night,stir_friday_night.md,stir_friday_night.jpg,improv
-yall_we_asian,Y'all We Asian,yall_we_asian.md,yall_we_asian.jpeg,improv
-room_to_improv,Room To Improv,room_to_improv.md,room_to_improv.jpg,improv
-asians_of_mach,Asians of Mach,asians_of_mach.md,asians_of_mach.png,improv
-shoes_off,Shoes Off,shoes_off.md,shoes_off.jpg,improv
-jerry_tran,Jerry Tran,jerry_tran.md,jerry_tran.jpeg,stand-up
-dylan_adler,Dylan Adler,dylan_adler.md,dylan_adler.jpeg,stand-up
-joseph_nguyen,Joseph Nguyen,joseph_nguyen.md,joseph_nguyen.jpeg,stand-up
-helen_hong,Helen Hong,helen_hong.md,helen_hong.jpg,stand-up
-leslie_liao,Leslie Liao,leslie_liao.md,leslie_liao.jpg,stand-up
-fumi_abe,Fumi Abe,fumi_abe.md,fumi_abe.jpeg,stand-up
-irene_tu,Irene Tu,irene_tu.md,irene_tu.jpg,stand-up
-andrew_orolfo,Andrew Orolfo,andrew_orolfo.md,andrew_orolfo.jpeg,stand-up
-mike_lane,Mike Lane,mike_lane.md,mike_lane.jpg,stand-up
-chelsea_cruz,Chelsea Cruz,chelsea_cruz.md,chelsea_cruz.jpeg,stand-up
+a_plus_plus,A++,a_plus_plus.md,a_plus_plus.jpg,improv
+ahmed_bharoocha,Ahmed Bharoocha,ahmed_bharoocha.md,ahmed_bharoocha.jpeg,stand-up
 ali_lu,Ali Lu,ali_lu.md,ali_lu.jpeg,stand-up
+andrew_orolfo,Andrew Orolfo,andrew_orolfo.md,andrew_orolfo.jpeg,stand-up
+andy_van,Andy Van,andy_van.md,andy_van.jpeg,stand-up
+asian_improv_near_me,Asian Improv Near Me,asian_improv_near_me.md,asian_improv_near_me.jpeg,improv
+asians_of_mach,Asians of Mach,asians_of_mach.md,asians_of_mach.png,improv
+bobalicious,Bobalicious,bobalicious.md,bobalicious.jpeg,improv
+brent_weinbach,Brent Weinbach,brent_weinbach.md,brent_weinbach.jpeg,stand-up
+cabbage,Cabbage,cabbage.md,cabbage.png,improv
+capulet,Capulet,capulet.md,capulet.jpg,improv
+chelsea_cruz,Chelsea Cruz,chelsea_cruz.md,chelsea_cruz.jpeg,stand-up
+dan_guan,Dan Guan,dan_guan.md,dan_guan.jpg,stand-up
+deeptanshu_jha,Deeptanshu Jha,deeptanshu_jha.md,deeptanshu_jha.jpeg,stand-up
 diana_hong,Diana Hong,diana_hong.md,diana_hong.jpg,stand-up
+dione_kuraoka,Dione Kuraoka,dione_kuraoka.md,dione_kuraoka.jpeg,character
+dragons_af,Dragons AF,dragons_af.md,,"role-playing game, live show"
+dylan_adler,Dylan Adler,dylan_adler.md,dylan_adler.jpeg,stand-up
+embarrassed_by_night,Embarrassed By Night,embarrassed_by_night.md,embarrassed_by_night.jpg,"stand-up, live show"
+fred_le,Fred Le,fred_le.md,fred_le.jpeg,stand-up
+fumi_abe,Fumi Abe,fumi_abe.md,fumi_abe.jpeg,stand-up
+fusion_ha,Fusion Ha,fusion_ha.md,fusion_ha.jpeg,improv
+helen_hong,Helen Hong,helen_hong.md,helen_hong.jpg,stand-up
+hib_hib,Hib Hib,hib_hib.md,hib_hib.jpg,sketch
+irene_tu,Irene Tu,irene_tu.md,irene_tu.jpg,stand-up
+jared_goldstein,Jared Goldstein,jared_goldstein.md,jared_goldstein.jpg,stand-up
+jerry_tran,Jerry Tran,jerry_tran.md,jerry_tran.jpeg,stand-up
+josef_anolin,Josef Anolin,josef_anolin.md,josef_anolin.png,stand-up
+joseph_nguyen,Joseph Nguyen,joseph_nguyen.md,joseph_nguyen.jpeg,stand-up
+lauren_moon,Lauren Moon,lauren_moon.md,lauren_moon.jpg,dj
+leslie_liao,Leslie Liao,leslie_liao.md,leslie_liao.jpg,stand-up
+lillian_sam,Lillian Sam,lillian_sam.md,lillian_sam.jpeg,stand-up
+mahesh_kotagi,Mahesh Kotagi,mahesh_kotagi.md,,stand-up
+max_and_nicky,Max and Nicky,max_and_nicky.md,max_and_nicky.jpeg,stand-up
+mike_lane,Mike Lane,mike_lane.md,mike_lane.jpg,stand-up
+miss_golightly,Miss Golightly,miss_golightly.md,miss_golightly.jpeg,improv
+monstera,Monstera,monstera.md,monstera.jpeg,improv
+mothership,Mothership,mothership.md,mothership.jpeg,improv
+nihongo_dake,Nihongo Dake,nihongo_dake.md,nihongo_dake.jpeg,improv
+pisces,Pisces,pisces.md,pisces.jpeg,improv
+raymond_lee,Raymond Lee,raymond_lee.md,raymond_lee.jpg,special guest
+room_to_improv,Room To Improv,room_to_improv.md,room_to_improv.jpg,improv
+sammy_cantu,Sammy Cantu,sammy_cantu.md,sammy_cantu.jpeg,stand-up
+shivaan_nadan,Shivaan Nadan,shivaan_nadan.md,shivaan_nadan.jpeg,stand-up
+shoes_off,Shoes Off,shoes_off.md,shoes_off.jpg,improv
+stir_friday_night,Stir Friday Night,stir_friday_night.md,stir_friday_night.jpg,improv
+super_live,Super Live,super_live.md,super_live.jpeg,improv
 teruko_nakajima,Teruko Nakajima,teruko_nakajima.md,teruko_nakajima.jpg,character
+the_s_team,The S Team,the_s_team.md,the_s_team.png,improv
+tian_mi_mi,Tian Mi Mi,tian_mi_mi.md,tian_mi_mi.jpeg,improv
+tien_tran,Tien Tran,tien_tran.md,tien_tran.jpg,stand-up
+voltron,Voltron,voltron.md,voltron.jpg,improv
+will_pepper,Will Pepper,will_pepper.md,will_pepper.jpeg,stand-up
 woody_fu,Woody Fu,woody_fu.md,woody_fu.jpg,character
+yall_we_asian,Y'all We Asian,yall_we_asian.md,yall_we_asian.jpeg,improv

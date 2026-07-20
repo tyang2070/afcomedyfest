@@ -1,0 +1,1 @@
+**Sammy Cantu** is a Vietnamese/Mexican comedian, model and actor from San Diego. Living in Los Angeles now, he’s performed all across the state from the laugh factory in SD to Cobbs comedy club in SF to Mic drop comedy in Arizona. He’s also been in over 100 print and television ads.

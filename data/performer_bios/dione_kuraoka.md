@@ -1,0 +1,1 @@
+**Dione Kuraoka** is an LA-based actor, improvisor and comedian. A few of her credits include, *Adopt A Highway* (with Ethan Hawke), *BabySplitters, General Hospital, Goliath,  Adam Ruins Everything,* and *Alive in Denver.* Dione has performed sketch and improv all over Los Angeles. She's held residency on Maude and character teams at UCB, iO West, and Acme Hollywood.   
