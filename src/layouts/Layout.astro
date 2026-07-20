@@ -30,25 +30,41 @@ const { title } = Astro.props;
 
       body {
         line-height: 1.6;
+        background: #0a0a0a;
+        min-height: 100vh;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         background:
           linear-gradient(to right, transparent 0%, rgba(200, 30, 30, 0.4) 60%, rgba(150, 20, 20, 0.6) 100%),
           repeating-linear-gradient(
             90deg,
-            rgba(255, 255, 255, 0.08) 0px,
-            rgba(255, 255, 255, 0.08) 1px,
+            rgba(255, 255, 255, 0.15) 0px,
+            rgba(255, 255, 255, 0.15) 1px,
             transparent 1px,
-            transparent 3px
+            transparent 2px
           ),
           repeating-linear-gradient(
             0deg,
-            rgba(255, 255, 255, 0.05) 0px,
-            rgba(255, 255, 255, 0.05) 1px,
+            rgba(255, 255, 255, 0.1) 0px,
+            rgba(255, 255, 255, 0.1) 1px,
             transparent 1px,
-            transparent 3px
-          ),
-          #0a0a0a;
-        background-attachment: fixed;
-        min-height: 100vh;
+            transparent 2px
+          );
+        pointer-events: none;
+        z-index: 1;
+        mix-blend-mode: overlay;
+      }
+
+      body > * {
+        position: relative;
+        z-index: 2;
       }
 
       header {
