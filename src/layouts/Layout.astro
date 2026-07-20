@@ -24,35 +24,16 @@ const { title } = Astro.props;
 
       html {
         font-family: system-ui, sans-serif;
-        background: #0a0a0a;
+        background: #1a1a1a;
         color: #ffffff;
       }
 
       body {
         line-height: 1.6;
-        background:
-          linear-gradient(to right, #0a0a0a 0%, rgba(60, 10, 10, 0.8) 70%, rgba(40, 5, 5, 0.9) 100%),
-          repeating-linear-gradient(
-            90deg,
-            rgba(100, 100, 100, 0.25) 0px,
-            rgba(100, 100, 100, 0.25) 1px,
-            transparent 1px,
-            transparent 2px
-          ),
-          repeating-linear-gradient(
-            0deg,
-            rgba(80, 80, 80, 0.2) 0px,
-            rgba(80, 80, 80, 0.2) 1px,
-            transparent 1px,
-            transparent 2px
-          ),
-          #0a0a0a;
-        background-attachment: fixed;
-        min-height: 100vh;
       }
 
       header {
-        background: rgba(0, 0, 0, 0.98);
+        background: #000000;
         color: white;
         padding: 1rem 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -76,18 +57,8 @@ const { title } = Astro.props;
         padding: 0;
       }
 
-      [style*="background: #1a1a1a"],
-      [style*="background:#1a1a1a"] {
-        background: rgba(26, 26, 26, 0.95) !important;
-      }
-
-      [style*="background: #000000"],
-      [style*="background:#000000"] {
-        background: rgba(0, 0, 0, 0.95) !important;
-      }
-
       footer {
-        background: rgba(0, 0, 0, 0.95);
+        background: #000000;
         color: white;
         text-align: center;
         padding: 2rem;
