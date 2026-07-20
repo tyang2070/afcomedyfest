@@ -8,26 +8,7 @@ const eventDates = 'September 3-6, 2026';
 
 const featuredActs = PERFORMERS;
 
-const allPerformers = [
-  'Kumail Nanjiani',
-  'Jo Koi',
-  'Manny Pacquiao',
-  'M. Night',
-  'Superlive',
-  'Fusion Ha',
-  'Mothership',
-  'Voltron',
-  'Miss Golightly',
-  'Asian Improv Near Me',
-  'Piesces',
-  'Festival Favorites',
-  'Performer Name 1',
-  'Performer Name 2',
-  'Performer Name 3',
-  'Performer Name 4',
-  'Performer Name 5',
-  'Performer Name 6'
-].sort();
+const allPerformers = PERFORMERS.sort((a, b) => a.name.localeCompare(b.name));
 
 const sponsors = [
   { name: 'The Wall', logo: '/placeholder-sponsor.png' },
@@ -54,6 +35,7 @@ const sponsors = [
 
     <!-- Dates and Location Banner -->
     <section class="dates-location-banner">
+      <div class="festival-title">Asian AF Comedy Festival</div>
       <div class="dates-location-content">
         <span class="dates">{eventDates}</span>
         <span class="separator">/</span>
@@ -90,7 +72,7 @@ const sponsors = [
           {allPerformers.map((performer, idx) => (
             <>
               {idx > 0 && <span class="separator-text"> / </span>}
-              <span class="performer-name">{performer}</span>
+              <a href={`/performers/${performer.slug}`} class="performer-name">{performer.name}</a>
             </>
           ))}
         </div>
@@ -121,8 +103,8 @@ const sponsors = [
 
     /* Hero Section */
     .hero-section {
-      background: #2a1a1a;
-      padding: 1.5rem 2rem;
+      background: #000000;
+      padding: 0.5rem 2rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -143,7 +125,7 @@ const sponsors = [
       background: #000000;
       border: none;
       border-radius: 0;
-      padding: 4rem 3rem;
+      padding: 1rem;
       max-width: 800px;
       margin: 0 auto;
       display: flex;
@@ -154,7 +136,7 @@ const sponsors = [
     .festival-logo-img {
       max-width: 100%;
       height: auto;
-      max-height: 400px;
+      max-height: 500px;
     }
 
     /* Dates and Location Banner */
@@ -167,6 +149,17 @@ const sponsors = [
       border-bottom: 2px solid #D4A574;
     }
 
+    .festival-title {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #D4A574;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-family: 'Antonio', sans-serif;
+    }
+
     .dates-location-content {
       font-size: 2.2rem;
       font-weight: 700;
@@ -175,7 +168,7 @@ const sponsors = [
       align-items: center;
       gap: 1.5rem;
       flex-wrap: wrap;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Antonio', sans-serif;
     }
 
     .separator {
@@ -214,7 +207,7 @@ const sponsors = [
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 3rem;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Antonio', sans-serif;
     }
 
     .featured-grid {
@@ -270,7 +263,7 @@ const sponsors = [
       font-weight: 700;
       color: #D4A574;
       margin: 0.5rem 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Antonio', sans-serif;
     }
 
     .featured-type {
@@ -306,12 +299,20 @@ const sponsors = [
       line-height: 1.8;
       color: #D4A574;
       font-weight: 500;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Antonio', sans-serif;
       word-spacing: 0.1em;
     }
 
     .performer-name {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid #D4A574;
       display: inline;
+      padding-bottom: 1px;
+    }
+
+    .performer-name:hover {
+      opacity: 0.7;
     }
 
     .separator-text {
@@ -369,7 +370,7 @@ const sponsors = [
       font-weight: 600;
       color: white;
       margin: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Antonio', sans-serif;
     }
 
     @media (max-width: 1024px) {
