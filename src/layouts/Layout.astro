@@ -38,16 +38,27 @@ const { title } = Astro.props;
       header {
         background: #000000;
         color: white;
-        padding: 1rem 0;
+        padding: 1.5rem 2rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         border-bottom: 2px solid #D4A574;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
       }
 
       nav a {
         color: white;
         text-decoration: none;
-        margin: 0 1rem;
         transition: color 0.3s;
+        font-size: 1.5rem;
+        font-weight: 600;
+        flex: 1;
+        text-align: center;
+        padding: 0.5rem 0;
       }
 
       nav a:hover {
