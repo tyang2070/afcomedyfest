@@ -31,13 +31,20 @@ const { title } = Astro.props;
       body {
         line-height: 1.6;
         background:
-          linear-gradient(to right, transparent 0%, rgba(139, 0, 0, 0.25) 60%, rgba(139, 0, 0, 0.5) 100%),
+          linear-gradient(to right, transparent 0%, rgba(200, 30, 30, 0.4) 60%, rgba(150, 20, 20, 0.6) 100%),
+          repeating-linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.08) 0px,
+            rgba(255, 255, 255, 0.08) 1px,
+            transparent 1px,
+            transparent 3px
+          ),
           repeating-linear-gradient(
             0deg,
-            rgba(255, 255, 255, 0.03) 0px,
-            rgba(255, 255, 255, 0.03) 1px,
+            rgba(255, 255, 255, 0.05) 0px,
+            rgba(255, 255, 255, 0.05) 1px,
             transparent 1px,
-            transparent 2px
+            transparent 3px
           ),
           #0a0a0a;
         background-attachment: fixed;
