@@ -55,6 +55,7 @@ const performers = records.map(row => {
     performer_image: imagePath,
     performer_type: row.performer_type || null,
     featured: row.featured && row.featured.toLowerCase() === 'true',
+    feature_ordering: row.feature_ordering ? parseInt(row.feature_ordering) : null,
   };
 });
 

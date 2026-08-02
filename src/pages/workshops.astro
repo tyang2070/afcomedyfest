@@ -11,53 +11,8 @@ const workshops = WORKSHOPS;
       <h1>Workshops</h1>
       <p>Learn from industry experts at AF Comedy Fest. Sign up for workshops to master new skills and connect with the comedy community.</p>
 
-      <div class="workshops-grid">
-        {workshops.map((workshop) => (
-          <div class="workshop-card">
-            <div class="workshop-header">
-              <div class="teacher-image">
-                {workshop.image ? (
-                  <img src={workshop.image} alt={workshop.teacher} />
-                ) : (
-                  <div class="image-placeholder">{workshop.teacher[0]}</div>
-                )}
-              </div>
-              <div class="workshop-info">
-                <h3>{workshop.title}</h3>
-                <p class="teacher-name">by {workshop.teacher}</p>
-              </div>
-            </div>
-
-            <div class="workshop-details">
-              <div class="detail">
-                <span class="label">Date:</span>
-                <span>{workshop.date}</span>
-              </div>
-              <div class="detail">
-                <span class="label">Time:</span>
-                <span>{workshop.startTime} - {workshop.endTime}</span>
-              </div>
-              <div class="detail">
-                <span class="label">Location:</span>
-                <span>{workshop.location}</span>
-              </div>
-              <div class="detail">
-                <span class="label">Cost:</span>
-                <span>${workshop.cost}</span>
-              </div>
-              <div class="detail">
-                <span class="label">Capacity:</span>
-                <span>{workshop.capacity} spots</span>
-              </div>
-            </div>
-
-            <div class="workshop-bio">
-              {workshop.bio}
-            </div>
-
-            <a href={workshop.link} class="register-button">Register Now</a>
-          </div>
-        ))}
+      <div class="coming-soon-box">
+        Workshops info coming soon!
       </div>
     </div>
   </div>
@@ -85,6 +40,17 @@ const workshops = WORKSHOPS;
       color: #E8DCC8;
       font-size: 1.1rem;
       margin-bottom: 2rem;
+    }
+
+    .coming-soon-box {
+      border: 2px solid #D4A574;
+      border-radius: 8px;
+      padding: 3rem 2rem;
+      text-align: center;
+      color: #D4A574;
+      font-size: 1.5rem;
+      font-weight: 600;
+      background: #2a2a2a;
     }
 
     .workshops-grid {

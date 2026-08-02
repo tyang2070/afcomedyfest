@@ -23,6 +23,7 @@ export interface Performer {
   image: ImageMetadata | null;
   performer_type: string | null;
   featured: boolean;
+  feature_ordering: number | null;
 }
 
 // Dynamic import all performer images from assets/performer_images/
@@ -34,12 +35,12 @@ const imageModules = import.meta.glob<{ default: ImageMetadata }>(
 function getImageFromPath(filePath: string | null): ImageMetadata | null {
   if (!filePath) return null;
 
-  // Extract filename from path (e.g., "assets/performer_images/capulet.jpg" -> "capulet.jpg")
   const filename = filePath.split('/').pop();
   if (!filename) return null;
 
+  const filenameLower = filename.toLowerCase();
   for (const [modulePath, mod] of Object.entries(imageModules)) {
-    if (modulePath.endsWith(filename)) {
+    if (modulePath.split('/').pop()?.toLowerCase() === filenameLower) {
       return mod.default;
     }
   }
@@ -53,6 +54,7 @@ export const PERFORMERS: Performer[] = performerData.map(p => ({
   image: getImageFromPath(p.performer_image),
   performer_type: p.performer_type,
   featured: p.featured || false,
+  feature_ordering: p.feature_ordering ?? null,
 }));
 
 export function getPerformer(slug: string): Performer | undefined {
