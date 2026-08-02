@@ -1,0 +1,1 @@
+**Janesh Rahlan** is a former tech bro turned comedian. Recently featured on Netflix with Kevin Hart, Janesh’s style leans on his midwest upbringing, career in tech and general millennial nonsense. He’s a regular at the Hollywood Improv, has opened for Jeff Ross and Kumail Nanjiani and tours with Jordan Klepper of *The Daily Show*. He was also featured in a Super Bowl commercial.

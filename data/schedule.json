@@ -16,80 +16,91 @@
           "showName": "South Asian AF",
           "startTime": "19:30",
           "endTime": "21:00",
-          "subacts": [],
-          "ticketLink": null
+          "subacts": [
+            "Amita Batra Dance Co",
+            "Asif Ali",
+            "D'Lo",
+            "The Get Brown",
+            "Govind Kumar",
+            "Sarika Mande",
+            "Sundeep Morrison",
+            "Zindabaddies"
+          ],
+          "ticketLink": "http://outsideintheatre.vbotickets.com/event/improv_crooner/190033"
         },
         {
-          "showName": "Filipino AF",
+          "showName": "All-Star Stand-up Show",
           "startTime": "21:00",
           "endTime": "22:30",
-          "subacts": [],
-          "ticketLink": null
+          "subacts": [
+            "Joel Kim Booster",
+            "Leslie Liao",
+            "Helen Hong",
+            "Robin Tran"
+          ],
+          "ticketLink": "http://outsideintheatre.vbotickets.com/event/improv_crooner/190033"
         }
       ],
       "ArtBox": [
         {
-          "showName": "Improv Showcase",
+          "showName": "Improv Power Hour",
           "startTime": "18:00",
           "endTime": "19:00",
-          "subacts": [],
-          "ticketLink": null
-        },
-        {
-          "showName": "Improv Showcase",
-          "startTime": "18:30",
-          "endTime": "19:30",
           "subacts": [
-            "Mothership",
-            "Voltron"
+            "Cabbage",
+            "Shoes Off",
+            "Super Live"
           ],
-          "ticketLink": null
+          "ticketLink": "http://outsideintheatre.vbotickets.com/event/improv_crooner/190033"
         },
         {
-          "showName": "Improv Showcase",
+          "showName": "The Double Feature w/ Special Guest Raymond Lee",
           "startTime": "19:00",
           "endTime": "20:00",
           "subacts": [
-            "Asian Improv Near Me",
-            "Fusion Ha"
+            "BOGO",
+            "Raymond Lee",
+            "Voltron"
           ],
-          "ticketLink": null
+          "ticketLink": "http://outsideintheatre.vbotickets.com/event/asian_af_presents_voltron_and_friends/198416"
         },
         {
-          "showName": "Break / Cleaning",
+          "showName": "Break / Theatre Cleaning",
           "startTime": "20:00",
           "endTime": "20:30",
           "subacts": [],
           "ticketLink": null
         },
         {
-          "showName": "Improv Showcase",
+          "showName": "Primetime Variety Hour",
           "startTime": "20:30",
           "endTime": "21:30",
           "subacts": [
-            "Miss Golightly",
-            "Asian Improv Near Me",
-            "Piesces"
+            "Cam Gavinski",
+            "Chelsea Cruz",
+            "Chrissa Sparkles",
+            "Pisces",
+            "Tatyana Guchi"
           ],
           "ticketLink": null
         },
         {
-          "showName": "Improv Showcase",
+          "showName": "Improv Power Hour",
           "startTime": "21:30",
           "endTime": "22:30",
           "subacts": [
-            "Miss Golightly",
-            "Asian Improv Near Me",
-            "Piesces"
+            "Room To Improv",
+            "Nihongo Dake",
+            "Joy F*ck Club"
           ],
           "ticketLink": null
         },
         {
-          "showName": "Improv Jam",
+          "showName": "AF Comedy Fest Improv Jam",
           "startTime": "22:30",
           "endTime": "23:30",
           "subacts": [
-            "Open to all performers"
+            "Open to all AAPI performers"
           ],
           "ticketLink": null
         }
@@ -98,36 +109,108 @@
     "2026-09-04": {
       "ArtSpace": [
         {
-          "showName": "Comedian I",
-          "startTime": "17:00",
-          "endTime": "18:00",
-          "subacts": [],
+          "showName": "Asian AF Los Angeles",
+          "startTime": "19:30",
+          "endTime": "21:00",
+          "subacts": [
+            "Margaret Cho",
+            "Voltron"
+          ],
           "ticketLink": null
         },
         {
-          "showName": "Comedy Night K",
-          "startTime": "18:00",
-          "endTime": "19:30",
+          "showName": "Filipino AF",
+          "startTime": "21:00",
+          "endTime": "22:30",
           "subacts": [
-            "Comic 1",
-            "Comic 2"
+            "Andrew Orolfo",
+            "Kevin Camia",
+            "Vincent Rodriguez III",
+            "Sini-gang"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Asian AF & Dopetown 3000 Present: AF Comedy Fest Rap Battle Show",
+          "startTime": "22:30",
+          "endTime": "23:59",
+          "subacts": [
+            "Tim Chantarangsu",
+            "Tatyana Guchi",
+            "Lauren Moon",
+            "Dopetown 3000"
           ],
           "ticketLink": null
         }
       ],
       "ArtBox": [
         {
-          "showName": "Improv Act J",
-          "startTime": "17:00",
-          "endTime": "18:00",
+          "showName": "Happy Hour Variety Show",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "subacts": [
+            "A++",
+            "Woody Fu",
+            "Teruko Nakajima",
+            "Milan Patel",
+            "Brent Weinbach"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Embarrassed By Night Presents: The Viet-Down!",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "subacts": [
+            "Embarrssed By Night",
+            "Sammy Cantu",
+            "Fred Le",
+            "Joseph Nguyen",
+            "Lillian Sam",
+            "Andy Van"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "20:00",
+          "endTime": "20:30",
           "subacts": [],
           "ticketLink": null
         },
         {
-          "showName": "Performance L",
-          "startTime": "18:00",
-          "endTime": "19:30",
-          "subacts": [],
+          "showName": "Primetime Variety Hour",
+          "startTime": "20:30",
+          "endTime": "21:30",
+          "subacts": [
+            "The BackyardAsians",
+            "Dan Guan",
+            "Irene Tu",
+            "Marques Ray",
+            "Please Take Off Your Shoes"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "All-Star Standup Hour",
+          "startTime": "21:30",
+          "endTime": "22:30",
+          "subacts": [
+            "Deeptanshu Jha",
+            "Peter S. Kim",
+            "Andrew Lopez",
+            "Alex Song-Xia",
+            "Tien Tran"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "AF Comedy Fest Improv Jam",
+          "startTime": "22:30",
+          "endTime": "23:30",
+          "subacts": [
+            "Open to all AAPI performers"
+          ],
           "ticketLink": null
         }
       ]
@@ -135,31 +218,205 @@
     "2026-09-05": {
       "ArtSpace": [
         {
-          "showName": "Headliner M",
-          "startTime": "18:00",
-          "endTime": "19:00",
+          "showName": "AF Nation: Coast to Coast Comedy Showcase",
+          "startTime": "13:30",
+          "endTime": "15:00",
+          "subacts": [
+            "A++",
+            "Shaan Baig",
+            "M.S.G. Comedy",
+            "Deeptanshu Jha",
+            "Shivaan Nadan",
+            "Shoes Off",
+            "Stir Friday Night"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "All-Star Musical Comedy Show",
+          "startTime": "15:00",
+          "endTime": "16:30",
+          "subacts": [
+            "Dylan Adler",
+            "The BackyardAsians",
+            "Josh Fleury",
+            "Fourspice+",
+            "Sam Oh",
+            "Joy Regullano"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "16:30",
+          "endTime": "17:00",
           "subacts": [],
           "ticketLink": null
         },
         {
-          "showName": "Grand Finale O",
-          "startTime": "19:00",
-          "endTime": "21:00",
+          "showName": "Hawai'i AF",
+          "startTime": "17:30",
+          "endTime": "18:30",
           "subacts": [
-            "All performers"
+            "Hawai'i AF"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Asian AF New York",
+          "startTime": "18:30",
+          "endTime": "20:00",
+          "subacts": [
+            "Asian AF NY Alumni",
+            "Michelle Chan Bennett",
+            "Fumi Abe",
+            "Joy F*ck Club"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "20:00",
+          "endTime": "20:30",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Asian AF Los Angeles",
+          "startTime": "20:30",
+          "endTime": "22:00",
+          "subacts": [
+            "Aparna Nancherla",
+            "Voltron"
           ],
           "ticketLink": null
         }
       ],
       "ArtBox": [
         {
-          "showName": "Special Guest N",
+          "showName": "Improv Power Hour",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "subacts": [
+            "Capulet",
+            "Monstera",
+            "Yes And Broadway"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "All-Star Standup Hour",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "subacts": [
+            "Jared Goldstein",
+            "Sierra Katow",
+            "Julia Li",
+            "Will Pepper",
+            "Brent Weinbach"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Afternoon Variety Hour",
+          "startTime": "15:30",
+          "endTime": "16:30",
+          "subacts": [
+            "How I Met Your Masi",
+            "Mahesh Kotagi",
+            "Miss Golightly",
+            "Joseph Nguyen",
+            "Angel Yau"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Improv Power Hour",
+          "startTime": "16:30",
+          "endTime": "17:30",
+          "subacts": [
+            "Asian AF NY Alumni",
+            "Davids Busters",
+            "Cold Tofu"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "17:30",
+          "endTime": "18:00",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Primetime Variety Show",
           "startTime": "18:00",
           "endTime": "19:00",
           "subacts": [
-            "Guest 1",
-            "Guest 2",
-            "Guest 3"
+            "Jared Goldstein",
+            "Diana Hong",
+            "Mike Lane",
+            "M.S.G. Comedy",
+            "Y'all We Asian"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "The Double Feature w/ Special Guest Amy Hill",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "subacts": [
+            "Amy Hill",
+            "Mothership",
+            "Stir Friday Night"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "20:00",
+          "endTime": "20:30",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Facial Recognition Comedy",
+          "startTime": "20:30",
+          "endTime": "21:30",
+          "subacts": [
+            "Fizaa Dosani",
+            "Pallavi Gunalan",
+            "Janesh Rahlan",
+            "Sahana Srinivasan"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "All-Star Standup Hour",
+          "startTime": "21:30",
+          "endTime": "22:30",
+          "subacts": [
+            "Josef Anolin",
+            "Kevin Camia",
+            "Meghana Indurti",
+            "Jerry Tran",
+            "Jenny Yang"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "AF Comedy Fest Improv Jam",
+          "startTime": "22:30",
+          "endTime": "23:30",
+          "subacts": [
+            "Open to all AAPI performers"
           ],
           "ticketLink": null
         }
@@ -168,20 +425,134 @@
     "2026-09-06": {
       "ArtSpace": [
         {
-          "showName": "Matinee Show P",
-          "startTime": "16:00",
-          "endTime": "17:00",
+          "showName": "Dragons AF w/ Special Guest Zac Oyama",
+          "startTime": "12:00",
+          "endTime": "14:00",
+          "subacts": [
+            "Dragons AF",
+            "Zac Oyama"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "AF Nation: Coast to Coast Comedy Showcase",
+          "startTime": "14:00",
+          "endTime": "15:30",
+          "subacts": [
+            "Michelle Chan Bennett",
+            "Dan Guan",
+            "Hawai’i AF",
+            "Hib Hib",
+            "Mahesh Kotagi",
+            "Jerry Tran",
+            "Y’all We Asian"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "15:30",
+          "endTime": "16:00",
           "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "All-Star Standup Show",
+          "startTime": "16:00",
+          "endTime": "17:30",
+          "subacts": [
+            "Fumi Abe",
+            "Sierra Katow",
+            "Andrew Orolfo",
+            "Milan Patel",
+            "Alex Song-Xia",
+            "Irene Tu"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Voltron And Friends: End of Fest Improv Show",
+          "startTime": "17:30",
+          "endTime": "19:00",
+          "subacts": [
+            "Asian AF Los Angeles",
+            "Asian AF New York",
+            "Dragons AF",
+            "Filipino AF",
+            "Gaysian AF",
+            "Hawai'i AF",
+            "South Asian AF"
+          ],
           "ticketLink": null
         }
       ],
       "ArtBox": [
         {
-          "showName": "Closing Act Q",
-          "startTime": "16:00",
-          "endTime": "17:00",
+          "showName": "All-Star Standup Hour",
+          "startTime": "12:00",
+          "endTime": "13:00",
           "subacts": [
-            "Final performers"
+            "Ahmed Bharoocha",
+            "Diana Hong",
+            "Aakash Kesavarapu",
+            "Dylan McKeever",
+            "Will Pepper"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Afternoon Variety Hour",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "subacts": [
+            "Asians of Mach",
+            "Dione Kuraoka",
+            "Ali Lu",
+            "Kausar Mohammed",
+            "Shivaan Nadan"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Break / Theatre Cleaning",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "subacts": [],
+          "ticketLink": null
+        },
+        {
+          "showName": "Improv Power Hour",
+          "startTime": "14:30",
+          "endTime": "15:30",
+          "subacts": [
+            "Bobalicious",
+            "The S Team",
+            "Tian Mi Mi"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "Happy Hour Variety Show",
+          "startTime": "15:30",
+          "endTime": "16:30",
+          "subacts": [
+            "Asian Improv Near Me",
+            "D'Lo",
+            "Kunal Dudheker",
+            "Caitlin Frain",
+            "Hib Hib",
+            "Max & Nicky"
+          ],
+          "ticketLink": null
+        },
+        {
+          "showName": "The Double Feature w/ Special Guest Andrew Law",
+          "startTime": "16:30",
+          "endTime": "17:30",
+          "subacts": [
+            "Andrew Law",
+            "Gaysian AF",
+            "Fusion Ha"
           ],
           "ticketLink": null
         }

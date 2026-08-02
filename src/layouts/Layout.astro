@@ -11,12 +11,12 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Miranda+Sans:wght@400;700;900&display=swap" rel="stylesheet" />
     <title>{title}</title>
     <style is:global>
       * {
@@ -26,13 +26,15 @@ const { title } = Astro.props;
       }
 
       html {
-        font-family: 'Antonio', sans-serif;
+        font-family: 'Miranda Sans', sans-serif;
         background: #1a1a1a;
         color: #ffffff;
       }
 
       body {
         line-height: 1.6;
+        overflow-x: hidden;
+        width: 100%;
       }
 
       header {
@@ -63,6 +65,24 @@ const { title } = Astro.props;
 
       nav a:hover {
         color: #D4A574;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          padding: 1rem;
+        }
+
+        nav a {
+          font-size: 1rem;
+          padding: 0.25rem 0;
+        }
+      }
+
+      @media (max-width: 480px) {
+        nav a {
+          font-size: 0.75rem;
+          padding: 0.25rem 0;
+        }
       }
 
       main {

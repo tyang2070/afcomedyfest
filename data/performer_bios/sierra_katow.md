@@ -1,0 +1,3 @@
+**Sierra Katow** is an LA-based stand-up comic, writer, and actor. Her debut comedy special, *FUNT*, is now streaming on Prime Video. She can be seen on *The Sex Lives of College Girls*, *The G Word with Adam Conover*, and *Ant-Man and the Wasp: Quantumania*. As a stand-up, she has performed on *Last Comic Standing*, *Last Call with Carson Daly*, *The Roots of Comedy with Jesus Trejo*, Just For Laughs Digital, FOX, and MTV.
+
+She is currently a writer on the new CBS sitcom *Eternally Yours*. In the past, she has written for *Beavis and Butt-Head, Golden Axe, Exploding Kittens, Close Enough, Earth To Ned,* and more\! 

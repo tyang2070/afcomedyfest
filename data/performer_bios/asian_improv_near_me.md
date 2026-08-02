@@ -1,4 +1,4 @@
-**Asian Improv Near Me** is a dynamic improv comedy group bringing laughter and spontaneity to audiences. Their high-energy performances showcase creativity, quick wit, and strong ensemble chemistry.
+**Asian Improv Near Me:** Come watch 4 Asian Bad Boys do a Pretty Flower and then join us after for pick-up basketball.
 
 Cast: **Alfred Aquino II**, **Sam Di**, **Chuck Maa**, **Tao Yang**
 

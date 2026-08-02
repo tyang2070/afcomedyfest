@@ -1,0 +1,1 @@
+**Chrissa Sparkles** is a Filipina music comedian currently on tour with her solo show debut DELULU\! Known for her comedy songs on the internet, she's garnered attention on social media for her songs “Fuck Ice”, “Don't Fuck a Fascist”, and “Disney Channel”. Follow her on Instagram @chrissasparkles and tour dates at ChrissaSparkles.com.

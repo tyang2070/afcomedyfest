@@ -1,0 +1,1 @@
+**Sherry Cola** is a stand-up comedian, actress, and writer. You’ve seen her in hit television series *Good Trouble*, *Nobody Wants This*, and *Shrinking*, as well as films *Joy Ride*, *Little Brother*, and *Camp Rock 3*. As a proud immigrant from Shanghai, Sherry is always passionately advocating for both AAPI and LGBTQ+ stories on and off the screen. 

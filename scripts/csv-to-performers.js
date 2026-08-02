@@ -37,13 +37,15 @@ const csv = readFileSync(csvPath, 'utf-8');
 const records = parse(csv, { columns: true, skip_empty_lines: true, trim: true });
 
 const performers = records.map(row => {
-  const bioPath = resolve(projectRoot, `data/performer_bios/${row.bio}`);
   const imagePath = row.performer_image ? `assets/performer_images/${row.performer_image}` : null;
 
   let bio = null;
-  if (bioPath && existsSync(bioPath)) {
-    const bioMarkdown = readFileSync(bioPath, 'utf-8');
-    bio = markdownToHtml(bioMarkdown);
+  if (row.bio && row.bio.trim()) {
+    const bioPath = resolve(projectRoot, `data/performer_bios/${row.bio}`);
+    if (existsSync(bioPath)) {
+      const bioMarkdown = readFileSync(bioPath, 'utf-8');
+      bio = markdownToHtml(bioMarkdown);
+    }
   }
 
   return {
@@ -52,6 +54,7 @@ const performers = records.map(row => {
     bio,
     performer_image: imagePath,
     performer_type: row.performer_type || null,
+    featured: row.featured && row.featured.toLowerCase() === 'true',
   };
 });
 

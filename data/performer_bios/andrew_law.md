@@ -1,0 +1,1 @@
+**Andrew Law** is a writer and producer. He has written for *The Good Place*, *Silicon Valley*, and most recently *Hacks*, for which he received an Emmy and two Golden Globes. He created and stars alongside Stephanie Hsu and Poppy Liu in the upcoming adult animated comedy *Dang\!*, which premieres September 8 on Netflix.

@@ -1,0 +1,1 @@
+**Caitlin Frain** is a comedic actor recently named as a 2026 Just for Laughs New Face: Characters. She is an alum of the Groundlings Sunday Company and the 2020 CBS Showcase and has appeared on *St. Denis Medical*. She performs monthly on UCB’s only hour-long Maude team, The Family Business.

@@ -1,0 +1,1 @@
+**Zac Oyama** is a writer and improviser from Birmingham, Alabama. Zac is a part of Dropout’s Dungeons & Dragons actual play show *Dimension 20* and appears in other Dropout shows like *Make Some Noise* and *Game Changer*, as well as writing for CollegeHumor’s original sketch show *Hardly Working*. He also performs with his improv team Yeti around Los Angeles.

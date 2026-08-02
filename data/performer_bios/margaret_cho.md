@@ -1,0 +1,1 @@
+Comedian. Actor. Musician. Advocate. Entrepreneur. Artist. Just a few of the adjectives that describes **Margaret Cho**, a jack of all trades, master of many. When hasn’t Margaret and her voice been a part of our consciousness? It seems like she’s always been here, lighting the path for other women, other members of underrepresented groups, other performers, to follow.

@@ -67,15 +67,18 @@ const formatDate = (dateStr: string) => {
                           {formatTime(show.startTime)} - {formatTime(show.endTime)}
                         </div>
                         <div class="show-header">
-                          <h4 class="show-name">
-                            {show.ticketLink ? (
-                              <a href={show.ticketLink} target="_blank" rel="noopener noreferrer">
-                                {show.showName}
-                              </a>
-                            ) : (
-                              show.showName
-                            )}
-                          </h4>
+                          <div class="show-name-row">
+                            <h4 class="show-name">
+                              {show.ticketLink ? (
+                                <a href={show.ticketLink} target="_blank" rel="noopener noreferrer">
+                                  {show.showName}
+                                </a>
+                              ) : (
+                                show.showName
+                              )}
+                            </h4>
+                            <span class={`venue-tag venue-tag--${stage.toLowerCase().replace(' ', '-')}`}>{stage}</span>
+                          </div>
                           {show.ticketLink && (
                             <a href={show.ticketLink} target="_blank" rel="noopener noreferrer" class="ticket-btn">
                               Get Tickets
@@ -85,6 +88,10 @@ const formatDate = (dateStr: string) => {
                         {show.subacts.length > 0 && (
                           <div class="subacts">
                             {show.subacts.map((act, idx) => {
+                              if (act.trim().toLowerCase().startsWith('open to all')) {
+                                return <p key={idx} class="open-call-text">{act}</p>;
+                              }
+
                               const performer = findPerformerByName(act);
                               const content = (
                                 <>
@@ -134,7 +141,7 @@ const formatDate = (dateStr: string) => {
       font-weight: 600;
       color: #D4A574;
       margin-bottom: 2rem;
-      font-family: 'Antonio', sans-serif;
+      font-family: 'Miranda Sans', sans-serif;
     }
 
     .dates-tabs {
@@ -182,7 +189,7 @@ const formatDate = (dateStr: string) => {
       color: #D4A574;
       margin: 0;
       font-weight: 700;
-      font-family: 'Antonio', sans-serif;
+      font-family: 'Miranda Sans', sans-serif;
     }
 
     .stages-grid {
@@ -209,7 +216,7 @@ const formatDate = (dateStr: string) => {
       margin: 0;
       font-size: 1.1rem;
       font-weight: 700;
-      font-family: 'Antonio', sans-serif;
+      font-family: 'Miranda Sans', sans-serif;
       letter-spacing: 0.05em;
     }
 
@@ -248,12 +255,43 @@ const formatDate = (dateStr: string) => {
       margin-bottom: 0.75rem;
     }
 
+    .show-name-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex: 1;
+      flex-wrap: wrap;
+    }
+
+    .venue-tag {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .venue-tag--artspace {
+      background: #D4A574;
+      color: #000;
+    }
+
+    .venue-tag--artbox {
+      background: #2a2a2a;
+      color: #D4A574;
+      border: 1px solid #D4A574;
+    }
+
     .show-name {
       margin: 0;
       font-size: 1.1rem;
       font-weight: 700;
       color: #ffffff;
-      font-family: 'Antonio', sans-serif;
+      font-family: 'Miranda Sans', sans-serif;
       flex: 1;
     }
 
@@ -343,14 +381,18 @@ const formatDate = (dateStr: string) => {
     }
 
     .subact-image-placeholder {
-      width: 100%;
-      height: 100%;
+      width: 120px;
+      height: 120px;
+      border-radius: 8px;
+      border: 2px solid #D4A574;
+      background: #2a2a2a;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 3rem;
       font-weight: 700;
       color: #D4A574;
+      flex-shrink: 0;
     }
 
     .subact-name {
@@ -380,6 +422,14 @@ const formatDate = (dateStr: string) => {
       color: #D4A574;
       font-weight: 600;
       margin-right: 0.25rem;
+    }
+
+    .open-call-text {
+      color: #E8DCC8;
+      font-style: italic;
+      font-size: 0.95rem;
+      margin: 0;
+      align-self: center;
     }
 
     .no-shows {
