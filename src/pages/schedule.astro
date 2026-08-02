@@ -504,4 +504,20 @@ const formatDate = (dateStr: string) => {
       }
     }
   </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.ticket-btn, .show-name a').forEach(link => {
+        link.addEventListener('click', () => {
+          const showName = link.closest('.show-card')?.querySelector('.show-name')?.textContent?.trim();
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'ticket_click', {
+              event_category: 'tickets',
+              event_label: showName || 'unknown show',
+            });
+          }
+        });
+      });
+    });
+  </script>
 </Layout>
