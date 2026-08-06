@@ -22,7 +22,7 @@ if (!performer) {
         {performer.image ? (
           <Image src={performer.image} alt={performer.name} width={500} height={500} />
         ) : (
-          <div class="performer-initial">{performer.name[0].toUpperCase()}</div>
+          <div class="performer-initial">{performer.name?.[0]?.toUpperCase() ?? '?'}</div>
         )}
       </div>
       <div class="performer-info">

@@ -153,6 +153,33 @@
     "feature_ordering": null
   },
   {
+    "slug": "aaf_ny_alumni",
+    "name": "Asian AF NY Alumni",
+    "bio": "<p>Following its breakout LA debut, Asian AF was formed in New York in 2017\\. Since then, many of those NYC performers have transplanted to Los Angeles—making this the ultimate East-meets-West improv superteam!</p>\n<p>Cast: <strong>Lily Du, Amir Khan, Mike Lane, Dan Lee, Curtis Retherford, Alex Song-Xia, Sylvie Wang, Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/aaf_ny_alumni.jpg",
+    "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "asian_af_los_angeles",
+    "name": "Asian AF Los Angeles",
+    "bio": "<p>Established in 2016, <strong>Asian AF</strong> (@asianafshow) quickly cemented its status as a must-see comedy show in Los Angeles, New York, and beyond — spotlighting the hottest rising stars and powerhouse Asian American talent in improv, stand-up, sketch, characters, musical comedy, storytelling, and more. Asian AF celebrates its 10-year anniversary by putting on the AF Comedy Festival!</p>\n<p>Asian AF has headlined major comedy festivals, including SF Sketchfest, the New York Comedy Festival, Clusterfest, the Del Close Marathon, the Hawaii Comedy Festival, Richmond’s 2nd Best Fest, Berlin’s Das Improv Festival, London’s Big Scene Improv Festival, the Edinburgh International Improv Festival, the Kennedy Center in Washington, D.C., and many more.</p>\n<p>Produced by  <br><strong>Keiko Agena, Will Choi, Sarah Claspell, Allyn Pintal, Tae Yoo</strong></p>",
+    "performer_image": "assets/performer_images/asian_af_los_angeles.jpg",
+    "performer_type": "variety show",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "asian_af_new_york",
+    "name": "Asian AF New York",
+    "bio": "<p><strong>Asian AF New York</strong> (@asianafshow) is the New York City chapter of the hit comedy and variety show celebrating AAPI voices. Hosted by resident improv team The Joy Fuck Club, each show brings together the next generation of comedy stars alongside some of its biggest names in stand-up, improv, sketch, storytelling, and beyond for one unforgettable night of comedy.</p>\n<p>From razor-sharp stand-up to hilarious character work, heartfelt storytelling, audience surprises, and an improvised finale that somehow always goes gloriously off the rails, Asian AF NY is equal parts showcase, party, and celebration of the incredible AAPI talent shaping New York's comedy scene.</p>\n<p>The show has been featured in <em>The New York Times, NBC News, ABC News, Vulture, The Serica Initiative</em>, and has headlined major comedy festivals nationwide.</p>\n<p>Cast: <strong>Donald Chang, Alex Cheng, Ryan Chittaphong, Kurt Cruz, Florence Friebe, Aakash Kesaverapu, Kendra Singh, Angel Yau</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/asian_af_new_york.png",
+    "performer_type": null,
+    "featured": "",
+    "feature_ordering": null
+  },
+  {
     "slug": "asian_improv_near_me",
     "name": "Asian Improv Near Me",
     "bio": "<p><strong>Asian Improv Near Me:</strong> Come watch 4 Asian Bad Boys do a Pretty Flower and then join us after for pick-up basketball.</p>\n<p>Cast: <strong>Alfred Aquino II</strong>, <strong>Sam Di</strong>, <strong>Chuck Maa</strong>, <strong>Tao Yang</strong></p>\n<p><em>Line-up subject to change</em></p>",
@@ -335,7 +362,7 @@
   {
     "slug": "dragons_af",
     "name": "Dragons AF",
-    "bio": null,
+    "bio": "<p><strong>Asian AF Presents: DRAGONS AF</strong></p>\n<p><strong>DRAGONS AF</strong> is the hit comedy TTRPG show with performers from Asian AF! This special one-shot campaign put our heroes once again on a path of revenge with a setting, subclasses, and monsters inspired by Asian lore and myth!</p>\n<p>In 2024, Asian AF partnered with comedy podcast network Earwolf to create DRAGONS AF, a Dungeons & Dragons podcast miniseries featuring comedians from Asian AF. In November 2025, Dragons AF returned to the live stage to debut our newest campaign centered around revenge at Outside In Theatre!</p>\n<p>Cast: <strong>Keiko Agena, Jed Alcantara, Alfred Aquino II, Cassi Jerkins, Chuck Maa, Tao Yang</strong> with Special Guest <strong>Zac Oyama</strong> (Dropout TV’s <em>Dimension 20</em>)</p>\n<p>Dragons AF is produced by <strong>Jed Alcantara, Will Choi, Cassi Jerkins,</strong> & <strong>Chuck Maa</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/dragons_af.jpg",
     "performer_type": "role-playing game",
     "featured": false,
@@ -374,6 +401,15 @@
     "bio": "<p><strong>Facial Recognition Comedy</strong> (FRC) is a nationally touring stand-up show featuring female-identifying performers of MENASA (Middle Eastern, North African, & South Asian) descent. The show was created as a response to tokenism and underrepresentation in entertainment, and to let everyone know that we are NOT the same person!  <br>   <br>FRC has had bicoastal residencies in NYC (New York Comedy Club) and LA (The World Famous Comedy Store), annual appearances at SF Sketchfest, and was listed by The New York Times as one of the top 5 shows they were most excited to see at the NYC Comedy Festival. FRC has also been a Creators First Clubhouse show, and has also been mentioned in Deadline, Daily Beast, Vulture, Screen Rant, Backstage, and more.  <br>   <br>Facial Recognition Comedy is executive-produced by comedians Fizaa Dosani, Zahra Ali, and Pallavi Gunalan.</p>\n<p>Cast: <strong>Zahra Ali, Fizaa Dosani, Pallavi Gunalan</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/facial_recognition_comedy.jpeg",
     "performer_type": "stand-up",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "filipino_af",
+    "name": "Filipino AF",
+    "bio": "<p><strong>Filipino AF (@filipinoafshow)</strong> is a comedy variety show featuring the best Filipino American talent in Los Angeles. Improv, sketch, standup, and maybe even some music and dance. (It’s Filipinos after all!)</p>\n<p>Produced by  <br><strong>Amalia Aquino, Allyn Pintal, Joy Regullano</strong></p>",
+    "performer_image": "assets/performer_images/filipino_af.jpg",
+    "performer_type": "variety show",
     "featured": false,
     "feature_ordering": null
   },
@@ -425,9 +461,18 @@
   {
     "slug": "gaysian_af",
     "name": "Gaysian AF",
-    "bio": "<p>Born from the Asian AF family, <strong>Gaysian AF</strong> is the premier LGBTQ+ Asian American comedy showcase. After five years of sold-out crowds, the Gaysian AF Superteam is hitting the stage at the AF Comedy Festival for an unforgettable improv set!</p>\n<p>Cast: <strong>DarylJim</strong>, <strong>Peter Kim, Laurie Magers, Sam Oh</strong>, <strong>Chris Renfro</strong>, <strong>Alex Song-Xia,</strong> <strong>Ruha Taslimi</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": null,
+    "bio": "<p>Born from the Asian AF family, <strong>Gaysian AF</strong> is the premier LGBTQ+ Asian American comedy showcase. After five years of sold-out crowds, the Gaysian AF Superteam is hitting the stage at the AF Comedy Festival for an unforgettable improv set!</p>\n<p>Cast: <strong>DarylJim</strong>, <strong>Peter S. Kim, Laurie Magers, Sam Oh</strong>, <strong>Chris Renfro</strong>, <strong>Alex Song-Xia,</strong> <strong>Ruha Taslimi</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/gaysian_af.jpg",
     "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "hawaii_af",
+    "name": "Hawai`i AF",
+    "bio": "<p><strong>Hawaiʻi AF</strong> (@hawaiiafshow) is a comedy variety show created by and starring Hawai‘i born, based, and connected actors and comedians. Representing the island's melting pot of Asian and Polynesian culture and points of view, this show features improv, sketch comedy, and live music. Two scoops funny wit gravy all ovah. Bring da aunties, bring da uncles, leave da bebehs at home. Go check 'um, go check 'um, GO\\!</p>\n<p>Cast: <strong>Kimee Balmilero, Dylan Chace-Lee, DarylJim, Kaliko Fase, Chelsie Lihilihi, Ixchel Lopez, Ryan “Oki” Okinaka, Jordan Savusa, Jose Ver</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/hawaii_af.png",
+    "performer_type": "variety show",
     "featured": false,
     "feature_ordering": null
   },
@@ -469,9 +514,9 @@
   },
   {
     "slug": "janesh_rahlan",
-    "name": "janesh_rahlan",
+    "name": "Janesh Rahlan",
     "bio": "<p><strong>Janesh Rahlan</strong> is a former tech bro turned comedian. Recently featured on Netflix with Kevin Hart, Janesh’s style leans on his midwest upbringing, career in tech and general millennial nonsense. He’s a regular at the Hollywood Improv, has opened for Jeff Ross and Kumail Nanjiani and tours with Jordan Klepper of <em>The Daily Show</em>. He was also featured in a Super Bowl commercial.</p>",
-    "performer_image": null,
+    "performer_image": "assets/performer_images/janesh_rahlan.jpg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -540,6 +585,33 @@
     "feature_ordering": null
   },
   {
+    "slug": "joy_regullano",
+    "name": "Joy Regullano",
+    "bio": "<p><strong>Joy Regullano</strong> is a writer / actor / comedian based in LA who wrote on the animated show <em>MONSTERS AT WORK</em> (based on <em>MONSTERS INC</em>) on Disney Plus. Previously, she wrote on <em>JELLY, BEN, and POGO</em> (a PBS Kids web series), <em>KUNG FU PANDA: DRAGON KNIGHT</em> (Netflix / Dreamworks), <em>HEALING POWERS OF DUDE</em> (Netflix), several Sesame Workshop digital shorts, and she was a Sesame Street writing fellow. TV acting credits include <em>BARRY, LINCOLN LAWYER, CRAZY EX-GIRLFRIEND, MODERN FAMILY, SPEECHLESS,</em> and <em>SUPERNATURAL.</em> She has performed improv and sketch around LA at UCB and Second City Hollywood. Her YouTube sketch <em>WHITE FETISH</em> went viral (1M+ views) and was featured in the Huffington Post, Upworthy, and more. She was recently nominated for an Emmy for writing on Sesame Street’s Word of the Day series. Check out the concept album for her Asian American comedy musical SUPPORTIVE WHITE PARENTS, now available on all streaming platforms!</p>",
+    "performer_image": "assets/performer_images/joy_regullano.jpg",
+    "performer_type": "musical comedy",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "julia_li",
+    "name": "Julia Li",
+    "bio": "<p>Originally from Chicago, <strong>Julia Li</strong> is a stand up comedian who performs all across the country and has appeared on the Netflix Is A Joke Festival.</p>",
+    "performer_image": "assets/performer_images/julia_li.jpeg",
+    "performer_type": "stand-up",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "kausar_mohammed",
+    "name": "Kausar Mohammed",
+    "bio": "<p><strong>Kausar Mohammed</strong> is a queer, Muslim, South Asian writer and actor. She can be seen as superhero DR. MEENA DHAWAN on CW's <em>THE FLASH</em>, to leading on Hulu's horror feature film <em>APPENDAGE</em>, and in comedies like <em>MO, WHAT MEN WANT,</em> and <em>LITTLE</em>. She also voices the beloved lead character, Yaz, in the hit animated <em>JURASSIC WORLD</em> shows and as the iconic Cleo in Nickelodeon’s <em>MONSTER HIGH</em>.</p>\n<p>On stage, Kausar recently produced a sold-out run of GUARDS AT THE TAJ (by Rajiv Joseph), where she starred as the first woman ever to play the leading role of Humayun in its professional production. She’s a founding member of the distinguished all-South Asian sketch comedy troupe, The Get Brown, which performed three seasons of continuously sold-out shows in LA. She is an alumna of Upright Citizens’ Brigade LA's Maude and Betty teams. Her Usha Vance impression recently went viral on social media for its biting commentary. Her comedic work has garnered acclaim in Vogue, Huffington Post, NBC, and more.</p>",
+    "performer_image": "assets/performer_images/kausar_mohammed.jpeg",
+    "performer_type": "character",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "kevin_camia",
     "name": "Kevin Camia",
     "bio": "<p><strong>Kevin Camia</strong> is a LA-based comedian seen on <em>The Late Show with Stephen Colbert</em> and has toured nationally with Ali Wong and Sheng Wang.  He is a member of <em>The Dress Up Gang</em> (Sundance and SXSW), and has two comedy albums out, <em>Kindness</em> and <em>Color</em>.</p>",
@@ -596,8 +668,8 @@
   {
     "slug": "marques_ray",
     "name": "Marques Ray",
-    "bio": null,
-    "performer_image": "assets/performer_images/marques_ray.jpg",
+    "bio": "<p><strong>Marques Ray</strong> is an actor, comedian, and interpretive dancer. You may have seen him on hit shows like <em>Curb Your Enthusiasm</em>, <em>The Good Place</em>, or <em>Arrested Development</em> but his true passion is “dancing for the wind.” He’s performed, written, and taught sketch and improv comedy across the globe and frequently exercises his unique character work at local theaters. You can catch him and his friends now in his completely improvised web-series, <em>MISREPRESENTED</em>.</p>",
+    "performer_image": "assets/performer_images/marques_ray.jpeg",
     "performer_type": "character",
     "featured": false,
     "feature_ordering": null
@@ -639,15 +711,6 @@
     "feature_ordering": null
   },
   {
-    "slug": "milan_patel",
-    "name": "Milan Patel",
-    "bio": "<p>Featured on Netflix’s 2025 <em>Introducing</em>…Stand-Up Showcase, <strong>Milan Patel</strong> has opened for Chris Fleming and Fred Armisen at the Largo at the Coronet while also touring his variety show, <em>Milan Patel & The Enemies of My Enemies</em>, featuring his original stand-up, animations, and sketches, which sold out at this year’s Netflix is a Joke Festival. His <em>Don’t Tell</em> comedy special is now available on YouTube.</p>",
-    "performer_image": "assets/performer_images/milan_patel.jpg",
-    "performer_type": "stand-up",
-    "featured": false,
-    "feature_ordering": null
-  },
-  {
     "slug": "miss_golightly",
     "name": "Miss Golightly",
     "bio": "<p><strong>Miss Golightly</strong> is an all-Asian American team that has been performing together for 10+ years. The group has been featured in numerous comedy festivals, recently performing at UCB's Del Close Marathon, 2026 in NYC. These LA indie darlings are bound by Friendship, Food, and f-...Improv.</p>\n<p>Cast: <strong>Jed Alcantara,</strong> <strong>Tony Garbanzos, Terry Huang, Geo Lee</strong></p>\n<p><em>Line-up subject to change</em></p>",
@@ -677,7 +740,7 @@
   {
     "slug": "msg_comedy",
     "name": "M.S.G. Comedy",
-    "bio": "<p><strong>M.S.G. Comedy</strong>, formerly No MSG Added Comedy, is a comedy collective founded in 2018\\. Inspired by shows like <em>SNL</em> and <em>MadTV</em>, the collective focuses on connecting community through humor and laughter. Since its founding, M.S.G. Comedy has performed all over California at events that include Coup De Comedy Festival, SF Sketch Fest, The Marsh Studio, and Chance Theater.  The team is made up of writers and performers that have stage credits at South Coast Rep, the Second City Mainstage, Long Beach Playhouse, as well as film/tv credits on <em>Jury Duty Presents, Spidey & His Amazing Friends, Last Comic Standing,</em> and <em>PEN15</em>.</p>\n<p>Cast: <strong>Chris Bunyi, Erik Escobar, Adrienne Garcia, Gabrielle (Gabi) Garcia, Jhemon Lee, M.D., Sally Nguyen, Joy Regullano, Shinshin Yuder Tsai</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p><strong>M.S.G. Comedy</strong>, formerly No MSG Added Comedy, is a comedy collective founded in 2018\\. Inspired by shows like <em>SNL</em> and <em>MadTV</em>, the collective focuses on connecting community through humor and laughter. Since its founding, M.S.G. Comedy has performed all over California at events that include Coup De Comedy Festival, SF Sketch Fest, The Marsh Studio, and Chance Theater.  The team is made up of writers and performers that have stage credits at South Coast Rep, the Second City Mainstage, Long Beach Playhouse, as well as film/tv credits on <em>Jury Duty Presents, Spidey & His Amazing Friends, Last Comic Standing,</em> and <em>PEN15</em>.</p>\n<p>Cast: <strong>Chris Bunyi, Adrienne Garcia, Deva Marie Gregory, Jhemon Lee, M.D., Sally Nguyen, Joy Regullano, Shinshin Yuder Tsai</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/msg_comedy.jpeg",
     "performer_type": "sketch",
     "featured": false,
@@ -747,6 +810,15 @@
     "feature_ordering": null
   },
   {
+    "slug": "saagar_shaikh",
+    "name": "Saagar Shaikh",
+    "bio": null,
+    "performer_image": null,
+    "performer_type": "special guest",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "sahana_srinivasan",
     "name": "Sahana Srinivasan",
     "bio": "<p><strong>Sahana Srinivasan</strong> is an actor/comedian with a love for the absurd\\! She’s on a UCB house sketch team, and has acted in a range of tv shows including <em>High Potential</em>, <em>The Pradeeps of Pittsburgh</em>, <em>Insecure</em>, and <em>Brainchild</em> on Netflix.</p>",
@@ -792,12 +864,30 @@
     "feature_ordering": null
   },
   {
+    "slug": "sini_gang",
+    "name": "Sini-gang",
+    "bio": "<p><strong>Sini-Gang</strong> is all Filipino American mashup team that has been on house teams at UCB in LA and have been part of the comedy variety show Filipino AF since 2018.</p>\n<p>Cast: <strong>Jed Alcantara, Amalia Aquino, DarylJim, Tony Garbanzos, Cassie Grilley, Mel Padernal, Allyn Pintal, Joy Regullano, Jose Ver, Vince Yap</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/sini_gang.jpg",
+    "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "shoes_off",
     "name": "Shoes Off",
     "bio": "<p>We are <strong>Shoes Off</strong>, an all-Asian improv team and community based out of NYC! We produce our own bimonthly show at the Magnet Theater for Asian improvisors, and we regularly perform at festivals, including Fun And Dumb (New York), Third Coast Improv Fest (Nashville), and Hartford Improv Fest. Our form is the Lotus, a half-Onion opening into a montage. Our sets are generally fast-paced with quick transitions, and scenes are focused on characters and relationships a la Magnet Theater where we are based. Several of our members are on Megawatt, Magnet's house teams.</p>\n<p>Cast: <strong>J Bala, Anson Chan, Ryan Chittaphong, Michelle Chu, Brennard Gamboa, Alex Loh, Sonia Nam</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/shoes_off.jpg",
     "performer_type": "improv",
     "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "south_asian_af",
+    "name": "",
+    "bio": null,
+    "performer_image": null,
+    "performer_type": null,
+    "featured": "",
     "feature_ordering": null
   },
   {
@@ -810,10 +900,10 @@
     "feature_ordering": null
   },
   {
-    "slug": "sundeep_morrison_dlo",
-    "name": "Sundeep Morrison & D'Lo",
-    "bio": "<p><strong>Sundeep Morrison</strong> and <strong>D'Lo</strong>, your favorite queer storytellers couldn't be here today, so they sent their aunties instead.</p>\n<p>Soon to be your favorites, Chandra Aunty and Gulabo Aunty, are showing up as who they are: the Aunties Who Love You.   <br>These aunties have lifted the rug on their own existence via therapy, fierce karaoke battles, long digestive walks, and their annual mushroom trips. They are not your typical Aunties. This is why they have so much love to give and less damns to give.    <br>Come get loved up on by them, or join them in doing a little dance, making a little noise.  <br>Without further ado: the Aunties Who Love You!</p>\n<p>Cast: <strong>D’Lo, Sundeep Morrison</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": null,
+    "slug": "sundeep_morrison",
+    "name": "Sundeep Morrison",
+    "bio": "<p><strong>Sundeep Morrison</strong> (they/them) is an award-winning queer, non-binary, Panjabi Sikh, Canadian actor, writer, and director. Recently, Sundeep starred in the short film <em>FLIGHT 182,</em> written and directed by Rippin Sindher, and executive-produced by Ridley Scott and Archie Panjabi. Sundeep received the Best Drama award at United Solo in New York for their solo show, <em>RAG HEAD: An</em> <em>American Story.</em> A graduate of the American Musical and Dramatic Academy in New York, they focus their storytelling on social justice, sexuality, and gender.</p>",
+    "performer_image": "assets/performer_images/sundeep_morrison.jpg",
     "performer_type": "character",
     "featured": false,
     "feature_ordering": null
@@ -873,6 +963,15 @@
     "feature_ordering": null
   },
   {
+    "slug": "vincent_rodriguez_iii",
+    "name": "Vincent Rodriguez III",
+    "bio": "<p><strong>Vincent Rodriguez III</strong> is a Filipino-American actor known for his roles on The CW’s Emmy Award-winning <em>CRAZY EX-GIRLFRIEND</em>, Netflix's <em>INSATIABLE</em> and Prime Video’s <em>WITH LOVE</em>. He most recently starred in <em>CHRISTMAS ON CHERRY LANE</em> and <em>SEASONS GREETINGS FROM CHERRY LANE</em> for The Hallmark Channel. He is the voice of General Li Jing in <em>Ne Zha</em>, \"Raiden\" in the <em>MK1</em> video game and a singing Filipino dad “Val Rizal” in Disney Junior’s <em>KINDERGARTEN: THE MUSICAL</em> this fall. Stage credits include the “DJ\" in <em>HERE LIES LOVE</em> Off-Broadway at The Public Theatre during his 11 years in New York. Rodriguez is also a magician, martial artist, speaker, mentor, and teaching artist.</p>",
+    "performer_image": "assets/performer_images/vincent_rodriguez_iii.jpg",
+    "performer_type": "special guest",
+    "featured": true,
+    "feature_ordering": 11
+  },
+  {
     "slug": "voltron",
     "name": "Voltron",
     "bio": "<p>Formed in 2016, <strong>Voltron</strong> is Asian AF's resident improv team, bringing together legendary Asian American improvisers from the UCB Theatre. The team hosts Voltron and Friends, a monthly improv comedy show, featuring a rotating lineup of emerging and established Asian American improvisers.</p>\n<p>Cast: <strong>Lilan Bowden, Sarah Claspell, Kim Cooper, Eugene Cordero, Zac Oyama, Allyn Pintal, Dhruv Uday Singh, Kathy Yamamoto</strong></p>\n<p><em>Line-up subject to change</em></p>",
@@ -914,6 +1013,15 @@
     "bio": "<p><strong>Yes And Broadway</strong>: Improv comedy based off of your favorite Broadway hits!</p>\n<p>Cast: <strong>Hanna Barlow, Stephanie Burchinow, DarylJim, Sahil Desai, Cassie Grilley, Justin Liu, Don Macatangay, Joy Regullano</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/yes_and_broadway.jpg",
     "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "yusong_liu",
+    "name": "Yusong Liu",
+    "bio": "<p><strong>Yusong Liu</strong> can be heard on <em>Doughboys</em> and <em>Maybe Don't</em>.</p>",
+    "performer_image": "assets/performer_images/yusong_liu.jpg",
+    "performer_type": "music",
     "featured": false,
     "feature_ordering": null
   },

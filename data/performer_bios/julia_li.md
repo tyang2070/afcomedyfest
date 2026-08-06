@@ -1,0 +1,1 @@
+Originally from Chicago, **Julia Li** is a stand up comedian who performs all across the country and has appeared on the Netflix Is A Joke Festival.

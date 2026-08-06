@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { PERFORMERS } from '../data/performers';
 
-const performers = PERFORMERS;
+const performers = PERFORMERS.filter(p => p.name && p.name.trim().length > 0);
 const uniqueTypes = Array.from(new Set(performers.map(p => p.performer_type).filter(Boolean)));
 const typeOrder = ['improv', 'stand-up', 'character'];
 const performerTypes = typeOrder.filter(t => uniqueTypes.includes(t));
