@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import { WORKSHOPS } from '../data/workshops';
 
+const COMING_SOON = true; // set to false to show workshop cards
+
 const workshops = WORKSHOPS;
 ---
 
@@ -11,9 +13,57 @@ const workshops = WORKSHOPS;
       <h1>Workshops</h1>
       <p>Learn from industry experts at AF Comedy Fest. Sign up for workshops to master new skills and connect with the comedy community.</p>
 
-      <div class="coming-soon-box">
-        Workshops info coming soon!
+      {COMING_SOON ? (
+        <div class="coming-soon-box">Workshops info coming soon!</div>
+      ) : (
+      <div class="workshops-grid">
+        {workshops.map((workshop) => (
+          <div class="workshop-card">
+            <div class="workshop-header">
+              <div class="teacher-image">
+                <div class="image-placeholder">{workshop.teacher[0]}</div>
+              </div>
+              <div class="workshop-info">
+                <h3>{workshop.title}</h3>
+                <p class="teacher-name">with {workshop.teacher}</p>
+              </div>
+            </div>
+            <div class="workshop-details">
+              <div class="detail">
+                <span class="label">Date</span>
+                <span>{workshop.date}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Time</span>
+                <span>{workshop.startTime} – {workshop.endTime}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Location</span>
+                <span>{workshop.location}</span>
+              </div>
+              <div class="detail">
+                <span class="label">Cost</span>
+                <span>${workshop.cost}</span>
+              </div>
+              {workshop.capacity && (
+                <div class="detail">
+                  <span class="label">Capacity</span>
+                  <span>{workshop.capacity} spots</span>
+                </div>
+              )}
+            </div>
+            {workshop.bio && (
+              <div class="workshop-bio">{workshop.bio}</div>
+            )}
+            {workshop.link && (
+              <a href={workshop.link.startsWith('http') ? workshop.link : `https://${workshop.link}`} target="_blank" rel="noopener noreferrer" class="register-button">
+                Register
+              </a>
+            )}
+          </div>
+        ))}
       </div>
+      )}
     </div>
   </div>
 

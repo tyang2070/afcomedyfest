@@ -40,8 +40,13 @@ const records = parse(csvData, {
 // Process workshops
 const workshops = records.map((record) => {
   // Read workshop description markdown
-  const bioPath = path.resolve(process.cwd(), `data/workshops/${record.workshop_description}`);
-  const bioContent = fs.readFileSync(bioPath, 'utf-8').trim();
+  let bioContent = null;
+  if (record.workshop_description && record.workshop_description.trim()) {
+    const bioPath = path.resolve(process.cwd(), `data/workshops/${record.workshop_description}`);
+    if (fs.existsSync(bioPath)) {
+      bioContent = fs.readFileSync(bioPath, 'utf-8').trim();
+    }
+  }
 
   return {
     slug: record.workshop_teacher.toLowerCase().replace(/\s+/g, '-'),

@@ -140,6 +140,13 @@ async function sync() {
     console.log('⚠️  DRIVE_SCHEDULE_SHEET not configured\n');
   }
 
+  if (process.env.DRIVE_WORKSHOPS_SHEET) {
+    await downloadSheet(process.env.DRIVE_WORKSHOPS_SHEET, 'workshops.csv');
+    console.log('');
+  } else {
+    console.log('⚠️  DRIVE_WORKSHOPS_SHEET not configured\n');
+  }
+
   // Sync folders
   if (process.env.DRIVE_PERFORMERS_BIOS_FOLDER) {
     await downloadFolder(

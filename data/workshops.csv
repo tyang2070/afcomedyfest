@@ -1,2 +1,6 @@
 workshop_teacher,workshop_title,workshop_description,teacher_image,date,start_time,end_time,cost,location,link,capacity
-Keiko Agena,Workshop Name,keiko_workshop_name.md,keiko.jpg,2026-09-04,13:00,14:00,50,Outside In Upstairs,www.keiko.com,16
+Sarah Claspell,Callbacks & Connections,sarah_claspell_workshop.md,sarah_claspell_workshop.jpg,2026-09-03,14:00,16:00,40,Outside In - ArtBox Stage,,16
+Jonathan Lee-Rey,Chicago Style Improv,jonathan_lee_rey_workshop.md,jonathan_lee_rey_workshop.jpg,2026-09-04,10:30,13:30,60,Outside In - ArtBox Stage,,16
+Woody Fu,How Do I Start My Career?,woody_fu_workshop.md,woody_fu_workshop.jpg,2026-09-04,10:30,13:30,60,Outside In - Upstairs,,16
+Donald Chang,Improvised Blockbuster,donald_chang_workshop.md,donald_chang_workshop.jpg,2026-09-04,14:00,16:00,40,Outside In - ArtBox Stage,,16
+Shilpa Das,Write A Comedy Song 101,shilpa_das_workshop.md,shilpa_das_workshop.jpg,2026-09-06,10:00,12:00,40,Outside In - Upstairs,,10

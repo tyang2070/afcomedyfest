@@ -5,10 +5,10 @@ import { PERFORMERS } from '../data/performers';
 
 const { dates, stages, schedule } = scheduleData;
 
-// Find performer by name (case-insensitive partial match)
+const normalize = (s: string) => s.trim().toLowerCase().replace(/[`'']/g, "'");
 const findPerformerByName = (name: string) => {
-  const trimmedName = name.trim().toLowerCase();
-  return PERFORMERS.find(p => p.name.toLowerCase() === trimmedName);
+  const trimmedName = normalize(name);
+  return PERFORMERS.find(p => normalize(p.name) === trimmedName);
 };
 
 // Format time from HH:MM to readable format
@@ -296,14 +296,14 @@ const formatDate = (dateStr: string) => {
     }
 
     .show-name a {
-      color: #D4A574;
+      color: #ffffff;
       text-decoration: none;
       transition: all 0.3s;
       border-bottom: 2px solid transparent;
     }
 
     .show-name a:hover {
-      color: #9d7e52;
+      color: #D4A574;
       border-bottom-color: #D4A574;
     }
 
