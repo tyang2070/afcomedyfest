@@ -29,6 +29,23 @@ function formatTime(timeStr) {
   return `${displayHour}:${minutes} ${ampm}`;
 }
 
+function extractSections(markdown) {
+  if (!markdown) return null;
+
+  const descMatch = markdown.match(/\*\*Workshop Description\*\*:\s*(.+?)(?=\n\n\*\*|\n\*\*[A-Z]|$)/s);
+  const instrMatch = markdown.match(/\*\*Instructor Info\*\*:\s*(.+?)(?=\n\n\*\*|\n\*\*[A-Z]|$)/s);
+
+  const mdLinks = str => str
+    .replace(/\\(.)/g, '$1')
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+
+  const parts = [];
+  if (descMatch) parts.push(`<h4>Workshop Description</h4><p>${mdLinks(descMatch[1].trim())}</p>`);
+  if (instrMatch) parts.push(`<h4>Instructor Info</h4><p>${mdLinks(instrMatch[1].trim())}</p>`);
+
+  return parts.length ? parts.join('\n<br>\n') : null;
+}
+
 // Read CSV
 const csvPath = path.resolve(process.cwd(), 'data/workshops.csv');
 const csvData = fs.readFileSync(csvPath, 'utf-8');
@@ -44,7 +61,7 @@ const workshops = records.map((record) => {
   if (record.workshop_description && record.workshop_description.trim()) {
     const bioPath = path.resolve(process.cwd(), `data/workshops/${record.workshop_description}`);
     if (fs.existsSync(bioPath)) {
-      bioContent = fs.readFileSync(bioPath, 'utf-8').trim();
+      bioContent = extractSections(fs.readFileSync(bioPath, 'utf-8').trim());
     }
   }
 
@@ -53,7 +70,7 @@ const workshops = records.map((record) => {
     teacher: record.workshop_teacher,
     title: record.workshop_title,
     bio: bioContent,
-    image: `data/workshops/${record.teacher_image}`,
+    image: record.teacher_image ? `assets/workshop_images/${record.teacher_image}` : null,
     date: formatDate(record.date),
     startTime: formatTime(record.start_time),
     endTime: formatTime(record.end_time),

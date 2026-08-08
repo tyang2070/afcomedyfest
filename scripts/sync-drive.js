@@ -168,6 +168,26 @@ async function sync() {
     console.log('⚠️  DRIVE_PERFORMER_IMAGES_FOLDER not configured\n');
   }
 
+  if (process.env.DRIVE_WORKSHOP_BIOS_FOLDER) {
+    await downloadFolder(
+      process.env.DRIVE_WORKSHOP_BIOS_FOLDER,
+      path.resolve(projectRoot, 'data/workshops')
+    );
+    console.log('');
+  } else {
+    console.log('⚠️  DRIVE_WORKSHOP_BIOS_FOLDER not configured\n');
+  }
+
+  if (process.env.DRIVE_WORKSHOP_IMAGES_FOLDER) {
+    await downloadFolder(
+      process.env.DRIVE_WORKSHOP_IMAGES_FOLDER,
+      path.resolve(projectRoot, 'assets/workshop_images')
+    );
+    console.log('');
+  } else {
+    console.log('⚠️  DRIVE_WORKSHOP_IMAGES_FOLDER not configured\n');
+  }
+
   console.log('✅ Sync complete!');
 }
 
