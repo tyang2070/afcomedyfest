@@ -470,8 +470,8 @@
   {
     "slug": "hawaii_af",
     "name": "Hawai`i AF",
-    "bio": "<p><strong>Hawaiʻi AF</strong> (@hawaiiafshow) is a comedy variety show created by and starring Hawai‘i born, based, and connected actors and comedians. Representing the island's melting pot of Asian and Polynesian culture and points of view, this show features improv, sketch comedy, and live music. Two scoops funny wit gravy all ovah. Bring da aunties, bring da uncles, leave da bebehs at home. Go check 'um, go check 'um, GO\\!</p>\n<p>Cast: <strong>Kimee Balmilero, Dylan Chace-Lee, DarylJim, Kaliko Fase, Chelsie Lihilihi, Ixchel Lopez, Ryan “Oki” Okinaka, Jordan Savusa, Jose Ver</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/hawaii_af.png",
+    "bio": "<p><strong>Hawaiʻi AF</strong> (@hawaiiafshow) is a comedy variety show created by and starring Hawai‘i born, based, and connected actors and comedians. Representing the island's melting pot of Asian and Polynesian culture and points of view, this show features improv, sketch comedy, and live music. Two scoops funny wit gravy all ovah. Bring da aunties, bring da uncles, leave da bebehs at home. Go check 'um, go check 'um, GO!</p>\n<p>Cast: <strong>Kimee Balmilero, Dylan Chace-Lee, DarylJim, Kaliko Fase, Chelsie Lihilihi, Ixchel Lopez, Ryan “Oki” Okinaka, Jordan Savusa, Jose Ver</strong></p>\n<p>Produced by  <br><strong>Kimee Balmilero</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/hawaii_af.jpg",
     "performer_type": "variety show",
     "featured": false,
     "feature_ordering": null
@@ -812,11 +812,11 @@
   {
     "slug": "saagar_shaikh",
     "name": "Saagar Shaikh",
-    "bio": null,
-    "performer_image": null,
-    "performer_type": "special guest",
-    "featured": false,
-    "feature_ordering": null
+    "bio": "<p><strong>Saagar Shaikh</strong> can be seen leading the hit Hulu Original series “Deli Boys” as Raj Dar. The series was widely received and critically acclaimed with a 100% on Rotten Tomatoes. Season 2 was released on May 28th, 2026. He can also be seen as Aamir Khan in the Marvel Cinematic Universe’s Disney+ limited series “Ms. Marvel.” Followed by the Marvel feature film “The Marvels,” starring Brie Larson and Samuel L. Jackson. Shaikh got his start as a breakout at the Disney Television Discovers: Talent Showcase.</p>",
+    "performer_image": "assets/performer_images/saagar_shaikh.jpeg",
+    "performer_type": "improv",
+    "featured": true,
+    "feature_ordering": 11
   },
   {
     "slug": "sahana_srinivasan",
@@ -883,11 +883,11 @@
   },
   {
     "slug": "south_asian_af",
-    "name": "",
-    "bio": null,
-    "performer_image": null,
-    "performer_type": null,
-    "featured": "",
+    "name": "South Asian AF",
+    "bio": "<p><strong><em>South Asian AF</strong></em> <strong>(@southasianaf)</strong> is a comedy variety show featuring South Asian comedians and improvisers doing sketches, improv, characters, and more! The show enjoyed a 6 year sold out run starting in 2018 and they are delighted to return for a reunion show to celebrate the 10 year anniversary of Asian AF! Bringing together an all star cast featuring veteran show performers along with some new faces, South Asian AF is back for one special night!!!</p>\n<p>Cast: <strong>Anne Akhila, Asif Ali, Amrita Bhatra Dance Co., Parvesh Cheena, D'Lo, Shilpa Das, Kunal Dudheker, Pallavi Gunalan, Ru Kazi, Govind Kumar, Sarika Mande, Kausar Mohammad, Sundeep Morrison, Saagar Shaikh, Dhruv Uday Singh</strong></p>\n<p>Produced by  <br><strong>Shilpa Das</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/south_asian_af.jpg",
+    "performer_type": "variety show",
+    "featured": false,
     "feature_ordering": null
   },
   {
@@ -969,7 +969,7 @@
     "performer_image": "assets/performer_images/vincent_rodriguez_iii.jpg",
     "performer_type": "special guest",
     "featured": true,
-    "feature_ordering": 11
+    "feature_ordering": 12
   },
   {
     "slug": "voltron",
