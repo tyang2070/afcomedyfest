@@ -1,0 +1,1 @@
+**Aakash Kesavarapu** is a performer and writer based in New York. He performs on UCB's Harold and Maude Night, creates digital sketches with Second City's Digital Company, and stand up comedies around the country. He doesn't have a twin brother. He also co-hosts the Altruistic Righteousness podcast. 

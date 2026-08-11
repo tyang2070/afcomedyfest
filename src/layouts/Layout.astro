@@ -75,6 +75,21 @@ const { title } = Astro.props;
         color: #D4A574;
       }
 
+      nav a.nav-donate {
+        background: #D4A574;
+        color: #000;
+        border-radius: 6px;
+        padding: 0.4rem 1.25rem;
+        font-weight: 700;
+        flex: 0 0 auto;
+        transition: background 0.2s;
+      }
+
+      nav a.nav-donate:hover {
+        background: #c49060;
+        color: #000;
+      }
+
       @media (max-width: 768px) {
         header {
           padding: 1rem;
@@ -117,6 +132,7 @@ const { title } = Astro.props;
         <a href="/performers">Performers</a>
         <a href="/workshops">Workshops</a>
         <a href="/about">About</a>
+        <a href="https://fundraising.fracturedatlas.org/af-comedy-festival" target="_blank" rel="noopener noreferrer" class="nav-donate">Donate</a>
       </nav>
     </header>
     <main>

@@ -2,7 +2,7 @@ Title: **Write A Comedy Song 101 with Shilpa Das**
 
 Ticket Price: **$40**
 
-Workshop Date: **Sunday, 9/6/26 @ 10:00 AM - 12:00 PM / Outside In Upstairs**
+Workshop Date: **Sunday, 9/6/26 @ 10:00 AM - 12:00 PM / OI Classroom**
 
 **Updated:**   
 ---
@@ -25,5 +25,5 @@ Workshop Date: **Sunday, 9/6/26 @ 10:00 AM - 12:00 PM / Outside In Upstairs**
 
 **Optional Materials**: Notebook/Pen or laptop; Guitar or ukulele (only if you already know how to play)
 
-**Location**: Outside In Theatre - ArtBox Stage  
+**Location**: Outside In Theatre - Classroom 
 *5317 York Blvd. Los Angeles, CA 90042*

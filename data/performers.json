@@ -66,7 +66,7 @@
     "slug": "raymond_lee",
     "name": "Raymond Lee",
     "bio": "<p><strong>Raymond Lee</strong> is currently starring in season two of <strong>SUGAR</strong> for Apple TV+ in which he stars alongside Colin Farrell and the Apple TV+ series <strong>MAXIMUM PLEASURE GUARANTEED</strong> opposite Tatiana Maslany and Jake Johnson. Raymond previously starred in the lead role of Dr. Ben Song in NBC’s <strong>QUANTUM LEAP</strong> reboot. He also appeared in the independent feature <strong>THE UNKNOWN COUNTRY</strong> alongside Lily Gladstone, and in the Paramount Pictures blockbuster <strong>TOP GUN: MAVERICK</strong> opposite Tom Cruise. His television career includes series regular roles in AMC’s <strong>KEVIN CAN F</strong><em> HIMSELF<strong> and Alan Ball’s HBO series </strong>HERE AND NOW<strong>. Additionally, he delivered memorable recurring performances in HBOMax's </strong>MADE FOR LOVE<strong>, FOX’s </strong>PRODIGAL SON<strong>, Amazon’s </strong>MOZART IN THE JUNGLE<strong>, and ABC’s </strong>SCANDAL</em>*.</p>",
-    "performer_image": "assets/performer_images/raymond_lee.jpg",
+    "performer_image": "assets/performer_images/raymond_lee.jpeg",
     "performer_type": "special guest",
     "featured": true,
     "feature_ordering": 6
@@ -92,9 +92,18 @@
   {
     "slug": "a_plus_plus",
     "name": "A++",
-    "bio": "<p><strong>A++</strong> is an Asian American improv comedy team based in Baltimore. The seven members first connected during classes at the Baltimore Improv Group and formed the team in 2019. Because the cast shares a similar upbringing, they have an unspoken understanding that lets them turn real stories and cultural experiences into comedy.</p>\n<p>Cast: <strong>Grant Chang, Sam Brunner, Keith Estrella, Kim Le, Heather Carlson, Jacob Joseph, Brian Young</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p><strong>A++</strong> is an Asian American improv comedy team based in Baltimore. The seven members first connected during classes at the Baltimore Improv Group and formed the team in 2019. Because the cast shares a similar upbringing, they have an unspoken understanding that lets them turn real stories and cultural experiences into comedy.</p>\n<p>Cast: <strong>Sam Brunner, Grant Chang, Keith Estrella, Jacob Joseph, Kim Le, Heather Mari, Brian Young</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/a_plus_plus.jpg",
     "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "aakash_kesavarapu",
+    "name": "Aakash Kesavarapu",
+    "bio": "<p><strong>Aakash Kesavarapu</strong> is a performer and writer based in New York. He performs on UCB's Harold and Maude Night, creates digital sketches with Second City's Digital Company, and stand up comedies around the country. He doesn't have a twin brother. He also co-hosts the Altruistic Righteousness podcast.</p>",
+    "performer_image": "assets/performer_images/aakash_kesavarapu.jpeg",
+    "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
   },
@@ -147,7 +156,7 @@
     "slug": "angel_yau",
     "name": "Angel Yau",
     "bio": "<p><strong>Angel Yau</strong> is a New York City–based comedian, storyteller, filmmaker, and producer. She is one of the producers for NYC Asian AF and performs with Joy Fuck Club. She also started and produces Asian American Film Thing. She was UCB's Maude, Characters, and its (short-lived) Digital Teams. Angel is also an award-winning stop-motion filmmaker whose films transform random childhood memories into heartfelt, comedic stories. She has been featured on HBO, Netflix Is a Joke, and the BBC. She once gave a TEDx talk about peeing.</p>",
-    "performer_image": "assets/performer_images/angel_yau.jpg",
+    "performer_image": "assets/performer_images/angel_yau.jpeg",
     "performer_type": "character",
     "featured": false,
     "feature_ordering": null
@@ -174,9 +183,9 @@
     "slug": "asian_af_new_york",
     "name": "Asian AF New York",
     "bio": "<p><strong>Asian AF New York</strong> (@asianafshow) is the New York City chapter of the hit comedy and variety show celebrating AAPI voices. Hosted by resident improv team The Joy Fuck Club, each show brings together the next generation of comedy stars alongside some of its biggest names in stand-up, improv, sketch, storytelling, and beyond for one unforgettable night of comedy.</p>\n<p>From razor-sharp stand-up to hilarious character work, heartfelt storytelling, audience surprises, and an improvised finale that somehow always goes gloriously off the rails, Asian AF NY is equal parts showcase, party, and celebration of the incredible AAPI talent shaping New York's comedy scene.</p>\n<p>The show has been featured in <em>The New York Times, NBC News, ABC News, Vulture, The Serica Initiative</em>, and has headlined major comedy festivals nationwide.</p>\n<p>Cast: <strong>Donald Chang, Alex Cheng, Ryan Chittaphong, Kurt Cruz, Florence Friebe, Aakash Kesaverapu, Kendra Singh, Angel Yau</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/asian_af_new_york.png",
-    "performer_type": null,
-    "featured": "",
+    "performer_image": "assets/performer_images/asian_af_new_york.jpg",
+    "performer_type": "variety show",
+    "featured": false,
     "feature_ordering": null
   },
   {
@@ -192,7 +201,7 @@
     "slug": "asians_of_mach",
     "name": "Asians of Mach",
     "bio": "<p><strong>Asians of Mach</strong>: Mach is an LA-based improv collective with 30+ cast members who perform weekly at the Clubhouse. We are the Asian ones of that cast.</p>\n<p>Cast: <strong>Alex Guo, Eric Chad Ho, Ru Kazi, Ann Maddox,  Nicole Villela, Kimberly Wong</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/asians_of_mach.png",
+    "performer_image": "assets/performer_images/asians_of_mach.jpg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
@@ -237,7 +246,7 @@
     "slug": "cabbage",
     "name": "Cabbage",
     "bio": "<p><strong>Cabbage</strong> has performed at venues such as WGIS, Clubhouse, and with Asian AF’s Voltron & Friends. Based in LA, with DNA from LA and Chicago, their members are alumni of the Chicago comedy group, Stir Friday Night. Cast members have performed at UCB, Second City Chicago, Annoyance, and iO Chicago.</p>\n<p>Cast: <strong>Elyse Ahmad, Amrita Dhaliwal, Erica Ikeda, Avery Lee, Christine Lin, Harrison Pak, Aaron Rice, Xu</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/cabbage.png",
+    "performer_image": "assets/performer_images/cabbage.jpg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
@@ -264,7 +273,7 @@
     "slug": "capulet",
     "name": "Capulet",
     "bio": "<p><strong>Capulet</strong> is Cathy Shim, Jed Alcantara, Keiko Agena, Rosie Narasaki and Will Choi. The genre is Monoscene, the style is grounded, the people are Asian, and the friendships are freaking adorable. It’s an LA team by way of South Korea, Riverside, San Francisco, Hawaii, and LA. Chat GPT was not used to create this bio except when it was.</p>\n<p>Cast: <strong>Keiko Agena</strong>, <strong>Jed Alcantara</strong>, <strong>Will Choi</strong>, <strong>Rosie Narasaki</strong>, <strong>Cathy Shim</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/capulet.jpg",
+    "performer_image": "assets/performer_images/capulet.jpeg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
@@ -291,7 +300,7 @@
     "slug": "cold_tofu",
     "name": "Cold Tofu",
     "bio": "<p><strong>Cold Tofu</strong> was founded in 1981 by Marilyn Tokuda and Denice Kumagai who joined forces with Judy Momii and Irma Escamilla to start the nation's first and longest running Asian American improv and comedy troupe.  During a time when comedy was not a viable path for Asian American performers, these four founding members wanted to provide opportunities for Asian American actors to perform and explore comedy.  Stocked with six-packs and chips, the core group met regularly at each other’s homes exploring new territory – Asian American comedy. Though touted as being the first Asian American improv group, Cold Tofu's roots are multicultural. Early members include Amy Hill, Joey Miyashima, Phil LaMarr, Jerry Tondo, Scott Nagatani, Jim MacNerland, Geoff Rivas, and Robert Covarrubias. Cold Tofu continues with its heritage by providing artists a place to further their improv and acting endeavors by holding workshops and performances throughout the greater Los Angeles area. Visit us at Coldtofu.org for more information. IG: @coldtofuimprov</p>\n<p>Cast: <strong>Aaron Aoki, Carin Brito, Robert Covarrubias, Kevin Ocampo, Mike Palma, Denny Siegel, Kari Vanegas</strong></p>\n<p><em>Lineup subject to change</em></p>",
-    "performer_image": "assets/performer_images/cold_tofu.jpeg",
+    "performer_image": "assets/performer_images/cold_tofu.jpg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
@@ -336,7 +345,7 @@
     "slug": "diana_hong",
     "name": "Diana Hong",
     "bio": "<p><strong>Diana Hong</strong> is a Korean American lesbian comic whose grounded presence and calm delivery catch audiences off guard in the best way. Her storytelling is smart, sincere, and often surprisingly emotional. She tackles grief, identity, and cultural absurdities with heart and a deadpan edge that makes you laugh first and think later. Diana's comedy has been featured on Netflix is a Joke Radio, Fuse TV, and SF Sketchfest. Whether she’s unpacking family dynamics or challenging the emotional weight of a carabiner, Diana’s comedy is rooted in radical empathy and observational brilliance.</p>",
-    "performer_image": "assets/performer_images/diana_hong.jpg",
+    "performer_image": "assets/performer_images/diana_hong.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -408,7 +417,7 @@
     "slug": "filipino_af",
     "name": "Filipino AF",
     "bio": "<p><strong>Filipino AF (@filipinoafshow)</strong> is a comedy variety show featuring the best Filipino American talent in Los Angeles. Improv, sketch, standup, and maybe even some music and dance. (It’s Filipinos after all!)</p>\n<p>Produced by  <br><strong>Amalia Aquino, Allyn Pintal, Joy Regullano</strong></p>",
-    "performer_image": "assets/performer_images/filipino_af.jpg",
+    "performer_image": "assets/performer_images/filipino_af.jpeg",
     "performer_type": "variety show",
     "featured": false,
     "feature_ordering": null
@@ -525,7 +534,7 @@
     "slug": "jared_goldstein",
     "name": "Jared Goldstein",
     "bio": "<p><strong>Jared Goldstein</strong> has been seen on <em>Black Mirror</em> (Netflix), <em>St. Denis Medical</em> (NBC) and was one of JFL New Faces of Comedy 2022.</p>",
-    "performer_image": "assets/performer_images/jared_goldstein.jpg",
+    "performer_image": "assets/performer_images/jared_goldstein.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -578,7 +587,7 @@
   {
     "slug": "joy_fck_club",
     "name": "Joy F*ck Club",
-    "bio": "<p><strong>The Joy F<em>ck Club</strong> is an NYC-based all-AAPI long-form improv comedy ensemble best known as the house team of </em>Asian AF NY*, the acclaimed monthly show at the Upright Citizens Brigade Theatre in NYC. Bringing together a powerhouse mix of performers, writers, and improvisers from the Upright Citizens Brigade, The Magnet Theater, Brooklyn Comedy Collective, and beyond, the team has become a staple of New York City's comedy scene.</p>\n<p>Known for their high-energy, fast-paced performances, <em>The Joy F</em>ck Club<em> transforms personal stories into wildly imaginative worlds, blending cultural specificity with absurdity, chaos, and sharp comedic instincts. The name is a loving, inappropriate homage to the celebrated novel and film </em>The Joy Luck Club*, which tells you pretty much everything you need to know about the team's comedic sensibilities.</p>\n<p><em>The Joy F</em>ck Club* has headlined and performed at comedy festivals and venues across the country, including The Kennedy Center, the New York Comedy Festival, Asian Comedy Fest, the Del Close Marathon, Hartford Improv Festival, Fun and Dumb Improv Festival, and many more.</p>\n<p>Cast: <strong>Donald Chang, Alex Cheng, Ryan Chittaphong, Kurt Cruz, Florence Friebe, Aakash Kesaverapu, Kendra Singh, Angel Yau</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p>The Joy F<em>ck Club is an NYC-based all-AAPI long-form improv comedy ensemble best known as the house team of </em>Asian AF NY*, the acclaimed monthly show at the Upright Citizens Brigade Theatre in NYC. Bringing together a powerhouse mix of performers, writers, and improvisers from the Upright Citizens Brigade, The Magnet Theater, Brooklyn Comedy Collective, and beyond, the team has become a staple of New York City's comedy scene.</p>\n<p>Known for their high-energy, fast-paced performances, The Joy F<em>ck Club transforms personal stories into wildly imaginative worlds, blending cultural specificity with absurdity, chaos, and sharp comedic instincts. The name is a loving, inappropriate homage to the celebrated novel and film </em>The Joy Luck Club*, which tells you pretty much everything you need to know about the team's comedic sensibilities.</p>\n<p>The Joy F*ck Club has headlined and performed at comedy festivals and venues across the country, including The Kennedy Center, the New York Comedy Festival, Asian Comedy Fest, the Del Close Marathon, Hartford Improv Festival, Fun and Dumb Improv Festival, and many more.</p>\n<p>Cast: <strong>Donald Chang, Alex Cheng, Ryan Chittaphong, Kurt Cruz, Florence Friebe, Aakash Kesaverapu, Kendra Singh, Alex Yang, Angel Yau</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/joy_fck_club.jpeg",
     "performer_type": "improv",
     "featured": false,
@@ -660,7 +669,7 @@
     "slug": "mahesh_kotagi",
     "name": "Mahesh Kotagi",
     "bio": "<p><strong>Mahesh Kotagi</strong> is a NY based comedian who has been featured on Netflix is a Joke and co hosts the Diet Starts tomorrow podcast!</p>",
-    "performer_image": "assets/performer_images/mahesh_kotagi.jpg",
+    "performer_image": "assets/performer_images/mahesh_kotagi.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -867,8 +876,17 @@
     "slug": "sini_gang",
     "name": "Sini-gang",
     "bio": "<p><strong>Sini-Gang</strong> is all Filipino American mashup team that has been on house teams at UCB in LA and have been part of the comedy variety show Filipino AF since 2018.</p>\n<p>Cast: <strong>Jed Alcantara, Amalia Aquino, DarylJim, Tony Garbanzos, Cassie Grilley, Mel Padernal, Allyn Pintal, Joy Regullano, Jose Ver, Vince Yap</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/sini_gang.jpg",
+    "performer_image": "assets/performer_images/sini_gang.jpeg",
     "performer_type": "improv",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "shilpa_das",
+    "name": "Shilpa Das",
+    "bio": "<p><strong>Shilpa Das</strong> is a writer/actor/comedian based in LA. She has been a writer and actor on UCB's long running scripted musical comedy company, Quick & Funny Musicals since 2018. Shilpa has performed musical improv for many years as a member of teams including rap/musical group Kaboombox, UCB mess hall team, Almost Midnight, current running group, Sweet Sweet Fantasy, and as a guest performer with Baby Wants Candy in Shamilton. She's also appeared in various comedy musicals in LA including Bachelor the Musical, Tuckcracker, Heated Rivalry: The Musical Parody! and . She is also known for her work as the producer/co-host of the South Asian AF show series.</p>",
+    "performer_image": "assets/performer_images/shilpa_das.jpg",
+    "performer_type": "musical comedy",
     "featured": false,
     "feature_ordering": null
   },
@@ -921,7 +939,7 @@
     "slug": "tatyana_guchi",
     "name": "Tatyana Guchi",
     "bio": "<p><strong>Tatyana Komaguchi a.k.a \"GUCHI\"</strong> is a standup comedian blending sharp storytelling with punchline-driven humor rooted in Black, Queer, and Asian perspectives.</p>\n<p>Tatyana's talent has garnered recognition, including participation in Sketch Fest '23 & '24, being named a Laugh Factory Fresh Face, as a Finalist in the ABFF Because They're Funny Comedy Festival's Breakout Comedian Of The Year, on Nick Cannon's <em>The Daily Cannon</em>, and one of the new friends of SMOSH.</p>",
-    "performer_image": "assets/performer_images/tatyana_guchi.jpg",
+    "performer_image": "assets/performer_images/miss_golightly.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -957,7 +975,7 @@
     "slug": "tien_tran",
     "name": "Tien Tran",
     "bio": "<p><strong>Tien Tran</strong> is a Vietnamese-American comedian, actor, and writer. She starred as “Ellen” in <em>How I Met Your Father</em> (Hulu) and “Lucy” in <em>Mr. Throwback</em> (Peacock). Recently named Time Out’s Comics to Watch 2025, her stand-up has been featured on Comedy Central's <em>Taking the Stage</em> and at the Just for Laughs Festival in Montreal as part of the 2019 New Faces of Comedy showcase. She’s written for <em>Work in Progress</em> (Showtime) and the Emmy-nominated <em>Book of Queer</em> (Discovery+). You can find her on IG @hanktina.</p>",
-    "performer_image": "assets/performer_images/tien_tran.jpg",
+    "performer_image": "assets/performer_images/tien_tran.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -1029,7 +1047,7 @@
     "slug": "zindabaddies",
     "name": "Zindabaddies",
     "bio": "<p><strong>Zindabaddies</strong>, formerly known as South Asian AF Superteam, is the former house improv team of South Asian AF. Made up of South Asian improvisers, Zindabaddies has performed at every South Asian AF show and also at SF Sketchfest. They are delighted to reunite to celebrate the 10 year anniversary of Asian AF!</p>\n<p>Cast: <strong>Anne Akhila, Parvesh Cheena, Shilpa Das, Pallavi Gunalan, Ru Kazi, Dhruv Uday Singh</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/zindabaddies.png",
+    "performer_image": "assets/performer_images/zindabaddies.jpg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null

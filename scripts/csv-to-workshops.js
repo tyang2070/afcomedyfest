@@ -55,7 +55,7 @@ const records = parse(csvData, {
 });
 
 // Process workshops
-const workshops = records.map((record) => {
+const workshops = records.filter(record => record.workshop_title && record.workshop_title.trim() && record.date && record.date.trim()).map((record) => {
   // Read workshop description markdown
   let bioContent = null;
   if (record.workshop_description && record.workshop_description.trim()) {

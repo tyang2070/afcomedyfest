@@ -16,7 +16,6 @@ const workshops = WORKSHOPS;
         <div class="coming-soon-box">Workshops info coming soon!</div>
       ) : (
         <>
-          <div class="links-disclaimer">Registration links coming soon. Check back closer to the festival!</div>
           <div class="workshops-grid">
             {workshops.map((workshop) => (
               <div class="workshop-card">
@@ -42,7 +41,10 @@ const workshops = WORKSHOPS;
                     {workshop.bio && (
                       <button class="more-info-btn" data-slug={workshop.slug}>More Info</button>
                     )}
-                    <span class="register-btn-disabled" data-workshop={workshop.slug}>Workshop Link Coming Soon</span>
+                    {workshop.link
+                      ? <a class="register-btn" href={workshop.link} target="_blank" rel="noopener noreferrer" data-workshop={workshop.slug}>Register</a>
+                      : <span class="register-btn-disabled" data-workshop={workshop.slug}>Registration Coming Soon</span>
+                    }
                   </div>
                 </div>
               </div>
@@ -74,7 +76,10 @@ const workshops = WORKSHOPS;
           )}
         </div>
         <div class="modal-actions">
-          <span class="register-btn-disabled" data-workshop={workshop.slug}>Workshop Link Coming Soon</span>
+          {workshop.link
+            ? <a class="register-btn" href={workshop.link} target="_blank" rel="noopener noreferrer" data-workshop={workshop.slug}>Register</a>
+            : <span class="register-btn-disabled" data-workshop={workshop.slug}>Registration Coming Soon</span>
+          }
         </div>
       </div>
     </div>
@@ -238,6 +243,24 @@ const workshops = WORKSHOPS;
     }
 
     .more-info-btn:hover {
+      background: #c49060;
+    }
+
+    .register-btn {
+      display: block;
+      text-align: center;
+      padding: 0.65rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      background: #D4A574;
+      color: #000;
+      border: none;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .register-btn:hover {
       background: #c49060;
     }
 
@@ -423,7 +446,7 @@ const workshops = WORKSHOPS;
       });
     });
 
-    document.querySelectorAll('.register-btn-disabled').forEach(btn => {
+    document.querySelectorAll('.register-btn, .register-btn-disabled').forEach(btn => {
       btn.addEventListener('click', () => {
         const slug = btn.getAttribute('data-workshop');
         if (typeof window.gtag === 'function') {

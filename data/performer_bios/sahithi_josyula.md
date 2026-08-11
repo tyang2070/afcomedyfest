@@ -1,0 +1,1 @@
+**Sahithi Josyula**, aka DJ DOSA, is an Indian DJ and singer-songwriter, raised across South India and currently based in the US. She curates sets across Desi crate digging, Tolly-Bollywood, pop, hip-hop, and house bangers. A computer science grad and data nerd, she also works across entertainment data and strategy.

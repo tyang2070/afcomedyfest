@@ -22,7 +22,8 @@ function markdownToHtml(markdown: string): string {
       return `<h2 id="${slug}">${heading}<a href="#${slug}" class="heading-link" title="Copy link to this section">🔗</a></h2>`;
     })
     .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
   // Split by lines to process content properly
   const lines = content.split('\n');

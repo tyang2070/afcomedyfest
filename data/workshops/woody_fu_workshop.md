@@ -2,16 +2,16 @@ Title: **How Do I Start My Career? with Woody Fu**
 
 Ticket Price: **$60**
 
-Workshop Date: **Friday, 9/4/26 @ 10:30 AM \- 1:30 PM / Outside In Upstairs**
+Workshop Date: **Friday, 9/4/26 @ 10:30 AM - 1:30 PM / OI Classroom**
 
 **Updated:**   
 ---
 
 **How Do I Start My Career? with Woody Fu (Career Workshop)**
 
-**Workshop Description**: How do I audition for SNL? How do I get representation? Can I improvise on a self-tape? There's no road map in going from improv/sketch to the next phase of your career. I wish someone explained what pursuing comedy looks like, both on a granular level (how do I shoot a self-tape?) and on a macro level (do I deserve to do this?). After 10 years of making mistakes, I will compress everything I learned into this one day workshop for you\!
+**Workshop Description**: How do I audition for SNL? How do I get representation? Can I improvise on a self-tape? There's no road map in going from improv/sketch to the next phase of your career. I wish someone explained what pursuing comedy looks like, both on a granular level (how do I shoot a self-tape?) and on a macro level (do I deserve to do this?). After 10 years of making mistakes, I will compress everything I learned into this one day workshop for you!
 
-**Date/Time:** Friday, September 4th @ 10:30 AM \- 1:30 PM (3 hours)
+**Date/Time:** Friday, September 4th @ 10:30 AM - 1:30 PM (3 hours)
 
 **Price:** $60
 
@@ -27,7 +27,7 @@ How did he get here? Originally from New York, Woody is a veteran of the UCB The
 His solo show Asian Gracefully was featured in The New York Times, and his characters show Too Many Asians! ran at UCB, and toured Los Angeles and Montreal. The award-winning Woody Fu: One-Man John Wick enjoyed a 5-star sold out run at Edinburgh Fringe.   
 Woody is passionate about creating content that speaks to the Asian American experience, and his digital shorts tackle everything from sexuality, stereotypes, and generational trauma (the fun kind) to toxicity, anime, and inter-Asian racism. They’ve been featured on Vulture, Slamdance, HuffPost and Funny Or Die, and have garnered dozens of laurels at film festivals across the country.   
 He has taught at the Magnet Theater, UCB, BCC, Camp Improv Utopia, and Boom Chicago.   
-[woodyfu.com](https://www.woodyfu.com) / Insta: [@woodyfu](https://www.instagram.com/woodyfu/)
+woodyfu.com / Insta: @woodyfu
 
-**Location**: Outside In Theatre \- ArtBox Stage  
+**Location**: Outside In Theatre - OI Classroom
 *5317 York Blvd. Los Angeles, CA 90042*

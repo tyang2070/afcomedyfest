@@ -2,6 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import logoImg from '../../assets/af_logo.png';
+import pickThreeImg from '../../assets/ticket_discounts/pick_three.jpg';
+import pickFiveImg from '../../assets/ticket_discounts/pick_five.jpg';
+import pickTenImg from '../../assets/ticket_discounts/pick_ten.jpg';
 import { PERFORMERS } from '../data/performers';
 
 const eventDates = 'September 3-6, 2026';
@@ -72,6 +75,41 @@ const allPerformers = PERFORMERS.sort((a, b) => a.name.localeCompare(b.name));
             </>
           ))}
         </div>
+      </div>
+    </section>
+
+    <!-- Tickets Section -->
+    <section class="tickets-section">
+      <div class="section-label">GET TICKETS</div>
+      <div class="tickets-content">
+        <div class="ticket-links">
+          <a href="https://outsideintheatre.org/af-comedy-fest/shows/" target="_blank" rel="noopener noreferrer" class="ticket-btn ticket-btn-primary">Buy Individual Tickets</a>
+        </div>
+        <p class="bundle-label">Buy Discounted Ticket Bundles</p>
+        <div class="bundle-tiers">
+          <a href="https://outsideintheatre.vbotickets.com/subscriptions/8868?filter=s%7C22441" target="_blank" rel="noopener noreferrer" class="tier-img-link">
+            <Image src={pickThreeImg} alt="Pick 3 shows – 10% off" class="tier-img" />
+          </a>
+          <a href="https://outsideintheatre.vbotickets.com/subscriptions/8868?filter=s%7C22467" target="_blank" rel="noopener noreferrer" class="tier-img-link">
+            <Image src={pickFiveImg} alt="Pick 5 shows – 15% off" class="tier-img" />
+          </a>
+          <a href="https://outsideintheatre.vbotickets.com/subscriptions/8868?filter=s%7C22471" target="_blank" rel="noopener noreferrer" class="tier-img-link">
+            <Image src={pickTenImg} alt="Pick 10 shows – 25% off" class="tier-img" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donations Section -->
+    <section class="donations-section">
+      <div class="section-label">DONATE</div>
+      <div class="donations-content">
+        <p class="donation-text">
+          The AF Comedy Festival is a sponsored project of Fractured Atlas, a non-profit arts service organization.
+          Contributions for the charitable purposes of AF Comedy Festival must be made payable to
+          <strong>"Fractured Atlas"</strong> only and are tax-deductible to the extent permitted by law.
+        </p>
+        <a href="https://fundraising.fracturedatlas.org/af-comedy-festival" target="_blank" rel="noopener noreferrer" class="donate-btn">Donate to AF Comedy Fest</a>
       </div>
     </section>
 
@@ -328,6 +366,142 @@ const allPerformers = PERFORMERS.sort((a, b) => a.name.localeCompare(b.name));
     }
 
 
+    /* Tickets Section */
+    .tickets-section {
+      background: #000;
+      padding: 4rem 4rem;
+      border-top: 2px solid #D4A574;
+      border-bottom: 2px solid #D4A574;
+      text-align: center;
+    }
+
+    .ticket-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .ticket-btn {
+      display: inline-block;
+      padding: 0.9rem 2rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: 'Miranda Sans', sans-serif;
+      letter-spacing: 0.05em;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .ticket-btn:hover {
+      opacity: 0.85;
+      transform: translateY(-2px);
+    }
+
+    .ticket-btn-primary {
+      background: #D4A574;
+      color: #000;
+    }
+
+    .ticket-btn-secondary {
+      background: transparent;
+      color: #D4A574;
+      border: 2px solid #D4A574;
+    }
+
+    .bundle-note {
+      color: #E8DCC8;
+      font-size: 0.95rem;
+      margin: 0 0 1.5rem;
+    }
+
+    .bundle-note strong {
+      color: #D4A574;
+    }
+
+    .bundle-label {
+      color: #D4A574;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin: 0 0 1rem;
+      font-family: 'Miranda Sans', sans-serif;
+    }
+
+    .bundle-tiers {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .tier-img-link {
+      display: block;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      flex: 1;
+      max-width: 220px;
+    }
+
+    .tier-img-link:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(212, 165, 116, 0.3);
+    }
+
+    .tier-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Donations Section */
+    .donations-section {
+      background: #1a1a1a;
+      padding: 4rem 4rem;
+      border-top: 2px solid #D4A574;
+      text-align: center;
+    }
+
+    .donations-content {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .donation-text {
+      color: #E8DCC8;
+      font-size: 1rem;
+      line-height: 1.7;
+      margin: 0 0 2rem;
+    }
+
+    .donation-text strong {
+      color: #D4A574;
+    }
+
+    .donate-btn {
+      display: inline-block;
+      padding: 0.9rem 2.5rem;
+      background: #D4A574;
+      color: #000;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: 'Miranda Sans', sans-serif;
+      letter-spacing: 0.05em;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .donate-btn:hover {
+      opacity: 0.85;
+      transform: translateY(-2px);
+    }
+
     @media (max-width: 1024px) {
       .featured-acts-section {
         padding: 3rem 2rem;
@@ -343,6 +517,15 @@ const allPerformers = PERFORMERS.sort((a, b) => a.name.localeCompare(b.name));
     }
 
     @media (max-width: 768px) {
+      .tickets-section,
+      .donations-section {
+        padding: 3rem 2rem;
+      }
+
+      .bundle-tiers {
+        gap: 1rem;
+      }
+
       .hero-section {
         min-height: 300px;
         margin: 0;
