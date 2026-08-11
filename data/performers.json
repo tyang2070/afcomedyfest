@@ -29,7 +29,7 @@
   {
     "slug": "andrew_law",
     "name": "Andrew Law",
-    "bio": "<p><strong>Andrew Law</strong> is a writer and producer. He has written for <em>The Good Place</em>, <em>Silicon Valley</em>, and most recently <em>Hacks</em>, for which he received an Emmy and two Golden Globes. He created and stars alongside Stephanie Hsu and Poppy Liu in the upcoming adult animated comedy <em>Dang\\!</em>, which premieres September 8 on Netflix.</p>",
+    "bio": "<p><strong>Andrew Law</strong> is a writer and producer. He has written for <em>The Good Place</em>, <em>Silicon Valley</em>, and most recently <em>Hacks</em>, for which he received an Emmy and two Golden Globes. He created and stars alongside Stephanie Hsu and Poppy Liu in the upcoming adult animated comedy <em>Dang!</em>, which premieres September 8 on Netflix.</p>",
     "performer_image": "assets/performer_images/andrew_law.jpeg",
     "performer_type": "special guest",
     "featured": true,
@@ -102,7 +102,7 @@
     "slug": "aakash_kesavarapu",
     "name": "Aakash Kesavarapu",
     "bio": "<p><strong>Aakash Kesavarapu</strong> is a performer and writer based in New York. He performs on UCB's Harold and Maude Night, creates digital sketches with Second City's Digital Company, and stand up comedies around the country. He doesn't have a twin brother. He also co-hosts the Altruistic Righteousness podcast.</p>",
-    "performer_image": "assets/performer_images/aakash_kesavarapu.jpeg",
+    "performer_image": "assets/performer_images/aakash_kesavarapu.jpg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -175,7 +175,7 @@
     "name": "Asian AF Los Angeles",
     "bio": "<p>Established in 2016, <strong>Asian AF</strong> (@asianafshow) quickly cemented its status as a must-see comedy show in Los Angeles, New York, and beyond — spotlighting the hottest rising stars and powerhouse Asian American talent in improv, stand-up, sketch, characters, musical comedy, storytelling, and more. Asian AF celebrates its 10-year anniversary by putting on the AF Comedy Festival!</p>\n<p>Asian AF has headlined major comedy festivals, including SF Sketchfest, the New York Comedy Festival, Clusterfest, the Del Close Marathon, the Hawaii Comedy Festival, Richmond’s 2nd Best Fest, Berlin’s Das Improv Festival, London’s Big Scene Improv Festival, the Edinburgh International Improv Festival, the Kennedy Center in Washington, D.C., and many more.</p>\n<p>Produced by  <br><strong>Keiko Agena, Will Choi, Sarah Claspell, Allyn Pintal, Tae Yoo</strong></p>",
     "performer_image": "assets/performer_images/asian_af_los_angeles.jpg",
-    "performer_type": "variety show",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
@@ -184,7 +184,7 @@
     "name": "Asian AF New York",
     "bio": "<p><strong>Asian AF New York</strong> (@asianafshow) is the New York City chapter of the hit comedy and variety show celebrating AAPI voices. Hosted by resident improv team The Joy Fuck Club, each show brings together the next generation of comedy stars alongside some of its biggest names in stand-up, improv, sketch, storytelling, and beyond for one unforgettable night of comedy.</p>\n<p>From razor-sharp stand-up to hilarious character work, heartfelt storytelling, audience surprises, and an improvised finale that somehow always goes gloriously off the rails, Asian AF NY is equal parts showcase, party, and celebration of the incredible AAPI talent shaping New York's comedy scene.</p>\n<p>The show has been featured in <em>The New York Times, NBC News, ABC News, Vulture, The Serica Initiative</em>, and has headlined major comedy festivals nationwide.</p>\n<p>Cast: <strong>Donald Chang, Alex Cheng, Ryan Chittaphong, Kurt Cruz, Florence Friebe, Aakash Kesaverapu, Kendra Singh, Angel Yau</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/asian_af_new_york.jpg",
-    "performer_type": "variety show",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
@@ -263,7 +263,7 @@
   {
     "slug": "cam_gavinski",
     "name": "Cam Gavinski",
-    "bio": null,
+    "bio": "<p><strong>Cam Gavinski</strong> is a comedian, actor, writer, and animator from Dallas, Texas. Cam was selected as a featured performer for the 2025 <em>Disney Television Discovers Talent Showcase</em>. He's a writer at <em>Smosh</em> and formerly was a writer for <em>NBCUniversal</em> Animation Writer's Program 2023-2024. Cam performs at <em>UCB</em> with <em>Pinot Noir</em>, <em>Asssketch</em>, and previously was on <em>Betty</em> and <em>Maude</em>. Cam has appeared on <em>Euphoria</em> (HBO), <em>It’s Always Sunny</em> (FX) and has animated shorts for <em>Comedy Central</em>, <em>The Jim Jefferies Show</em>, and <em>NBC</em>.</p>",
     "performer_image": "assets/performer_images/cam_gavinski.jpg",
     "performer_type": "character",
     "featured": false,
@@ -342,6 +342,15 @@
     "feature_ordering": null
   },
   {
+    "slug": "dhruv_uday_singh",
+    "name": "Dhruv Uday Singh",
+    "bio": "<p><strong>Dhruv Uday Singh</strong> is a comedian, actor, filmmaker, and improviser. He can be seen recurring on TV shows like <em>The Neighborhood</em>, <em>Young Sheldon</em>, <em>Good Trouble,</em> and others, and frequently performs on UCB’s ASSSSCAT. He loves the AF community so much.</p>",
+    "performer_image": "assets/performer_images/dhruv_uday_singh.jpg",
+    "performer_type": "musical comedy",
+    "featured": "",
+    "feature_ordering": null
+  },
+  {
     "slug": "diana_hong",
     "name": "Diana Hong",
     "bio": "<p><strong>Diana Hong</strong> is a Korean American lesbian comic whose grounded presence and calm delivery catch audiences off guard in the best way. Her storytelling is smart, sincere, and often surprisingly emotional. She tackles grief, identity, and cultural absurdities with heart and a deadpan edge that makes you laugh first and think later. Diana's comedy has been featured on Netflix is a Joke Radio, Fuse TV, and SF Sketchfest. Whether she’s unpacking family dynamics or challenging the emotional weight of a carabiner, Diana’s comedy is rooted in radical empathy and observational brilliance.</p>",
@@ -373,7 +382,7 @@
     "name": "Dragons AF",
     "bio": "<p><strong>Asian AF Presents: DRAGONS AF</strong></p>\n<p><strong>DRAGONS AF</strong> is the hit comedy TTRPG show with performers from Asian AF! This special one-shot campaign put our heroes once again on a path of revenge with a setting, subclasses, and monsters inspired by Asian lore and myth!</p>\n<p>In 2024, Asian AF partnered with comedy podcast network Earwolf to create DRAGONS AF, a Dungeons & Dragons podcast miniseries featuring comedians from Asian AF. In November 2025, Dragons AF returned to the live stage to debut our newest campaign centered around revenge at Outside In Theatre!</p>\n<p>Cast: <strong>Keiko Agena, Jed Alcantara, Alfred Aquino II, Cassi Jerkins, Chuck Maa, Tao Yang</strong> with Special Guest <strong>Zac Oyama</strong> (Dropout TV’s <em>Dimension 20</em>)</p>\n<p>Dragons AF is produced by <strong>Jed Alcantara, Will Choi, Cassi Jerkins,</strong> & <strong>Chuck Maa</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/dragons_af.jpg",
-    "performer_type": "role-playing game",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
@@ -418,7 +427,7 @@
     "name": "Filipino AF",
     "bio": "<p><strong>Filipino AF (@filipinoafshow)</strong> is a comedy variety show featuring the best Filipino American talent in Los Angeles. Improv, sketch, standup, and maybe even some music and dance. (It’s Filipinos after all!)</p>\n<p>Produced by  <br><strong>Amalia Aquino, Allyn Pintal, Joy Regullano</strong></p>",
     "performer_image": "assets/performer_images/filipino_af.jpeg",
-    "performer_type": "variety show",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
@@ -477,11 +486,20 @@
     "feature_ordering": null
   },
   {
+    "slug": "govind_sarika",
+    "name": "Govind and Sarika",
+    "bio": "<p>A year ago, the Vedic cosmic energies aligned and put not one, but TWO Indians in the Groundlings Sunday Company at the same time: <strong>Govind and Sarika</strong>. Ever since, the two have been an unstoppable sketch duo. Whether they’re dancing, singing, or just creaming at each other in a sketch, Govind and Sarika bring the heat to the stage.</p>\n<p>Cast: <strong>Govind Kumar, Sarika Mande</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/govind_sarika.jpg",
+    "performer_type": "sketch",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "hawaii_af",
     "name": "Hawai`i AF",
-    "bio": "<p><strong>Hawaiʻi AF</strong> (@hawaiiafshow) is a comedy variety show created by and starring Hawai‘i born, based, and connected actors and comedians. Representing the island's melting pot of Asian and Polynesian culture and points of view, this show features improv, sketch comedy, and live music. Two scoops funny wit gravy all ovah. Bring da aunties, bring da uncles, leave da bebehs at home. Go check 'um, go check 'um, GO!</p>\n<p>Cast: <strong>Kimee Balmilero, Dylan Chace-Lee, DarylJim, Kaliko Fase, Chelsie Lihilihi, Ixchel Lopez, Ryan “Oki” Okinaka, Jordan Savusa, Jose Ver</strong></p>\n<p>Produced by  <br><strong>Kimee Balmilero</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p><strong>Hawaiʻi AF</strong> (@hawaiiafshow) is a comedy variety show created by and starring Hawai‘i born, based, and connected actors and comedians. Representing the island's melting pot of Asian and Polynesian culture and points of view, this show features improv, sketch comedy, and live music. Two scoops funny wit gravy all ovah. Bring da aunties, bring da uncles, leave da bebehs at home. Go check 'um, go check 'um, GO!</p>\n<p>Cast: <strong>Kimee Balmilero, Dylan Chace-Lee, DarylJim, Moku Durant, Kaliko Fase, Chelsie Lihilihi, Ixchel Lopez, Ryan “Oki” Okinaka, Jordan Savusa, Jose Ver</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/hawaii_af.jpg",
-    "performer_type": "variety show",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
@@ -497,7 +515,7 @@
   {
     "slug": "hib_hib",
     "name": "Hib Hib",
-    "bio": "<p><strong>Hib Hib</strong> (pronounced \"Hee - Hee\") is the first and only Hmong American Sketch comedy show in California. It is put on in the city of Fresno, Ca, during the Fresno Hmong New Years and features Hmong American performers and writers from all over the US. Since 2022, Hib Hib continues to produce sold out shows in Fresno and have become advocates for spreading Sketch/Improv comedy to the Southeast Asian communities of the central valley.</p>\n<p>Cast: <strong>Daniel Lee, Amery Thao, Pachia Vang, Eric Vue</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "bio": "<p><strong>Hib Hib</strong> (pronounced \"Hee - Hee\") is the first and only Hmong American Sketch comedy show in California. It is put on in the city of Fresno, Ca, during the Fresno Hmong New Years and features Hmong American performers and writers from all over the US. Since 2022, Hib Hib continues to produce sold out shows in Fresno and have become advocates for spreading Sketch/Improv comedy to the Southeast Asian communities of the central valley.</p>\n<p>Cast: <strong>Daniel Lee, Amery Thao, PaChia Vang, Eric Vue</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/hib_hib.jpg",
     "performer_type": "sketch",
     "featured": false,
@@ -625,6 +643,15 @@
     "name": "Kevin Camia",
     "bio": "<p><strong>Kevin Camia</strong> is a LA-based comedian seen on <em>The Late Show with Stephen Colbert</em> and has toured nationally with Ali Wong and Sheng Wang.  He is a member of <em>The Dress Up Gang</em> (Sundance and SXSW), and has two comedy albums out, <em>Kindness</em> and <em>Color</em>.</p>",
     "performer_image": "assets/performer_images/kevin_camia.jpeg",
+    "performer_type": "stand-up",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "kiran_deol",
+    "name": "Kiran Deol",
+    "bio": null,
+    "performer_image": "assets/performer_images/kiran_deol.jpeg",
     "performer_type": "stand-up",
     "featured": false,
     "feature_ordering": null
@@ -837,6 +864,15 @@
     "feature_ordering": null
   },
   {
+    "slug": "sahithi_josyula",
+    "name": "Sahithi Josyula",
+    "bio": "<p><strong>Sahithi Josyula</strong>, aka DJ DOSA, is an Indian DJ and singer-songwriter, raised across South India and currently based in the US. She curates sets across Desi crate digging, Tolly-Bollywood, pop, hip-hop, and house bangers. A computer science grad and data nerd, she also works across entertainment data and strategy.</p>",
+    "performer_image": "assets/performer_images/sahithi_josyula.jpeg",
+    "performer_type": "music",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "sam_oh",
     "name": "Sam Oh",
     "bio": "<p><strong>Sam Oh</strong> is a writer and comedian from Los Angeles (well technically The Valley which, like, totally counts!) You can see him starring opposite Jennifer Garner and John Cena in <em>One Attempt Remaining</em> directed by Kay Cannon, coming soon to Netflix.</p>\n<p>As a queer child of Korean Christian immigrants, Oh had no choice but to develop a sense of humor. He got his start as a teenager doing open-mics all over LA and writing on UCB’s Maude Night. An alum of the WarnerMedia Access Writers Program and NBC's Late Night Writers Workshop, his scripts have placed in numerous industry competitions including the Top 50 of the Academy Nicholl Fellowship.</p>\n<p>As a comic, he’s been featured in both The LA Times and The New York Times—a true bicoastal baddie. He’s opened for ALOK as part of Netflix Is A Joke Festival and co-headlined Joe’s Pub NYC. He recently debuted his solo show, <em>The Unbearable Tightness of Being… Gay Virgin</em>, which sold out Dynasty Typewriter.</p>\n<p>Oh performs comedic music as his hyper-sexual pop star alter ego, Gay Virgin. The Gay Virgin EP is available on all streaming platforms. You can watch the official music video for his viral song 4SKIN on YouTube, which spawned the 4SKIN Cho Remix featuring Margaret Cho.</p>\n<p>He is currently developing a feature starring and executive produced by Margaret Cho, as well as hosting a tarot talk show produced by Linden Entertainment. For updates follow @gayvirginofficial.</p>",
@@ -904,7 +940,7 @@
     "name": "South Asian AF",
     "bio": "<p><strong><em>South Asian AF</strong></em> <strong>(@southasianaf)</strong> is a comedy variety show featuring South Asian comedians and improvisers doing sketches, improv, characters, and more! The show enjoyed a 6 year sold out run starting in 2018 and they are delighted to return for a reunion show to celebrate the 10 year anniversary of Asian AF! Bringing together an all star cast featuring veteran show performers along with some new faces, South Asian AF is back for one special night!!!</p>\n<p>Cast: <strong>Anne Akhila, Asif Ali, Amrita Bhatra Dance Co., Parvesh Cheena, D'Lo, Shilpa Das, Kunal Dudheker, Pallavi Gunalan, Ru Kazi, Govind Kumar, Sarika Mande, Kausar Mohammad, Sundeep Morrison, Saagar Shaikh, Dhruv Uday Singh</strong></p>\n<p>Produced by  <br><strong>Shilpa Das</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/south_asian_af.jpg",
-    "performer_type": "variety show",
+    "performer_type": "live show",
     "featured": false,
     "feature_ordering": null
   },
