@@ -24,10 +24,10 @@ Individual show tickets and discount bundles for both ArtSpace and ArtBox shows 
 Yes! You can grab a SUBSCRIPTION, where you have the option to buy bundles of tickets at a discounted rate:
 - Buy tickets to at least 3 shows, you’ll receive 10% off your total cost
 - Buy tickets to at least 5 shows, you’ll receive 15% off your total cost
-- Buy tickets to at least 10 shows, you’ll receive 25% off your total cost
+- Buy tickets to at least 10 shows, you’ll receive 35% off your total cost
 
 ## How do the Discounted Ticket Bundles / Subscriptions work?
-To receive a discount for watching multiple shows, select Subscription (next to Tickets) to select which shows you’d like to purchase tickets for. Scroll down to see our different options - Pick 3 (10% discount), Pick 5 (15% discount), Pick 10 (25% discount). After selecting Checkout, you’ll be taken to subsequent pages asking you to choose how many tickets for each show you’d like to purchase and select Continue to Checkout. Once all ticket amounts have been selected, you’ll see your discount applied to your final total to pay for your subscription.
+To receive a discount for watching multiple shows, select "Subscription" (next to "Tickets") to select which shows you’d like to purchase tickets for. Scroll down to see our different options – Pick 3 (10% discount), Pick 5 (15% discount), Pick 10 (35% discount). After selecting "Checkout", you’ll be taken to subsequent pages asking you to choose how many tickets for each show you’d like to purchase and select "Continue to Checkout". Once all ticket amounts have been selected, you’ll see your discount applied to your final total to pay for your subscription/bundle.
 
 ## When will the lineup be announced?
 Check out our full line-up on our Schedule page!
