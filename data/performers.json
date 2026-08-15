@@ -234,6 +234,15 @@
     "feature_ordering": null
   },
   {
+    "slug": "bren_tran",
+    "name": "Bren Tran",
+    "bio": "<p><strong>Bren Tran</strong> is a gay, Asian American comedian from Chicago. He's a Bob Curry alum from the Second City and creator of You Win Some, You Dim Sum, a Best Comedy Show '25 Nominee (Chicago Reader) where comics and audiences gather to celebrate their small wins with big laughs. He's performed at comedy festivals all around the world, including Edinburgh Fringe Festival, SF Sketchfest, Alaska B4UDie Festival, RISE Comedy Festival, Madison Comedy Week, and the Big Tomato Comedy Festival. When he's not performing, he's writing scripts and making films of his own - his short film <em>Jury Duty</em> was featured in the Atlanta Comedy Film Festival. If you like dumb jokes, be sure to follow him on Tik Tok or Instagram: @brenftran</p>",
+    "performer_image": "assets/performer_images/bren_tran.jpg",
+    "performer_type": "stand-up",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "brent_weinbach",
     "name": "Brent Weinbach",
     "bio": "<p><strong>Brent Weinbach</strong> is a recipient of the Andy Kaufman Award, which recognizes innovation in stand-up comedy.  He is also responsible for various internet video sensations such as “Gangster Party Line,” “Mind Jack,” “Man Gives Birth,” and “Ultimate Drumming Technique,” as well as the cult web series, <em>Pound House</em>.  Brent has appeared on lots of TV shows and also toured with the Comedians of Comedy.  His stand-up special \"Popular Culture\" was featured in New York Times’ Best Comedy of 2025 list.</p>",
@@ -891,11 +900,29 @@
     "feature_ordering": null
   },
   {
+    "slug": "shilpa_das",
+    "name": "Shilpa Das",
+    "bio": "<p><strong>Shilpa Das</strong> is a writer/actor/comedian based in LA. She has been a writer and actor on UCB's long running scripted musical comedy company, Quick & Funny Musicals since 2018. Shilpa has performed musical improv for many years as a member of teams including rap/musical group Kaboombox, UCB mess hall team, Almost Midnight, current running group, Sweet Sweet Fantasy, and as a guest performer with Baby Wants Candy in Shamilton. She's also appeared in various comedy musicals in LA including Bachelor the Musical, Tuckcracker, Heated Rivalry: The Musical Parody! and . She is also known for her work as the producer/co-host of the South Asian AF show series.</p>",
+    "performer_image": "assets/performer_images/shilpa_das.jpg",
+    "performer_type": "musical comedy",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
     "slug": "shivaan_nadan",
     "name": "Shivaan Nadan",
     "bio": "<p><strong>Shivaan Nadan</strong>, a stand-up comedian from the Bay Area, with a passion for creating sharp, engaging, and original comedy that connects with diverse audiences. He was recently featured on Variety for his upcoming taping for Hulu. He is a regular at Cobb’s Comedy Club, The Punchline SF, Balboa Theater and recently opened for Hannibal Buress at the Palace of Fine Arts Theater.</p>",
     "performer_image": "assets/performer_images/shivaan_nadan.jpeg",
     "performer_type": "stand-up",
+    "featured": false,
+    "feature_ordering": null
+  },
+  {
+    "slug": "shoes_off",
+    "name": "Shoes Off",
+    "bio": "<p>We are <strong>Shoes Off</strong>, an all-Asian improv team and community based out of NYC! We produce our own bimonthly show at the Magnet Theater for Asian improvisors, and we regularly perform at festivals, including Fun And Dumb (New York), Third Coast Improv Fest (Nashville), and Hartford Improv Fest. Our form is the Lotus, a half-Onion opening into a montage. Our sets are generally fast-paced with quick transitions, and scenes are focused on characters and relationships a la Magnet Theater where we are based. Several of our members are on Megawatt, Magnet's house teams.</p>\n<p>Cast: <strong>J Bala, Anson Chan, Ryan Chittaphong, Michelle Chu, Brennard Gamboa, Alex Loh, Sonia Nam</strong></p>\n<p><em>Line-up subject to change</em></p>",
+    "performer_image": "assets/performer_images/shoes_off.jpg",
+    "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
   },
@@ -913,24 +940,6 @@
     "name": "Sini-gang",
     "bio": "<p><strong>Sini-Gang</strong> is all Filipino American mashup team that has been on house teams at UCB in LA and have been part of the comedy variety show Filipino AF since 2018.</p>\n<p>Cast: <strong>Jed Alcantara, Amalia Aquino, DarylJim, Tony Garbanzos, Cassie Grilley, Mel Padernal, Allyn Pintal, Joy Regullano, Jose Ver, Vince Yap</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/sini_gang.jpeg",
-    "performer_type": "improv",
-    "featured": false,
-    "feature_ordering": null
-  },
-  {
-    "slug": "shilpa_das",
-    "name": "Shilpa Das",
-    "bio": "<p><strong>Shilpa Das</strong> is a writer/actor/comedian based in LA. She has been a writer and actor on UCB's long running scripted musical comedy company, Quick & Funny Musicals since 2018. Shilpa has performed musical improv for many years as a member of teams including rap/musical group Kaboombox, UCB mess hall team, Almost Midnight, current running group, Sweet Sweet Fantasy, and as a guest performer with Baby Wants Candy in Shamilton. She's also appeared in various comedy musicals in LA including Bachelor the Musical, Tuckcracker, Heated Rivalry: The Musical Parody! and . She is also known for her work as the producer/co-host of the South Asian AF show series.</p>",
-    "performer_image": "assets/performer_images/shilpa_das.jpg",
-    "performer_type": "musical comedy",
-    "featured": false,
-    "feature_ordering": null
-  },
-  {
-    "slug": "shoes_off",
-    "name": "Shoes Off",
-    "bio": "<p>We are <strong>Shoes Off</strong>, an all-Asian improv team and community based out of NYC! We produce our own bimonthly show at the Magnet Theater for Asian improvisors, and we regularly perform at festivals, including Fun And Dumb (New York), Third Coast Improv Fest (Nashville), and Hartford Improv Fest. Our form is the Lotus, a half-Onion opening into a montage. Our sets are generally fast-paced with quick transitions, and scenes are focused on characters and relationships a la Magnet Theater where we are based. Several of our members are on Megawatt, Magnet's house teams.</p>\n<p>Cast: <strong>J Bala, Anson Chan, Ryan Chittaphong, Michelle Chu, Brennard Gamboa, Alex Loh, Sonia Nam</strong></p>\n<p><em>Line-up subject to change</em></p>",
-    "performer_image": "assets/performer_images/shoes_off.jpg",
     "performer_type": "improv",
     "featured": false,
     "feature_ordering": null
@@ -1067,15 +1076,6 @@
     "bio": "<p><strong>Yes And Broadway</strong>: Improv comedy based off of your favorite Broadway hits!</p>\n<p>Cast: <strong>Hanna Barlow, Stephanie Burchinow, DarylJim, Sahil Desai, Cassie Grilley, Justin Liu, Don Macatangay, Joy Regullano</strong></p>\n<p><em>Line-up subject to change</em></p>",
     "performer_image": "assets/performer_images/yes_and_broadway.jpg",
     "performer_type": "improv",
-    "featured": false,
-    "feature_ordering": null
-  },
-  {
-    "slug": "yusong_liu",
-    "name": "Yusong Liu",
-    "bio": "<p><strong>Yusong Liu</strong> can be heard on <em>Doughboys</em> and <em>Maybe Don't</em>.</p>",
-    "performer_image": "assets/performer_images/yusong_liu.jpg",
-    "performer_type": "music",
     "featured": false,
     "feature_ordering": null
   },
